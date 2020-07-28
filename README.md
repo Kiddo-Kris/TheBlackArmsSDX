@@ -1,11 +1,154 @@
 Welcome to the OFFICIAL GITHUB for The Black Arms SDX!
-
 This is a publicly available SDX that I work on with help from others!
-
 So far the SDX has gone through MANY CHANGES and they are as below!
-
 If you want updates as they come out I release first on my DISCORD SERVER
 https://discord.gg/assetsuntamed
+
+Its insane to see how far this SDX has gone and I didn't think it would be as popular as it is!
+Btw there are some terms to using this SDX
+
+By using ANY REVISION of The Black Arms SDX you are AGREEING to the following
+You are at risk of being banned from VRChat no matter how small the risk is
+You are allowed to share this SDX freely
+You agree to NOT sell this SDX
+You agree to give credit where it is due if you MODIFY the SDX
+You agree to give credit where it is due if you COPY from the SDX
+You agree to not remove ANY watermarks or crediting
+You agree to NOT steal the SDX and claim it as your own
+You agree to NEVER steal anything from the SDX and claim it as your own
+You are ALLOWED to SHARE the SDX in ANY SERVER/LOCATION you wish
+Failure to follow these terms and rules may result in action taken depending on the situation
+
+And here is the FaQ so far
+
+Can I be banned from VRChat for using this?
+It is nearly impossible, They cant check that SDK you use
+My avatar wont upload! I get an error noise!
+This is usually not the SDX’s fault, its normally caused by missing/empty/broken components as well as compiling errors and other issues, check your console to see what caused it
+What can the SDX do?
+The SDX bypasses any limits it can and is packed full of stuff all in a small package
+It takes so long to import!!! Why is it so long?!
+This is because of DLLs and Scripts, Unity uses them actively in the editor so it also compiles them on import
+How is this SDK special?
+I actively look for ways to improve it and I have many plans, I also have features other SDKs dont have
+Why is it called a SDX?
+I got the idea from what it stands for
+Standard Development kit eXtreme, The K in Kit was left out on purpose
+It wont import! Does it not work?
+It works, Unity sometimes doesnt have the permissions it needs to import assets, either restarting unity or rebooting your pc will fix the issue
+Uploading give me an error panel!
+Remove the Blueprint ID on the avatar/world and try again
+The SDK wont load even when imported!
+Look for compiling errors, they prevent unity from loading Scripts and DLLs, also check for missing Scripts and DLLs by reimporting the SDX
+Am I allowed to sell reskinned verions?
+No, this will be met with a DMCA and legal action, My SDX will always be free and Open Source
+Can I make custom reskins and share it?
+Go ahead, Be sure to give fair credit and to make sure that it can be traced back to me, failure will result in legal action
+Is the SDK ever going to be unsupported?
+Very unlikely, this is one of my ambitions and I enjoy developing it, I dont think im ever going to stop work on it
+Why did you make it to begin with?
+I wanted my own custom SDK and I wanted to push the boundaries of limitations, This grew from a simple reskin to a full blown ambition
+Can I contribute?
+Of course! I wont turn down volunteers and I will give full credit for your contributions
+Can I share the SDK to my friends?
+Always! I dont mind it being shared at all, I encourage it as I want it to be the best it can be
+Is there a paid version?
+No, there never will be, Donations are welcomed but I will never put any features behind a paywall
+Can I make your SDK the official SDK for my server/group?
+Go ahead! Just try to keep up with when I push an update
+Why is it slow on uploads?
+This is from a few possible reasons, Large avatars, Slow connection, or Slow system
+My avatar wont uploads, its stuck at a loading bar!
+This is either bad connection or the upload failed, just try again and check console for errors
+My upload keeps failing!
+Check for any broken components as well as any possibly disallowed assets and try again
+VRChat updated their SDK!
+I know I actively monitor updates, I will always be 1 step ahead of them, The SDX should still work if not I will push an update to fix it
+Why are your versions weird?
+I used a unusual version scheme so dont question it, its the same version scheme Roblox Exploits use
+How often are updates?
+This is 100% dependent on how long it takes me to prepare an update, the shortest time is most likely within hours to stay ahead of VRC Dev Team
+Can I be banned from using the SDK?
+I dont plan on such a feature but if I must to protect my work such features will be implemented
+Someone is rebranding your SDK and is not giving credit/Selling it!
+I will ask for any info I can about them and I will take legal action immediately
+I want to donate towards the SDK, whats the smallest amount I can donate with money? (Yea I was asked this before)
+Just pennies is ok in my book as I count that as donations as any amount helps and is greatly appreciated!
+I cant find the control panel!
+Its found in the top bar in the following path: Phoenix/SDK/Control Panel
+I accidentally delete files from the imported SDK! What do I do!?
+Calm down, Unity normally reimports it but if needed just reimport it yourself
+I accidentally imported another SDK, Now its not working!
+This is fairly common as some assets have an SDK for some reason, Just delete the VRCSDK folder from your assets and then reimport the SDX package
+My Unity froze while importing!
+This is exceptionally rare as Unity doesnt normally freeze when importing, Unity will usually suspend its UI to push more of its allocated resources to importing to try and conserve system resources
+I have a super strong pc with an I9 CPU and a RTX 2080 TI and its still slow!
+1. Unity is not that optimized
+2. No matter how good your PC it Unity will be slow at times
+3. Why are you complaining when you can play R6S and work in unity at the same time?!
+I have 64GB of RAM just cause of Unity and its still slow!
+1. Why tf do you have that much RAM? you only need 16GB at max
+2. Unity doesnt get faster cause you have more RAM
+3. Your wasting your money on RAM instead of a CPU and GPU
+Why’d you steal from my SDK! Im gonna expose you as a skid! (This has happened 5 times so far)
+1. If I have something from it show me proof and Ill give credit
+2. Dont come at me acting like your hot shit, I dont take kindly to cocky pricks
+3. I know I have other people’s scripts in here and I do my best to give credit
+4. If your trying to steal my SDX forget about trying (Yea someone pretended they made it once)
+5. If your lying to get clout I will expose you
+Why is only Unity 2018 LTS supported?
+I dont understand the cause to that but I am working towards support for 2017 LTS to the latest
+If I make a new project do I have to reconfigure my SDK settings?
+Nope! It saves them between projects so make as many as you desire, Your settings are synced as long as your main drive does not change!
+Will there be settings synced between devices?
+Got plans for it
+Why didnt you respond to me yet? I need help with the SDK!
+1. I wont always respond
+2. You can ask others for help in the server
+3. The answer is most likely in this FAQ
+4. I dont respond instantly
+5. Spamming me results in not getting a response as spam annoys me
+Can I ask a question about the SDK?
+Of course! Just dont spam me, I try my best to help just make sure you have throughly read the FAQ before asking as it may have the answer already
+Why do you have my assets in your SDK? Can you remove them?
+Of course I can but being annoying and demanding it will get you nowhere, I will actively ignore you if you demand and be a dick about it
+Are you logging my information?
+No, I absolutely refuse to log information, I do my absolute best to keep your information PRIVATE to YOU and ONLY YOU, when I push for the online services the SDX will have ANY and ALL information sent on the system will be SECURELY and ANONYMOUSLY used, ANY and ALL sensitive information will either be HEAVILY HASHED/ENCRYPTED and will not be accessible anyone, that means even I wont have any access
+Is VRChat logging what SDK I use?
+Nope, that would violate privacy terms and would get them in a real nasty lawsuit
+Will you ever make your SDK no longer Open Source?
+Only if I have no choice, I already have a method to make my work Obfuscated with Unity still able to use the SDX in case I really have to
+Why are there different SDK versions instead of one?
+This is because the different versions allow users the choice to choose from the following
+A stable, working SDX
+A stable, testing SDX
+A unstable, testing SDX
+All of which work they just have different environments
+Why is your SDK making my Unity so slow!?
+This can be from the following reasons
+You dont have enough power to support the engine
+You need to restart your computer to release file locks
+Your project is massive (Usually once past 600-700MB)
+You have a lot of assets in one project (Surpassing about 5000 assets usually brings lag)
+Why is Unity slow to load after importing the SDK?
+DLLs and Scripts are being compiled on the spot, give it time
+I got banned after using your SDK!
+By using it you accept the risk of being banned but I minimize the risk as much as possible, its a 1 in a million chance, you also probably uploaded an avatar that violated VRChat ToS and got reported
+The Control Panel has no buttons!
+Yes it does, a bug with LIGHT Mode causes this, go to the SDX Settings and click Reset Color to fix this
+The World Upload Panel is missing the UPLOAD button!
+No its not, its just invisible until you toggle the ToS consent box to TRUE (Click the box to make a check mark appear)
+Why is the upload panels different?
+This is to provide a better experience with uploading
+The upload panels dont fit and its missing buttons!
+1. The buttons are not missing
+2. Its not that it doesnt fit, Its because the upload panels are designed for a 16:9 resolution
+The upload panel UI is smaller than my preview resolution!
+No, The panel is made to fit the default resolution, this will be accommodated with scaling to larger 16:9 resolutions
+You used to post updates to your SDK in my server, what happened?
+I will most likely prioritize my server’s access to the SDX, I am not required to post updates of it to your server for you
+Unity crashed and the SDK doesn't work now!
+Close unity, Delete the SDX, Open project, Import SDX
 
 Anyway heres the UP TO DATE Changelog!
 
