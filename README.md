@@ -4,6 +4,9 @@ So far the SDX has gone through MANY CHANGES and they are as below!
 If you want updates as they come out I release first on my DISCORD SERVER
 https://discord.gg/assetsuntamed
 
+DO NOT repost or FORK this repository, This is the only place for it.
+I will asked that existing forks are taken down and if needed I will use force, this is my one rule here.
+
 Its insane to see how far this SDX has gone and I didn't think it would be as popular as it is!
 Btw there are some terms to using this SDX
 
