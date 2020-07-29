@@ -1,3 +1,35 @@
+First things first
+
+LICENSE
+
+This product is given AS IS
+
+You are allowed to FORK this repository
+
+You are not allowed to RESELL ANYTHING within this repository
+
+You are not allowed to CLAIM this repository as your own
+
+You are allowed to MODIFY this Product
+
+-As long as the original credit remains in tact
+
+-failure to meet this will result in DMCA Takedown
+
+You are allowed to SHARE this AS IS
+
+If you redistribute your own version credit is required to be given
+
+-Or it will be met with a DMCA Takedown
+
+This project is OPEN SOURCED but is not allowed to be SOLD or used for PROFIT
+
+This repository falls under a CLA LICENSE
+
+-Don't worry all your work will be 100% credited to you
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
 Welcome to the OFFICIAL GITHUB for The Black Arms SDX!
 
 If your seeing this on another account besides PhoenixAceVFX (mine) then someone else has reposted this
