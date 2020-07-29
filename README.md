@@ -1,5 +1,7 @@
 Welcome to the OFFICIAL GITHUB for The Black Arms SDX!
 
+If your seeing this on another account besides PhoenixAceVFX (mine) then someone else has reposted this
+
 This is a publicly available SDX that I work on with help from others!
 
 So far the SDX has gone through MANY CHANGES and they are as below!
