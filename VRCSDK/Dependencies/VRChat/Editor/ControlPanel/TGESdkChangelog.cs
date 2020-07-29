@@ -44,6 +44,19 @@ TheGamingBram (awesome script work)
 ODDS (SDX is based in ODDS)
 Plague (LoadBundle Script Creator)
 
+LICENSE
+This product is given AS IS
+You are not allowed to FORK this repository
+You are not allowed to RESELL ANYTHING within this repository
+You are not allowed to CLAIM this repository as your own
+You are allowed to MODIFY this Product
+-As long as the original credit remains in tact
+-failure to meet this will result in DMCA Takedown
+You are allowed to SHARE this AS IS
+If you redistribute your own version credit is required to be given
+-Or it will be met with a DMCA Takedown
+This project is OPEN SOURCED but is not allowed to be SOLD or used for PROFIT
+
 Note: If your going to ask me to make you a SDK/SDX
 keep in mind I still work on this one, it is quite
 difficult to work on an SDK/SDX as new updates bring
@@ -51,10 +64,12 @@ more things to work with, making SDK/SDX is not easy
 and it takes time, I will most likely charge you for
 the SDK/SDX or just say no as 1 is more than enough.
 
-The Black Arms SDX 1.9.2.2 RELEASE
+The Black Arms SDX 1.9.2.2 BETA
 Updated Banners (planning to release theme packages)
 Improved DLL optimizations (hard to notice lol)
-Working at C# Source obfuscation
+The SDX made it to GITHUB!
+Product is fully OPEN SOURCED
+License added (Because I have to)
 
 The Black Arms SDX 1.9.2.1 RELEASE
 -This is a small update

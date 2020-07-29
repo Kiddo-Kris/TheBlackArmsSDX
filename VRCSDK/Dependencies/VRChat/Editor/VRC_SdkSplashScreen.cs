@@ -88,7 +88,7 @@ namespace VRCSDK2
             GUILayout.Space(4);
             GUILayout.BeginHorizontal();
             GUILayout.FlexibleSpace();
-            GUILayout.Label("The Black Arms SDX");
+            GUILayout.Label("Make sure to ABIDE by the LICENSE in Changelog");
             GUILayout.EndHorizontal();
             GUILayout.Space(4);
             GUILayout.BeginHorizontal();
