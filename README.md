@@ -322,16 +322,17 @@ and it takes time, I will most likely charge you for
 the SDK/SDX or just say no as 1 is more than enough.
 
 
-
-The Black Arms SDX 1.9.2.2 RELEASE
+The Black Arms SDX 1.9.2.2 BETA
 
 Updated Banners (planning to release theme packages)
 
 Improved DLL optimizations (hard to notice lol)
 
-Working at C# Source obfuscation
+The SDX made it to GITHUB!
 
+Product is fully OPEN SOURCED
 
+License added (Because I have to)
 
 The Black Arms SDX 1.9.2.1 RELEASE
 
