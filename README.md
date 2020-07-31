@@ -1,4 +1,40 @@
+First things first
+
+LICENSE
+
+This product is given AS IS
+
+You are allowed to FORK this repository
+
+You are not allowed to RESELL ANYTHING within this repository
+
+You are not allowed to CLAIM this repository as your own
+
+You are allowed to MODIFY this Product
+
+-As long as the original credit remains in tact
+
+-failure to meet this will result in DMCA Takedown
+
+You are allowed to SHARE this AS IS
+
+If you redistribute your own version credit is required to be given
+
+-Or it will be met with a DMCA Takedown
+
+This project is OPEN SOURCED but is not allowed to be SOLD or used for PROFIT
+
+This repository falls under a the following LICENSES
+
+-CC-BY-NC-SA-4.0
+
+-GNU AGPLv3
+
+-Don't worry all your work will be 100% credited to you
+
 Welcome to the OFFICIAL GITHUB for The Black Arms SDX!
+
+If your seeing this on another account besides PhoenixAceVFX (mine) then someone else has reposted this
 
 This is a publicly available SDX that I work on with help from others!
 
@@ -7,7 +43,7 @@ So far the SDX has gone through MANY CHANGES and they are as below!
 If you want updates as they come out I release first on my DISCORD SERVER
 https://discord.gg/assetsuntamed
 
-DO NOT repost or FORK this repository, This is the only place for it.
+You can fork the repo, I know how it works now
 
 I will asked that existing forks are taken down and if needed I will use force, this is my one rule here.
 
@@ -322,16 +358,17 @@ and it takes time, I will most likely charge you for
 the SDK/SDX or just say no as 1 is more than enough.
 
 
-
-The Black Arms SDX 1.9.2.2 RELEASE
+The Black Arms SDX 1.9.2.2 BETA
 
 Updated Banners (planning to release theme packages)
 
 Improved DLL optimizations (hard to notice lol)
 
-Working at C# Source obfuscation
+The SDX made it to GITHUB!
 
+Product is fully OPEN SOURCED
 
+License added (Because I have to)
 
 The Black Arms SDX 1.9.2.1 RELEASE
 
