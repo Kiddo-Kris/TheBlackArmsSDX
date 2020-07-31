@@ -13,8 +13,8 @@ Be sure to check the following links for important information
 
 LICENSE: https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/blob/master/LICENSE
 
-Terms of Service: https://pastebin.com/raw/JcMsB7kd
+Terms of Service: https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/blob/master/Terms%20of%20Service
 
-FaQ: https://pastebin.com/raw/Mh8UzLYG
+FaQ: https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/blob/master/FaQ
 
-Changelog: https://pastebin.com/raw/jQSsaRdw
+Changelog: https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/blob/master/ChangeLog
