@@ -574,7 +574,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
                 float buttonHeight = ((show == null || fix == null) ? minHeight : (minHeight * 0.5f));
                 if ((show != null) && GUILayout.Button("Select", GUILayout.Height(buttonHeight)))
                     show();
-                if ((fix != null) && GUILayout.Button("Auto Fix", GUILayout.Height(buttonHeight)))
+                if ((fix != null) && GUILayout.Button("Repair", GUILayout.Height(buttonHeight)))
                 {
                     fix();
                     EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
@@ -1079,7 +1079,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (avatar.apiAvatar != null)
         {
             VRC.Core.ApiAvatar a = (avatar.apiAvatar as VRC.Core.ApiAvatar);
-            EditorGUILayout.LabelField("Version: " + a.version.ToString());
+            EditorGUILayout.LabelField("Revision: " + a.version.ToString());
             EditorGUILayout.LabelField("Name: " + a.name);
             GUILayout.Label(a.description, infoGuiStyle, GUILayout.Width(400));
             EditorGUILayout.LabelField("Release: " + a.releaseStatus);
@@ -1096,7 +1096,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         }
         else
         {
-            EditorGUILayout.LabelField("Version: " + "Unpublished");
+            EditorGUILayout.LabelField("Revision: " + "Unpublished");
             EditorGUILayout.LabelField("Name: " + "");
             GUILayout.Label("", infoGuiStyle, GUILayout.Width(400));
             EditorGUILayout.LabelField("Release: " + "");
@@ -1158,7 +1158,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (scene.apiWorld != null)
         {
             VRC.Core.ApiWorld w = (scene.apiWorld as VRC.Core.ApiWorld);
-            EditorGUILayout.LabelField("Version: " + w.version.ToString());
+            EditorGUILayout.LabelField("Revision: " + w.version.ToString());
             EditorGUILayout.LabelField("Name: " + w.name);
             GUILayout.Label(w.description, infoGuiStyle, GUILayout.Width(400));
             EditorGUILayout.LabelField("Capacity: " + w.capacity);
@@ -1176,7 +1176,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         }
         else
         {
-            EditorGUILayout.LabelField("Version: " + "Unpublished");
+            EditorGUILayout.LabelField("Revision: " + "Unpublished");
             EditorGUILayout.LabelField("Name: " + "");
 #if UNITY_ANDROID
             EditorGUILayout.LabelField("Platform: " + "Android");
@@ -1282,7 +1282,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 #if UNITY_ANDROID
         EditorGUI.BeginDisabledGroup(true);
 #endif
-        if (GUILayout.Button("Build & Test"))
+        if (GUILayout.Button("Test Locally"))
         {
 #if VRC_SDK_VRCSDK2
             EnvConfig.ConfigurePlayerSettings();
@@ -1354,7 +1354,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
             }
         }
         GUI.enabled = (GUIErrors.Count == 0 && checkedForIssues) || VRC.Core.APIUser.CurrentUser.developerType == VRC.Core.APIUser.DeveloperType.Internal;
-        if (GUILayout.Button("Build & Publish"))
+        if (GUILayout.Button("Upload with SDX"))
         {
             if (VRC.Core.APIUser.CurrentUser.canPublishWorlds)
             {
@@ -1945,7 +1945,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.Space();
 
         GUI.enabled = (GUIErrors.Count == 0 && checkedForIssues) || VRC.Core.APIUser.CurrentUser.developerType == VRC.Core.APIUser.DeveloperType.Internal;
-        if (GUILayout.Button("Upload avatar"))
+        if (GUILayout.Button("Upload with SDX"))
         {
             if (VRC.Core.APIUser.CurrentUser.canPublishAvatars)
             {
@@ -1977,7 +1977,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         }
 
         string message = VRC.Core.RemoteConfig.GetString("sdkNotAllowedToPublishMessage");
-        int result = UnityEditor.EditorUtility.DisplayDialogComplex("Odds SDK", message, "Developer FAQ", "VRChat Discord", "OK");
+        int result = UnityEditor.EditorUtility.DisplayDialogComplex("The Black Arms SDX", message, "Developer FAQ", "VRChat Discord", "OK");
         if (result == 0)
         {
             ShowDeveloperFAQ();

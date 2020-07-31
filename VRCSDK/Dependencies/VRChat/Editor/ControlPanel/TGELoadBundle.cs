@@ -11,7 +11,7 @@ public partial class VRCSdkControlPanel : EditorWindow
     private static GUIStyle LoadImage;
 
 
-    public string Avatar_AssetURL = "file:///C://";
+    public string Avatar_AssetURL = "Place Asset URL here and press LOAD to preview model (Can't save from this)";
 
     void Showload()
     {

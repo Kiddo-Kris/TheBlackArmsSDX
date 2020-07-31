@@ -46,7 +46,7 @@ Plague (LoadBundle Script Creator)
 
 LICENSE
 This product is given AS IS
-You are not allowed to FORK this repository
+You are allowed to FORK this repository
 You are not allowed to RESELL ANYTHING within this repository
 You are not allowed to CLAIM this repository as your own
 You are allowed to MODIFY this Product
@@ -56,6 +56,10 @@ You are allowed to SHARE this AS IS
 If you redistribute your own version credit is required to be given
 -Or it will be met with a DMCA Takedown
 This project is OPEN SOURCED but is not allowed to be SOLD or used for PROFIT
+This repository falls under a Dual LICENSE
+-GNU AGPLv3
+-CC-BY-NC-SA-4.0
+-Don't worry all your work will be 100% credited to you
 
 Note: If your going to ask me to make you a SDK/SDX
 keep in mind I still work on this one, it is quite
@@ -63,6 +67,15 @@ difficult to work on an SDK/SDX as new updates bring
 more things to work with, making SDK/SDX is not easy
 and it takes time, I will most likely charge you for
 the SDK/SDX or just say no as 1 is more than enough.
+
+The Black Arms SDX 1.9.2.2 RELEASE
+License is now official in full effect
+Theme Packs are on the way!
+-This will allow me to make custom looks to the SDX
+-All without having to remake the SDX repeatedly!
+All functions are tested and ready for RELEASE
+Splash Screen modified
+-Now points out that there is a license
 
 The Black Arms SDX 1.9.2.2 BETA
 Updated Banners (planning to release theme packages)
