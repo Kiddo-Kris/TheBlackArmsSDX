@@ -71,6 +71,12 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 1.9.2.2-2 RELEASE
+Cleaned the ASSETS PANEL (For legal reasons)
+-Compressed it too so its not as lengthy
+-Added theme packs to ADDONS subsection
+-All paid assets removed from ASSETS PANEL
+
 The Black Arms SDX 1.9.2.2-1 RELEASE
 Finalized the LICENSE
 Fixed minor underlying bugs

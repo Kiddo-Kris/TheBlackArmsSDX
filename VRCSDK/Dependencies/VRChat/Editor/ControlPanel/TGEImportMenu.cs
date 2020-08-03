@@ -142,6 +142,25 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://drive.google.com/open?id=1eARUzqRO2hJMza0alUfIWUtEXF70Ziap");
         }
+        if (GUILayout.Button("Basic Dark Theme"))
+        {
+            Application.OpenURL("https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/releases/download/1.9.2.2-1R/Basic.Dark.TBA.SDX.Theme.Pack.unitypackage");
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Trash Gang Theme"))
+        {
+            Application.OpenURL("https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/releases/download/1.9.2.2R/Trash.Gang.TBA.SDX.Theme.Pack.unitypackage");
+        }
+        if (GUILayout.Button("Classic Theme"))
+        {
+            Application.OpenURL("https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/releases/download/1.9.2.2R/The.Black.Arms.SDX.Classic.Theme.Pack.unitypackage");
+        }
+        if (GUILayout.Button("Silence Theme"))
+        {
+            Application.OpenURL("https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/releases/download/1.9.2.2R/Silence.TBA.SDX.Theme.Pack.unitypackage");
+        }
         EditorGUILayout.EndHorizontal();
 
         GUI.backgroundColor = Color.white;
@@ -158,9 +177,6 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/685658143950372926/695284833320173678/UnityDarkSkin.App.zip");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("BitAnimator"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715311556329603112/BitAnimator.unitypackage");
@@ -180,16 +196,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312376374624296/PlayModeSaver.unitypackage");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("MuscleAnimator"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312377804881940/MuscleAnimator.unitypackage");
-        }
-        if (GUILayout.Button("Rainbow Folders 2"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312391545552966/Rainbow_Folders_2.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -202,9 +211,6 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312468531871844/Unity_FBXExporter.unitypackage");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("VRC Avatar Editor"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715851292916056065/716732375748444200/VRCAvatarEditor_beta_v0.3.0.1.unitypackage");
@@ -228,16 +234,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309704443723957/715314749776330833/Final_IK_v1.9.unitypackage");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("GVAS BetterKeyframing"))
+        if (GUILayout.Button("Post Processing Stuff"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309704443723957/715315331404660786/GVAS_BetterKeyframing3.unitypackage");
-        }
-        if (GUILayout.Button("GVAS Master Recorder (Full Package)"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309704443723957/715315621713412166/Full_Package__Master_Recorder.zip");
+            Application.OpenURL("https://cdn.discordapp.com/attachments/685659591807467528/714070949951176764/Post_ProcessingStack_v2.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -249,17 +248,6 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("Button Inventory"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/685659591807467528/720294538966466590/button_inventory.unitypackage");
-        }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Post Processing Stuff"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659591807467528/714070949951176764/Post_ProcessingStack_v2.unitypackage");
-        }
-        if (GUILayout.Button("UMotion Pro"))
-        {
-            Application.OpenURL("https://mega.nz/#!234C2ASS!C31gb4yxL8M7DHdgcp9np-6Rsn9pvFsrHGzy2cfUYEA");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -281,6 +269,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316980214792252/LCPARTICLE.unitypackage");
         }
+        if (GUILayout.Button("Spring Joint"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/710416568034525224/4112_Spring_joint_thing.unitypackage");
+        }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
@@ -291,6 +283,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("NanoSDK World Audio"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316981590393004/nanoSDK_WorldAudioPrefab.unitypackage");
+        }
+        if (GUILayout.Button("Armband"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/730836220581773412/Armband_G_V1.2.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -303,13 +299,6 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316983566172219/WorldFixedIK.unitypackage");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Dynamic Bones Prefabs"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316984396644479/DBP.unitypackage");
-        }
         if (GUILayout.Button("Inventory System Scripts"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316985852067970/InventorySysPrefabEdited.unitypackage");
@@ -317,13 +306,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Armband"))
+        if (GUILayout.Button("Dynamic Bones Prefabs"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/730836220581773412/Armband_G_V1.2.unitypackage");
-        }
-        if (GUILayout.Button("Spring Joint"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/710416568034525224/4112_Spring_joint_thing.unitypackage");
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316984396644479/DBP.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -337,39 +322,17 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("PhoenixAceVFX Shader Pack !!!LONG & MESSY IMPORT!!!"))
+        if (GUILayout.Button("PhoenixAceVFX Shader Pack !Very Old!"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/711755163647344672/711759641192955934/PhoenixAceVFX_Shader_Pack.unitypackage");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Phoenix Eye Shader"))
+        if (GUILayout.Button("ReroStandard"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319773147431042/PhoenixAceVFX_Shader_Pack.unitypackage");
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319033662275664/ReroStandard.unitypackage");
         }
-        if (GUILayout.Button("PhoenixFX"))
+        if (GUILayout.Button("RealToon"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319679639486544/PhoenixFX.unitypackage");
-        }
-        if (GUILayout.Button("PhoenixFX Elite"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319384758943815/Phoenix_FX_ELITE.unitypackage");
-        }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("PoiyomiToonV5.5.5"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715320210676252733/PoiyomiToonV5.5.5.unitypackage");
-        }
-        if (GUILayout.Button("Poiyomi Patreon Pack"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715320070376521778/PatreonPack21_6_19E.unitypackage");
-        }
-        if (GUILayout.Button("PoiyomiProV5.6.3"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715320301461962782/PoiProShader5.6.3.unitypackage");
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715500217553649745/RealToon_5.2.1.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -382,42 +345,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715321638845153380/Doppelganger_MetallicFX_5.11.unitypackage");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Doppelganger Distortion wave 3D"))
+        if (GUILayout.Button("PoiyomiToonV5.5.5"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319035109179452/Doppelganger_Distortion_wave_3D.unitypackage");
-        }
-        if (GUILayout.Button("NEK0s Payed Eye Shader v5"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715499954260541440/NEK0s_Payed_Eye_Shader_v5.unitypackage");
-        }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("ReroStandard"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319033662275664/ReroStandard.unitypackage");
-        }
-        if (GUILayout.Button("RealToon"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715500217553649745/RealToon_5.2.1.unitypackage");
-        }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Dox_me Question of Time"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319027379077262/QOT.unitypackage");
-        }
-        if (GUILayout.Button("DocMeBeautiful"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319066923106344/Dox_me.unitypackage");
-        }
-        if (GUILayout.Button("DocMe Epic"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319032659705961/DocMeEpic.unitypackage");
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715320210676252733/PoiyomiToonV5.5.5.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -466,6 +396,13 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         }
         EditorGUILayout.EndHorizontal();
 
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Doppelganger Distortion wave 3D"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319035109179452/Doppelganger_Distortion_wave_3D.unitypackage");
+        }
+        EditorGUILayout.EndHorizontal();
+
         GUI.backgroundColor = Color.white;
         GUILayout.Box("", AvatarsImage);
         GUI.backgroundColor = new Color(
@@ -488,6 +425,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324328882995230/Loading_Avatar_Update.unitypackage");
         }
+        if (GUILayout.Button("Lewd Avatars"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/685907672188584011/lewd_avatars_by_oddest.rar");
+        }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
@@ -502,6 +443,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("VBot V2"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324445212016671/VBOT_V2_base.fbx");
+        }
+        if (GUILayout.Button("Corpse loading avatar"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325813091991581/Corpse_Loading_Avatar_V7.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -518,6 +463,14 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324481618575390/X_Bot.fbx");
         }
+        if (GUILayout.Button("Nikei"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325701859049522/Nikei.unitypackage");
+        }
+        if (GUILayout.Button("Kyle Base"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324772879302686/Kyle_Base.unitypackage");
+        }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
@@ -529,35 +482,13 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324621989085234/VRPill.unitypackage");
         }
-        if (GUILayout.Button("Nigger Bot"))
+        if (GUILayout.Button("[REDACTED] Bot"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324723281657856/Nigger_Bot.unitypackage");
-        }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Kyle Base"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324772879302686/Kyle_Base.unitypackage");
         }
         if (GUILayout.Button("V-bot V3.0"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325526641999872/7092_Corpse_V-Bot_30_Public.unitypackage");
-        }
-        if (GUILayout.Button("Nikei"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325701859049522/Nikei.unitypackage");
-        }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Corpse loading avatar"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325813091991581/Corpse_Loading_Avatar_V7.unitypackage");
-        }
-        if (GUILayout.Button("Lewd Avatars"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/685907672188584011/lewd_avatars_by_oddest.rar");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -571,13 +502,13 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Cartoon FX Pack 3"))
+        if (GUILayout.Button("Roblox Mad"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309817870155818/715488045603881040/Cartoon_FX_Pack_3.unitypackage");
+            Application.OpenURL("https://cdn.discordapp.com/attachments/688440858189627490/736265633964228639/Roblox_Mad.unitypackage");
         }
-        if (GUILayout.Button("Xffect Editor Pro V.5.2.0"))
+        if (GUILayout.Button("Thicc Putin"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309817870155818/715488179863683072/Xffect_Editor_Pro_v5.2.0.unitypackage");
+            Application.OpenURL("https://cdn.discordapp.com/attachments/688440858189627490/736265646773370991/PUTIN.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
