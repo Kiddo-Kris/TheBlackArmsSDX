@@ -18,3 +18,5 @@ Terms of Service: https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/blob/maste
 FaQ: https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/blob/master/FaQ
 
 Changelog: https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/blob/master/ChangeLog
+
+The List: https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/blob/master/The%20SDX%20List
