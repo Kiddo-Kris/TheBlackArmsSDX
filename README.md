@@ -5,7 +5,7 @@ This is a publicly available SDX that I work on with help from others!
 So far the SDX has gone through MANY CHANGES and they are as below!
 
 If you want updates as they come out I release first on my DISCORD SERVER
-https://discord.gg/mYn3jSz
+https://discord.gg/assetsuntamed
 
 Its insane to see how far this SDX has gone and I didn't think it would be as popular as it is!
 
