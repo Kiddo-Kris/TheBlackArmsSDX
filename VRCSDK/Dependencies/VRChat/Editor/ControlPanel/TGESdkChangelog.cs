@@ -31,7 +31,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 
         EditorGUILayout.BeginVertical(boxGuiStyle);
         EditorGUILayout.LabelField("The Black Arms SDX", EditorStyles.boldLabel);
-        EditorGUILayout.LabelField("The Black Arms Discord: https://discord.gg/assetsuntamed", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("The Black Arms Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
@@ -70,6 +70,11 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 1.9.2.2-5R
+Updated DiscordRPC
+My discord just got false banned unfairly
+We are merging with DEDSEC
 
 The Black Arms SDX 1.9.2.2-4R
 OG DISCORD LINK IS BACK!

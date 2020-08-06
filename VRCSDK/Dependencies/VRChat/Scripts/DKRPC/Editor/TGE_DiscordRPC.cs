@@ -28,7 +28,7 @@ namespace TGE_SDK
             {
                 BRSLog("Starting discord rpc");
                 DiscordRpc.EventHandlers eventHandlers = default(DiscordRpc.EventHandlers);
-                DiscordRpc.Initialize("685685502107582498", ref eventHandlers, false, string.Empty);
+                DiscordRpc.Initialize("741036203880742992", ref eventHandlers, false, string.Empty);
                 updateDRPC();
             }
         }
