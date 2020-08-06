@@ -4,7 +4,7 @@ This is a publicly available SDX that I work on with help from others!
 
 So far the SDX has gone through MANY CHANGES and they are as below!
 
-Discord server is discontinued
+Now also home in a new discord https://discord.gg/r7RcJCv
 
 This was done in favor of my new GUILDED.GG Server! https://www.guilded.gg/i/Kk57LVQE
 
