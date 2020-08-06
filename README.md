@@ -6,6 +6,8 @@ So far the SDX has gone through MANY CHANGES and they are as below!
 
 Discord server is discontinued
 
+This was done in favor of my new GUILDED.GG Server! https://www.guilded.gg/i/Kk57LVQE
+
 Its insane to see how far this SDX has gone and I didn't think it would be as popular as it is!
 
 Be sure to check the following links for important information
