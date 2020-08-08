@@ -32,6 +32,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginVertical(boxGuiStyle);
         EditorGUILayout.LabelField("The Black Arms SDX", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("The Black Arms Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("DEDSEC Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
@@ -61,7 +62,7 @@ This Product including all contents within are protected by the following licens
 -GNU AGPLv3 (GNU Affero General Public License)
 -Don't worry all your work will be 100% credited to you
 This work is under legal copyright of
--PhoenixAceVFX on behalf of The Black Arms: Assets Untamed
+-PhoenixAceVFX on behalf of The Black Arms: UNLEASHED
 -Effective 2019-2020
 
 Note: If your going to ask me to make you a SDK/SDX
@@ -70,6 +71,15 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 1.9.2.3R
+Now home in 2 Discords
+DEDSEC and The Black Arms: UNLEASHED
+Fixed a DLL issue
+Fixed bug with ESR crashing unity
+LICENSE Information added to Github
+Thanks to Frostbite for allowing TBA SDX to be home
+-In DEDSEC
 
 The Black Arms SDX 1.9.2.2-5R
 Updated DiscordRPC

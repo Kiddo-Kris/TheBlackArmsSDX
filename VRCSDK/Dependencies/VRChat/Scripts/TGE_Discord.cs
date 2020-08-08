@@ -5,7 +5,7 @@ using UnityEngine;
 public class TGE_Discord : MonoBehaviour
 {
 
-    private string url = "https://discord.gg/r7RcJCv";
+    private string url = "https://discord.gg/Jbf5AAR";
 
     public void OpenURL()
     {
