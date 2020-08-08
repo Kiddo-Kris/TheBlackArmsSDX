@@ -4,7 +4,11 @@ This is a publicly available SDX that I work on with help from others!
 
 So far the SDX has gone through MANY CHANGES and they are as below!
 
-Now also home in a new discord https://discord.gg/r7RcJCv
+Now also home in 2 DISCORDS!
+
+DEDSEC | https://discord.gg/r7RcJCv
+
+The Black Arms: UNLEASHED | https://discord.gg/Jbf5AAR
 
 This was done in favor of my new GUILDED.GG Server! https://www.guilded.gg/i/Kk57LVQE
 
