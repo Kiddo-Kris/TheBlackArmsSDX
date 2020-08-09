@@ -4,6 +4,8 @@
 
 ## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [The SDX List](./SDX.md)
 
+> ### [Click here to download the latest SDX](https://github.com/TheBlackArms/TheBlackArmsSDX/releases/latest)
+
 ## Screenshots
 <table>
   <tr>
