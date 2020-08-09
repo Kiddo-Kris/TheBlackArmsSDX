@@ -30,26 +30,21 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
 
         EditorGUILayout.BeginVertical(boxGuiStyle);
-        EditorGUILayout.LabelField("The Black Arms SDX", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("The Black Arms Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("DEDSEC Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("The Black Arms SDX Dev: PhoenixAceVFX", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("The Black Arms SDX Contributors", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Wolfie (Huge help with legal and github!)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("PoH (taught me how to mod upload panels)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("TheGamingBram (awesome script work)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Plague (LoadBundle Script Creator)", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
 		EditorGUILayout.BeginVertical();
 		GUILayout.Label(
-        @"The Black Arms SDX Dev: PhoenixAceVFX
-With help from:
-PoH (taught me how to mod upload panels)
-TheGamingBram (awesome script work)
-ODDS (SDX is based in ODDS)
-Plague (LoadBundle Script Creator)
-
-LICENSE
-The license is missing intentionally
-I still hold all rights without a license
-
-You are fully free to contribute to the SDX
+        @"You are fully free to contribute to the SDX
 All edits still remain under my copyright ownership
 This is done via CLA
 
@@ -59,6 +54,12 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 1.10
+Updated version scheme!
+Added a new Loadbundle as a COMPONENT script
+-Add it to an object to use it
+Modified Changelog Pane
 
 The Black Arms SDX 1.9.2.3-1R
 Updated a few minor things
