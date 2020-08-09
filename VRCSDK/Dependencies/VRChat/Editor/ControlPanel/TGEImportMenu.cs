@@ -138,28 +138,36 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Upload Panel Music+Backgrounds [GOOGLE DRIVE]"))
+        if (GUILayout.Button("My Hero Academia Pack"))
         {
-            Application.OpenURL("https://drive.google.com/open?id=1eARUzqRO2hJMza0alUfIWUtEXF70Ziap");
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715621075735806004/715622863758950430/my_hero_academia_Pack.unitypackage");
+        }
+        if (GUILayout.Button("Old Stuff"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/715621075735806004/715622940418244709/OldStuff.unitypackage");
         }
         if (GUILayout.Button("Basic Dark Theme"))
         {
-            Application.OpenURL("https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/releases/download/1.9.2.2-1R/Basic.Dark.TBA.SDX.Theme.Pack.unitypackage");
+            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2-1R/Basic.Dark.TBA.SDX.Theme.Pack.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Trash Gang Theme"))
         {
-            Application.OpenURL("https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/releases/download/1.9.2.2R/Trash.Gang.TBA.SDX.Theme.Pack.unitypackage");
+            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2R/Trash.Gang.TBA.SDX.Theme.Pack.unitypackage");
         }
         if (GUILayout.Button("Classic Theme"))
         {
-            Application.OpenURL("https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/releases/download/1.9.2.2R/The.Black.Arms.SDX.Classic.Theme.Pack.unitypackage");
+            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2R/The.Black.Arms.SDX.Classic.Theme.Pack.unitypackage");
         }
         if (GUILayout.Button("Silence Theme"))
         {
-            Application.OpenURL("https://github.com/PhoenixAceVFX/The-Black-Arms-SDX/releases/download/1.9.2.2R/Silence.TBA.SDX.Theme.Pack.unitypackage");
+            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2R/Silence.TBA.SDX.Theme.Pack.unitypackage");
+        }
+        if (GUILayout.Button("Ministry Theme"))
+        {
+            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2-3R/Ministry.TBA.SDX.Theme.Pack.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
