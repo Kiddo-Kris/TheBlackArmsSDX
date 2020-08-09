@@ -1,6 +1,7 @@
 > This is a list of everything that I plan to have in The Black Arms SDX (This list can change as time goes)
 
 >>UI Related  
+
 >Rainbow Hierarchy  
 >Fully Colorable UI (Affecting Unity UI)  
 >RGB UI (Because I Can)  
@@ -18,6 +19,7 @@
 >Script to use different arrangements of the upload panels for different aspect ratios (so other resolutions are supported instead of only 16:9 resolutions)  
 
 >>Functionality  
+
 >Integrated Play Mode Saver  
 >Internal Downloads (Downloads to project and then imports instead of Externally downloading)  
 >Support from 2017 to latest  
@@ -38,11 +40,14 @@
 >Online Systems (Plans to make the SDX have its own online service to share themes and configs, Help each other, and to Sync Settings between devices, Most likely will require you to make a separate account for this to work  
 
 >>Security  
+
 >Obfuscated Upload Method (For those who want to protect their work, Must enable manully)  
 
 >>Customizibility  
+
 >Customizable DiscordRPC (Will still say I made it via the small icon but the rest you can go wild with!)  
 >Custom UI Fonts (Enable the ability to change all the text throughout the entire UI for projects with the SDX to use any font you want given they’re supported)  
 
 >>Bypasses  
+
 >Quest Shader Limit Bypass (Nearly done, Doing a GHOST METHOD for that)
