@@ -88,7 +88,7 @@ namespace VRCSDK2
             GUILayout.Space(4);
             GUILayout.BeginHorizontal();
             GUILayout.FlexibleSpace();
-            GUILayout.Label("Ensure you ABIDE by the LICENSE in Changelog");
+            GUILayout.Label("What are limits? Something to shatter!");
             GUILayout.EndHorizontal();
             GUILayout.Space(4);
             GUILayout.BeginHorizontal();

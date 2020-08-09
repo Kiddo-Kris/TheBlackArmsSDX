@@ -46,24 +46,12 @@ ODDS (SDX is based in ODDS)
 Plague (LoadBundle Script Creator)
 
 LICENSE
-This product is given AS IS
-You are allowed to FORK this Product
-You are not allowed to RESELL ANYTHING within this Product
-You are not allowed to CLAIM this Product as your own
-You are allowed to MODIFY this Product
--As long as the original credit remains in tact
--failure to meet this will result in DMCA Takedown
-You are allowed to SHARE this AS IS
-If you redistribute your own version credit is REQUIRED to be given
--Or it will be met with a DMCA Takedown
-This project is OPEN SOURCED but is not allowed to be SOLD or used for PROFIT
-This Product including all contents within are protected by the following licenses
--CC-BY-NC-SA-4.0 (Creative Commons License)
--GNU AGPLv3 (GNU Affero General Public License)
--Don't worry all your work will be 100% credited to you
-This work is under legal copyright of
--PhoenixAceVFX on behalf of The Black Arms: UNLEASHED
--Effective 2019-2020
+The license is missing intentionally
+I still hold all rights without a license
+
+You are fully free to contribute to the SDX
+All edits still remain under my copyright ownership
+This is done via CLA
 
 Note: If your going to ask me to make you a SDK/SDX
 I will only make a THEME PACK for my SDX as it is
@@ -71,6 +59,10 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 1.9.2.3-1R
+Updated a few minor things
+Now under CLA instead of licensing
 
 The Black Arms SDX 1.9.2.3R
 Now home in 2 Discords
