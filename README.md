@@ -5,46 +5,48 @@
 ## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [The SDX List](./SDX.md)
 
 ## Screenshots
-
-### Login
-
-![Login Panel](./screenshots/login.png)
-
-### Builder
-
-![Builder Panel](./screenshots/builder.png)
-
-### Content
-
-![Content Panel](./screenshots/content.png)
-
-### Settings
-
-![Settings Panel](./screenshots/settings.png)
-
-### Assets
-
-![Assets Panel](./screenshots/assets.png)
-
-### LoadBundle
-
-![LoadBundle Panel](./screenshots/loadbundle.png)
-
-### TGE Utilities
-
-![TGE Utilities](./screenshots/tge.png)
-
-### SDK Utilities
-
-![SDK Utilities](./screenshots/utilities.png)
-
-### Avatar Upload Panel
-
-![Avatar Upload Panel](./screenshots/avatarup.png)
-
-### World Upload Panel
-
-![World Upload Panel](./screenshots/worldup.png)
+<table>
+  <tr>
+    <th>Login Pane</th>
+    <th>LoadBundle Pane</th>
+  </tr>
+  <tr>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/login.png" alt="Login Pane" width="255px" /></th>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/loadbundle.png" alt="LoadBundle Pane" width="320x" /></th>
+  </tr>
+  <tr>
+    <th>Builder Pane</th>
+    <th>Assets Pane</th>
+  </tr>
+  <tr>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/builder.png" alt="Builder Pane" width="270px" /></th>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/assets.png" alt="Assets Pane" width="320px" /></th>
+  </tr>
+  <tr>
+    <th>Content Pane</th>
+    <th>Settings Pane</th>
+  </tr>
+  <tr>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/content.png" alt="Content Pane" width="320px" /></th>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/settings.png" alt="Settings Pane" width="303px" /></th>
+  </tr>
+  <tr>
+    <th>Avatar Upload Panel</th>
+    <th>World Upload Panel</th>
+  </tr>
+  <tr>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/avatarup.png" alt="Avatar Upload Panel" width="322px" /></th>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/worldup.png" alt="World Upload Panel" width="320px" /></th>
+  </tr>
+  <tr>
+    <th>TGE Utilities</th>
+    <th>SDK Utilities</th>
+  </tr>
+  <tr>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/tge.png" alt="TGE Utilities" width="320px" /></th>
+    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/utilities.png" alt="SDK Utilitiese" width="250px" /></th>
+  </tr>
+</table>
 
 ## License
 
