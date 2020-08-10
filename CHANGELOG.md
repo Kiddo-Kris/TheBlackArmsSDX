@@ -13,6 +13,9 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+>The Black Arms SDX 1.10.2
+>Fixed RGB Text on Upload Panels (I cant believe it broke)
+
 >The Black Arms SDX 1.10.1  
 >Forgot to add the new Assets for 1.10 (lol)  
 >Removed dead links (I think I got them all)  
