@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/discord/734259323781251083?label=DEDSEC%20%7C%20Discord&color=%236F84D2)](https://discord.gg/r7RcJCv) [![](https://img.shields.io/discord/741071374864613500?label=The%20Black%20Arms%20%7C%20Discord&color=%237C0306)](https://discord.gg/Jbf5AAR) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE)
 
-## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [To-Do List](./TODO.md)
+## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [To-Do List](./TODO.md) | [Avatar 3.0 Changelog](./AVATAR-3.0-CHANGELOG.md) |
 
 > ### [Click here to download the latest SDX](https://github.com/TheBlackArms/TheBlackArmsSDX/releases/latest)
 
