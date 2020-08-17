@@ -94,7 +94,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("The Black Arms Discord"))
         {
-            Application.OpenURL("https://discord.gg/Jbf5AAR");
+            Application.OpenURL("https://pastebin.com/022rqDb1");
         }
         if (GUILayout.Button("TGE VRC Asset Server"))
         {

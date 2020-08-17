@@ -13,6 +13,9 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+>The Black Arms SDX 1.10.4
+>Updated Discord Links for The Black Arms
+
 >The Black Arms SDX 1.10.3
 >Fixed Overlapping Text on Upload Panels (whoops)
 

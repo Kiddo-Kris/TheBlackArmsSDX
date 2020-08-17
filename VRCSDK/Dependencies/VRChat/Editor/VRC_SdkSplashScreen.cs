@@ -94,7 +94,7 @@ namespace VRCSDK2
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Click here to join the discord"))
             {
-                Application.OpenURL("https://discord.gg/mYn3jSz");
+                Application.OpenURL("https://pastebin.com/022rqDb1");
             }
             GUILayout.EndHorizontal();
             GUILayout.Space(4);

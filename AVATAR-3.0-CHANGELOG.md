@@ -16,6 +16,9 @@
 >This Branch is ENTIRELY SEPERATED from the main branch
 >Therefore this will have its own changelog
 
+>The Black Arms Avatar 3.0 SDX 1.0.1
+>Updated Discord Links
+
 >The Black Arms Avatar 3.0 SDX 1.0
 >This is the beginning of what is to come
 >Almost everything came over from main branch

@@ -30,7 +30,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
 
         EditorGUILayout.BeginVertical(boxGuiStyle);
-        EditorGUILayout.LabelField("The Black Arms Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("The Black Arms Discord: https://pastebin.com/022rqDb1", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("DEDSEC Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("The Black Arms SDX Dev: PhoenixAceVFX", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("The Black Arms SDX Contributors", EditorStyles.boldLabel);
@@ -54,6 +54,9 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 1.10.4
+Updated Discord Links for The Black Arms
 
 The Black Arms SDX 1.10.3
 Fixed Overlapping Text on Upload Panels (whoops)

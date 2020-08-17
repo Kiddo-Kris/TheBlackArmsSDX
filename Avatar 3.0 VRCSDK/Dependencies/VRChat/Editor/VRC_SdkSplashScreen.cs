@@ -117,7 +117,7 @@ namespace VRCSDK2
             GUI.backgroundColor = Color.gray;
             if (GUILayout.Button("The Black Arms Discord"))
         {
-            Application.OpenURL("https://discord.gg/Jbf5AAR");
+            Application.OpenURL("https://pastebin.com/022rqDb1");
         }
         if (GUILayout.Button("TGE Assets"))
         {
