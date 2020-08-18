@@ -94,9 +94,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("The Black Arms Discord"))
         {
-            Application.OpenURL("https://pastebin.com/022rqDb1");
+            Application.OpenURL("https://discord.gg/m6UfHkY");
         }
-        if (GUILayout.Button("TGE VRC Asset Server"))
+        if (GUILayout.Button("TGE Assets"))
         {
             Application.OpenURL("https://discord.gg/cbDhUZW");
         }
@@ -104,9 +104,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://discord.gg/r7RcJCv");
         }
-        if (GUILayout.Button("VRChat Discord"))
+        if (GUILayout.Button("TBA Guilded.gg"))
         {
-            Application.OpenURL("http://discord.gg/VRChat");
+            Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
         }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));

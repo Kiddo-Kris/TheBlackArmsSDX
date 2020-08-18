@@ -117,7 +117,7 @@ namespace VRCSDK2
             GUI.backgroundColor = Color.gray;
             if (GUILayout.Button("The Black Arms Discord"))
         {
-            Application.OpenURL("https://pastebin.com/022rqDb1");
+            Application.OpenURL("https://discord.gg/m6UfHkY");
         }
         if (GUILayout.Button("TGE Assets"))
         {
@@ -127,9 +127,9 @@ namespace VRCSDK2
         {
             Application.OpenURL("https://discord.gg/r7RcJCv");
         }
-        if (GUILayout.Button("VRChat Discord"))
+        if (GUILayout.Button("TBA Guilded.gg"))
         {
-            Application.OpenURL("http://discord.gg/VRChat");
+            Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
         }
             GUI.backgroundColor = Color.white;
             GUILayout.EndHorizontal();
