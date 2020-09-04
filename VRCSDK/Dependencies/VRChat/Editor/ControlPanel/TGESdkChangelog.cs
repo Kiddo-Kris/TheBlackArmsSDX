@@ -55,6 +55,9 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 1.10.6
+Fixed DEDSEC Invite Links
+
 The Black Arms SDX 1.10.5
 Repaired Discord Links
 Added Guilded.gg Links

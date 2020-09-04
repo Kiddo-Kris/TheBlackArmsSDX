@@ -102,7 +102,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         }
         if (GUILayout.Button("DEDSEC"))
         {
-            Application.OpenURL("https://discord.gg/r7RcJCv");
+            Application.OpenURL("https://discord.gg/hEV4yKZ");
         }
         if (GUILayout.Button("TBA Guilded.gg"))
         {

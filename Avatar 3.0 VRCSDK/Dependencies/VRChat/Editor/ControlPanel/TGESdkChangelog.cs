@@ -58,6 +58,9 @@ My SDX, this decision is final and wont be changed.
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
 
+The Black Arms Avatar 3.0 SDX 1.0.3
+Fixed DEDSEC Invite Links
+
 The Black Arms Avatar 3.0 SDX 1.0.2
 Repaired Discord Links
 Added Guilded.gg Links
