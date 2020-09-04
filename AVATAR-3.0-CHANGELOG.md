@@ -17,6 +17,9 @@
 >Therefore this will have its own changelog
 
 >The Black Arms Avatar 3.0 SDX 1.0.2
+>Fixed DEDSEC Invite Links
+
+>The Black Arms Avatar 3.0 SDX 1.0.2
 >Repaired Discord Links
 >Added Guilded.gg Links
 
