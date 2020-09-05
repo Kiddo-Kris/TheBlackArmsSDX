@@ -96,7 +96,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://discord.gg/m6UfHkY");
         }
-        if (GUILayout.Button("TGE Assets"))
+        if (GUILayout.Button("TGE VRC Asset Server"))
         {
             Application.OpenURL("https://discord.gg/cbDhUZW");
         }
@@ -104,9 +104,15 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://discord.gg/hEV4yKZ");
         }
-        if (GUILayout.Button("TBA Guilded.gg"))
+        if (GUILayout.Button("TBA Guilded"))
         {
             Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
+        }
+        EditorGUILayout.EndHorizontal();
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Latest SDX Release Page"))
+        {
+            Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
         }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
@@ -136,7 +142,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
 UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
 UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
-
+        
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("My Hero Academia Pack"))
         {
@@ -149,6 +155,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("Basic Dark Theme"))
         {
             Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2-1R/Basic.Dark.TBA.SDX.Theme.Pack.unitypackage");
+        }
+        if (GUILayout.Button("SOA Theme"))
+        {
+            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.10.5/Sons.of.Anarchy.TBA.SDX.Theme.Pack.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -168,6 +178,13 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("Ministry Theme"))
         {
             Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2-3R/Ministry.TBA.SDX.Theme.Pack.unitypackage");
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Citizen Hack Theme"))
+        {
+            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.10.5/Citizen.Hack.TBA.SDX.Theme.Pack.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -318,6 +335,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316984396644479/DBP.unitypackage");
         }
+        if (GUILayout.Button("Distraction"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7488");
+        }
         EditorGUILayout.EndHorizontal();
 
         GUI.backgroundColor = Color.white;
@@ -353,9 +374,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715321638845153380/Doppelganger_MetallicFX_5.11.unitypackage");
         }
-        if (GUILayout.Button("PoiyomiToonV5.5.5"))
+        if (GUILayout.Button("Poiyomi Toon Latest"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715320210676252733/PoiyomiToonV5.5.5.unitypackage");
+            Application.OpenURL("https://github.com/poiyomi/PoiyomiToonShader/releases/latest");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -408,6 +429,14 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("Doppelganger Distortion wave 3D"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319035109179452/Doppelganger_Distortion_wave_3D.unitypackage");
+        }
+        if (GUILayout.Button("Equation 90HZ"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7481");
+        }
+        if (GUILayout.Button("Dissolve Glasses 90HZ"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7385");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -498,6 +527,30 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325526641999872/7092_Corpse_V-Bot_30_Public.unitypackage");
         }
+        if (GUILayout.Button("Asuka Langley"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/6608");
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Clown Girl"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7430");
+        }
+        if (GUILayout.Button("Warlock Miku & Luka"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7402");
+        }
+        if (GUILayout.Button("Kemono Fox"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7377");
+        }
+        if (GUILayout.Button("TDA Miku Pack"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7327");
+            Application.OpenURL("https://vrcmods.com/item/7326");
+        }
         EditorGUILayout.EndHorizontal();
 
         GUI.backgroundColor = Color.white;
@@ -517,6 +570,33 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("Thicc Putin"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/688440858189627490/736265646773370991/PUTIN.unitypackage");
+        }
+        if (GUILayout.Button("Aftermath"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7487");
+        }
+        if (GUILayout.Button("Anime"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7519");
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Distraction Dance"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7489");
+        }
+        if (GUILayout.Button("Car Shearer Dance"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7470");
+        }
+        if (GUILayout.Button("Goopie Dance"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7479");
+        }
+        if (GUILayout.Button("Stick Bugg"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7447");
         }
         EditorGUILayout.EndHorizontal();
 

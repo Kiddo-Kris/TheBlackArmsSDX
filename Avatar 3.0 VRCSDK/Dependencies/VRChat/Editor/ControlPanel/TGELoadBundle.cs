@@ -37,7 +37,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://discord.gg/m6UfHkY");
         }
-        if (GUILayout.Button("TGE Assets"))
+        if (GUILayout.Button("TGE VRC Asset Server"))
         {
             Application.OpenURL("https://discord.gg/cbDhUZW");
         }
@@ -45,9 +45,15 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://discord.gg/hEV4yKZ");
         }
-        if (GUILayout.Button("TBA Guilded.gg"))
+        if (GUILayout.Button("TBA Guilded"))
         {
             Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
+        }
+        EditorGUILayout.EndHorizontal();
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Latest SDX Release Page"))
+        {
+            Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
         }
         EditorGUILayout.EndHorizontal();
 

@@ -50,6 +50,12 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
             Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
         }
         EditorGUILayout.EndHorizontal();
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Latest SDX Release Page"))
+        {
+            Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
+        }
+        EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         EditorGUILayout.LabelField("Avatar", EditorStyles.boldLabel);

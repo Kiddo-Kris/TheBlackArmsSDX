@@ -29,6 +29,31 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
 UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
 
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("The Black Arms Discord"))
+        {
+            Application.OpenURL("https://discord.gg/m6UfHkY");
+        }
+        if (GUILayout.Button("TGE VRC Asset Server"))
+        {
+            Application.OpenURL("https://discord.gg/cbDhUZW");
+        }
+        if (GUILayout.Button("DEDSEC"))
+        {
+            Application.OpenURL("https://discord.gg/hEV4yKZ");
+        }
+        if (GUILayout.Button("TBA Guilded"))
+        {
+            Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
+        }
+        EditorGUILayout.EndHorizontal();
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Latest SDX Release Page"))
+        {
+            Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
+        }
+        EditorGUILayout.EndHorizontal();
+
         EditorGUILayout.BeginVertical(boxGuiStyle);
         EditorGUILayout.LabelField("The Black Arms Discord: https://discord.gg/m6UfHkY", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("DEDSEC Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
@@ -54,6 +79,9 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 1.10.7
+Updated Control Panel Layouts
 
 The Black Arms SDX 1.10.6
 Fixed DEDSEC Invite Links

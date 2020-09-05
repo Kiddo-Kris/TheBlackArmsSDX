@@ -296,7 +296,6 @@ public partial class VRCSdkControlPanel : EditorWindow
             EditorGUILayout.EndHorizontal();
             EditorGUILayout.EndVertical();
             EditorGUILayout.EndHorizontal();
-
             if (!expandedLayout)
             {
                 GUILayout.FlexibleSpace();
@@ -305,7 +304,6 @@ public partial class VRCSdkControlPanel : EditorWindow
                 GUILayout.BeginHorizontal();
                 GUILayout.FlexibleSpace();
             }
-
             layoutOption = (expandedLayout ? GUILayout.Width(position.width) : GUILayout.Width(SdkWindowWidth));
             contentScrollPos = EditorGUILayout.BeginScrollView(contentScrollPos, layoutOption);
 
@@ -315,7 +313,6 @@ public partial class VRCSdkControlPanel : EditorWindow
             if (uploadedWorlds.Count > 0)
             {
                 EditorGUILayout.Space();
-
                 EditorGUILayout.BeginHorizontal();
                 EditorGUILayout.LabelField("WORLDS", EditorStyles.boldLabel, GUILayout.ExpandWidth(false), GUILayout.Width(58));
                 WorldsToggle = EditorGUILayout.Foldout(WorldsToggle, new GUIContent(""));
@@ -682,9 +679,31 @@ public partial class VRCSdkControlPanel : EditorWindow
         }
         else
         {
+            EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("The Black Arms Discord"))
+        {
+            Application.OpenURL("https://discord.gg/m6UfHkY");
+        }
+        if (GUILayout.Button("TGE VRC Asset Server"))
+        {
+            Application.OpenURL("https://discord.gg/cbDhUZW");
+        }
+        if (GUILayout.Button("DEDSEC"))
+        {
+            Application.OpenURL("https://discord.gg/hEV4yKZ");
+        }
+        if (GUILayout.Button("TBA Guilded"))
+        {
+            Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
+        }
+        EditorGUILayout.EndHorizontal();
             GUILayout.BeginVertical(boxGuiStyle, GUILayout.Width(SdkWindowWidth));
             EditorGUILayout.Space();
             EditorGUILayout.BeginHorizontal();
+            if (GUILayout.Button("Latest SDX Release Page"))
+            {
+                Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
+            }
             GUILayout.Label("Fetch updated records from the VRChat server");
             if( GUILayout.Button("Fetch") )
             {

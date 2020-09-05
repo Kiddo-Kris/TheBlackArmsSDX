@@ -140,6 +140,10 @@ namespace VRCSDK2
             {
                 Application.OpenURL("https://www.youtube.com/playlist?list=PLYeEcl-XxYVmXyXtQ0c33jXB54nklug2n");
             }
+            if (GUILayout.Button("Latest SDX Release Page"))
+            {
+                Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
+            }
             GUI.backgroundColor = Color.white;
             GUILayout.EndHorizontal();
             GUILayout.Space(2);

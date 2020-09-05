@@ -48,7 +48,7 @@ namespace VRCSDK2
         {
             titleContent = new GUIContent("The Black Arms");
 
-            maxSize = new Vector2(400, 270);
+            maxSize = new Vector2(450, 325);
             minSize = maxSize;
 
             vrcSdkHeader = new GUIStyle
@@ -91,12 +91,30 @@ namespace VRCSDK2
             GUILayout.Label("What are limits? Something to shatter!");
             GUILayout.EndHorizontal();
             GUILayout.Space(4);
-            GUILayout.BeginHorizontal();
-            if (GUILayout.Button("Click here to join the discord"))
-            {
-                Application.OpenURL("https://discord.gg/m6UfHkY");
-            }
-            GUILayout.EndHorizontal();
+            EditorGUILayout.BeginHorizontal(GUILayout.Height(26));
+        if (GUILayout.Button("The Black Arms Discord"))
+        {
+            Application.OpenURL("https://discord.gg/m6UfHkY");
+        }
+        if (GUILayout.Button("TGE VRC Asset Server"))
+        {
+            Application.OpenURL("https://discord.gg/cbDhUZW");
+        }
+        if (GUILayout.Button("DEDSEC"))
+        {
+            Application.OpenURL("https://discord.gg/hEV4yKZ");
+        }
+        if (GUILayout.Button("TBA Guilded"))
+        {
+            Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
+        }
+        EditorGUILayout.EndHorizontal();
+        EditorGUILayout.BeginHorizontal(GUILayout.Height(26));
+        if (GUILayout.Button("Latest SDX Release Page"))
+        {
+            Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
+        }
+        EditorGUILayout.EndHorizontal();
             GUILayout.Space(4);
 
             GUILayout.FlexibleSpace();

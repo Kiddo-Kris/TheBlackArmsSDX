@@ -196,6 +196,7 @@ public partial class VRCSdkControlPanel : EditorWindow
             fixedHeight = 100
         };
 
+        
         GUILayout.BeginHorizontal();
         GUILayout.FlexibleSpace();
         GUILayout.BeginVertical();
@@ -207,6 +208,31 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
 UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
 UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("The Black Arms Discord"))
+        {
+            Application.OpenURL("https://discord.gg/m6UfHkY");
+        }
+        if (GUILayout.Button("TGE VRC Asset Server"))
+        {
+            Application.OpenURL("https://discord.gg/cbDhUZW");
+        }
+        if (GUILayout.Button("DEDSEC"))
+        {
+            Application.OpenURL("https://discord.gg/hEV4yKZ");
+        }
+        if (GUILayout.Button("TBA Guilded"))
+        {
+            Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
+        }
+        EditorGUILayout.EndHorizontal();
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Latest SDX Release Page"))
+        {
+            Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
+        }
+        EditorGUILayout.EndHorizontal();
 
         if (VRC.Core.RemoteConfig.IsInitialized())
         {
