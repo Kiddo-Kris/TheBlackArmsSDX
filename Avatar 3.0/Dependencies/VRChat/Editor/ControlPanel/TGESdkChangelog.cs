@@ -52,6 +52,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
         }
+        if (GUILayout.Button("SDX Support Server"))
+        {
+            Application.OpenURL("https://discord.gg/A9dca3N");
+        }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.BeginVertical(boxGuiStyle);
         EditorGUILayout.LabelField("The Black Arms Discord: https://discord.gg/m6UfHkY", EditorStyles.boldLabel);
@@ -81,6 +85,9 @@ My SDX, this decision is final and wont be changed.
 
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
+
+The Black Arms Avatar 3.0 SDX 1.0.5
+Added Support Server Links
 
 The Black Arms Avatar 3.0 SDX 1.0.4
 Updated Control Panel Layouts

@@ -114,6 +114,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
         }
+        if (GUILayout.Button("SDX Support Server"))
+        {
+            Application.OpenURL("https://discord.gg/A9dca3N");
+        }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         EditorGUILayout.LabelField("Click the asset to download EXTERNALLY", EditorStyles.boldLabel);

@@ -614,9 +614,11 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
         }
-        
-            GUILayout.Label("Fetch updated records from the VRChat server");
-            if( GUILayout.Button("Fetch") )
+        if (GUILayout.Button("SDX Support Server"))
+        {
+            Application.OpenURL("https://discord.gg/A9dca3N");
+        }
+            if( GUILayout.Button("Fetch Records"))
             {
                 ClearContent();
             }

@@ -72,6 +72,10 @@ public partial class VRCSdkControlPanel : EditorWindow
         {
             Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
         }
+        if (GUILayout.Button("SDX Support Server"))
+        {
+            Application.OpenURL("https://discord.gg/A9dca3N");
+        }
         EditorGUILayout.EndHorizontal();
         settingsScroll = EditorGUILayout.BeginScrollView(settingsScroll, GUILayout.Width(SdkWindowWidth));
 

@@ -52,6 +52,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
         }
+        if (GUILayout.Button("SDX Support Server"))
+        {
+            Application.OpenURL("https://discord.gg/A9dca3N");
+        }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginVertical(boxGuiStyle);
@@ -79,6 +83,9 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 1.10.8
+Added Support Server Links
 
 The Black Arms SDX 1.10.7
 Updated Control Panel Layouts

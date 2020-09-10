@@ -13,6 +13,9 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+>The Black Arms SDX 1.10.8
+>Added Support Server Links
+
 >The Black Arms SDX 1.10.7
 >Updated Control Panel Layouts
 

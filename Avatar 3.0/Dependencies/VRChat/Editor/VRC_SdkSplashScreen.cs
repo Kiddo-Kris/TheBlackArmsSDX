@@ -127,7 +127,7 @@ namespace VRCSDK2
         {
             Application.OpenURL("https://discord.gg/r7RcJCv");
         }
-        if (GUILayout.Button("TBA Guilded.gg"))
+        if (GUILayout.Button("TBA Guilded"))
         {
             Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
         }
@@ -143,6 +143,12 @@ namespace VRCSDK2
             if (GUILayout.Button("Latest SDX Release Page"))
             {
                 Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
+            }
+            GUILayout.EndHorizontal();
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button("SDX Support Server"))
+            {
+                Application.OpenURL("https://discord.gg/A9dca3N");
             }
             GUI.backgroundColor = Color.white;
             GUILayout.EndHorizontal();

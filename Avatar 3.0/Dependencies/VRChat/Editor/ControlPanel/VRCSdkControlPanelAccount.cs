@@ -184,6 +184,10 @@ public partial class VRCSdkControlPanel : EditorWindow
         {
             Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
         }
+        if (GUILayout.Button("SDX Support Server"))
+        {
+            Application.OpenURL("https://discord.gg/A9dca3N");
+        }
         EditorGUILayout.EndHorizontal();
         const int ACCOUNT_LOGIN_BORDER_SPACING = 20;
 
