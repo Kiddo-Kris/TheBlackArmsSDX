@@ -13,26 +13,26 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
->The Black Arms SDX 1.10.8
+>The Black Arms SDX 1.10.8  
 >Added Support Server Links
 
->The Black Arms SDX 1.10.7
+>The Black Arms SDX 1.10.7  
 >Updated Control Panel Layouts
 
->The Black Arms SDX 1.10.6
+>The Black Arms SDX 1.10.6  
 >Fixed DEDSEC Invite Links
 
->The Black Arms SDX 1.10.5
->Repaired Discord Links
+>The Black Arms SDX 1.10.5  
+>Repaired Discord Links  
 >Added Guilded.gg Links
 
->The Black Arms SDX 1.10.4
+>The Black Arms SDX 1.10.4  
 >Updated Discord Links for The Black Arms
 
->The Black Arms SDX 1.10.3
+>The Black Arms SDX 1.10.3  
 >Fixed Overlapping Text on Upload Panels (whoops)
 
->The Black Arms SDX 1.10.2
+>The Black Arms SDX 1.10.2  
 >Fixed RGB Text on Upload Panels (I cant believe it broke)
 
 >The Black Arms SDX 1.10.1  
