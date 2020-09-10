@@ -2,6 +2,7 @@
 
 >>UI Related  
 
+>Glow  
 >Rainbow Hierarchy  
 >Fully Colorable UI (Affecting Unity UI)  
 >RGB UI (Because I Can)  
