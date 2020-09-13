@@ -286,10 +286,11 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
                 UnityEditor.EditorPrefs.SetFloat("SDKColor_B", SDKColor.b);
                 UnityEditor.EditorPrefs.SetFloat("SDKColor_A", SDKColor.a);
             }
-            SDKColor = EditorGUI.ColorField(new Rect(3, 289, position.width - 6, 15), "SDK Color", SDKColor);
-            EditorGUILayout.Space();
-            EditorGUILayout.Space();
 
+            SDKColor = EditorGUI.ColorField(new Rect(3, 340, position.width - 6, 15), "SDK Color", SDKColor);
+            
+            EditorGUILayout.Space();
+            EditorGUILayout.Space();
             if (GUILayout.Button("Reset Color"))
             {
                 Color SDKColor = Color.gray;

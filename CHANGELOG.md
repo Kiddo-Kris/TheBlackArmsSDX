@@ -13,6 +13,9 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+>The Black Arms SDX 1.10.9  
+>Fixed position of color selector in Control Panel Settings  
+
 >The Black Arms SDX 1.10.8
 >Added Support Server Links
 
