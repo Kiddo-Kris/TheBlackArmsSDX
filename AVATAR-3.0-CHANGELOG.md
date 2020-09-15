@@ -13,29 +13,26 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
->This Branch is ENTIRELY SEPERATED from the main branch
+>This Branch is ENTIRELY SEPERATED from the main branch  
 >Therefore this will have its own changelog
 
->The Black Arms Avatar 3.0 SDX 1.0.6  
->Slight expansion to Imports Pane  
-
->The Black Arms Avatar 3.0 SDX 1.0.5
+>The Black Arms Avatar 3.0 SDX 1.0.5  
 >Added Support Server Links
 
->The Black Arms Avatar 3.0 SDX 1.0.4
+>The Black Arms Avatar 3.0 SDX 1.0.4  
 >Updated Control Panel Layouts
 
->The Black Arms Avatar 3.0 SDX 1.0.3
+>The Black Arms Avatar 3.0 SDX 1.0.3  
 >Fixed DEDSEC Invite Links
 
->The Black Arms Avatar 3.0 SDX 1.0.2
->Repaired Discord Links
+>The Black Arms Avatar 3.0 SDX 1.0.2  
+>Repaired Discord Links  
 >Added Guilded.gg Links
 
->The Black Arms Avatar 3.0 SDX 1.0.1
+>The Black Arms Avatar 3.0 SDX 1.0.1  
 >Updated Discord Links
 
->The Black Arms Avatar 3.0 SDX 1.0
->This is the beginning of what is to come
->Almost everything came over from main branch
+>The Black Arms Avatar 3.0 SDX 1.0  
+>This is the beginning of what is to come  
+>Almost everything came over from main branch  
 >SDK Coloring didn't but I am working on it.
