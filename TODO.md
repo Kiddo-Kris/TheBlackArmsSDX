@@ -50,4 +50,5 @@
 
 >>Bypasses  
 
->Quest Shader Limit Bypass (Nearly done, Doing a GHOST METHOD for that)
+>Quest Shader Limit Bypass (Nearly done, Doing a GHOST METHOD for that)  
+>Changing Avatar Information without uploading new revisions
