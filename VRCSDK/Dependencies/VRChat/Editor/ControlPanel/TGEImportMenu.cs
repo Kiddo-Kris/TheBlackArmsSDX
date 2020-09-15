@@ -556,6 +556,25 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
             Application.OpenURL("https://vrcmods.com/item/7326");
         }
         EditorGUILayout.EndHorizontal();
+        
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Matt"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7501");
+        }
+        if (GUILayout.Button("Kiryu"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7440");
+        }
+        if (GUILayout.Button("Basic EBoy"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7407");
+        }
+        if (GUILayout.Button("Hylotl Starbound"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7363");
+        }
+        EditorGUILayout.EndHorizontal();
 
         GUI.backgroundColor = Color.white;
         GUILayout.Box("", OthersImages);
@@ -601,6 +620,44 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("Stick Bugg"))
         {
             Application.OpenURL("https://vrcmods.com/item/7447");
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Animation Pack"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/1029");
+        }
+        if (GUILayout.Button("Goopie Dance"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7479");
+        }
+        if (GUILayout.Button("Stick Boned"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7462");
+        }
+        if (GUILayout.Button("RSL Anim Pack"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7405");
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Persona 4 Specialist"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7445");
+        }
+        if (GUILayout.Button("Galaxy Skybox"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7381");
+        }
+        if (GUILayout.Button("CSGO Knives"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7279");
+        }
+        if (GUILayout.Button("ThunderGun"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7252");
         }
         EditorGUILayout.EndHorizontal();
 

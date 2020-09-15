@@ -86,6 +86,9 @@ My SDX, this decision is final and wont be changed.
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
 
+The Black Arms Avatar 3.0 SDX 1.0.6
+Slight expansion to Imports Pane
+
 The Black Arms Avatar 3.0 SDX 1.0.5
 Added Support Server Links
 
