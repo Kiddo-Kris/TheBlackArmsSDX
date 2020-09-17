@@ -13,7 +13,10 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
->The Black arms SDX 1.11  
+>The Black Arms SDX 1.11.1  
+>Fixed a compiling error (WHOOPS)  
+
+>The Black Arms SDX 1.11  
 >Rewritten a few things  
 >Preparing for FULL REWRITE of the SDX  
 >Added a few new functions  
