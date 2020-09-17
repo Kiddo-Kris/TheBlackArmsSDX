@@ -1,6 +1,6 @@
 # The Black Arms SDX
 
-[![](https://img.shields.io/discord/750823059807797260?color=Black&label=DEDSEC)](https://discord.gg/hEV4yKZ) [![](https://img.shields.io/discord/745032625630085122?color=Crimson&label=The%20Black%20Arms)](https://discord.gg/m6UfHkY) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=Crimson&label=Support%20Server)](https://discord.gg/A9dca3N) <a href="//www.dmca.com/Protection/Status.aspx?ID=86b9881f-9b14-4185-92dd-dfe87ac393d6" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=86b9881f-9b14-4185-92dd-dfe87ac393d6"  alt="DMCA.com Protection Status" /></a>
+[![](https://img.shields.io/discord/750823059807797260?color=Black&label=DEDSEC)](https://discord.gg/hEV4yKZ) [![](https://img.shields.io/discord/745032625630085122?color=Crimson&label=The%20Black%20Arms)](https://discord.gg/m6UfHkY) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=Crimson&label=Support%20Server)](https://discord.gg/A9dca3N) [![](https://img.shields.io/discord/657533624052219905?color=Black&label=Ministry)](https://discord.gg/ministry)
 
 ## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [Avatar 3.0 Changelog](./AVATAR-3.0-CHANGELOG.md) | [To-Do List](./TODO.md) |
 
