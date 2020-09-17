@@ -68,6 +68,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.LabelField("TheGamingBram (awesome script work)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Plague (LoadBundle Script Creator)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Controser (AntiYoink[In 3.0])", EditorStyles.boldLavel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
@@ -83,6 +84,12 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black arms SDX 1.11
+Rewritten a few things
+Preparing for FULL REWRITE of the SDX
+Added a few new functions
+Adding AntiYoink to this version soon
 
 The Black Arms SDX 1.10.10
 Slight expansion to Imports Pane

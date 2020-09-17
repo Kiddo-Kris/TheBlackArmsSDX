@@ -12,9 +12,6 @@ using VRC.SDKBase.Editor;
 
 public partial class VRCSdkControlPanel : EditorWindow
 {
-
-    private static GUIStyle BuilderImage;
-
     public static System.Action _EnableSpatialization = null;   // assigned in AutoAddONSPAudioSourceComponents
 
     public const string AVATAR_OPTIMIZATION_TIPS_URL = "https://docs.vrchat.com/docs/avatar-optimizing-tips";
@@ -216,47 +213,10 @@ public partial class VRCSdkControlPanel : EditorWindow
     
     void ShowBuilders()
     {
-        BuilderImage = new GUIStyle
-        {
-            normal =
-            {
-             background = Resources.Load("BuilderImage") as Texture2D,
-            },
-            fixedHeight = 100
-        };
         GUILayout.BeginHorizontal();
         GUILayout.FlexibleSpace();
         GUILayout.BeginVertical();
-
-        GUILayout.Box("", BuilderImage);
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("The Black Arms Discord"))
-        {
-            Application.OpenURL("https://discord.gg/m6UfHkY");
-        }
-        if (GUILayout.Button("TGE VRC Asset Server"))
-        {
-            Application.OpenURL("https://discord.gg/cbDhUZW");
-        }
-        if (GUILayout.Button("DEDSEC"))
-        {
-            Application.OpenURL("https://discord.gg/hEV4yKZ");
-        }
-        if (GUILayout.Button("TBA Guilded"))
-        {
-            Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
-        }
-        EditorGUILayout.EndHorizontal();
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Latest SDX Release Page"))
-        {
-            Application.OpenURL("https://www.github.com/TheBlackArms/TheBlackArmsSDX/releases/latest");
-        }
-        if (GUILayout.Button("SDX Support Server"))
-        {
-            Application.OpenURL("https://discord.gg/A9dca3N");
-        }
-        EditorGUILayout.EndHorizontal();
+        
         if (VRC.Core.RemoteConfig.IsInitialized())
         {
             string sdkUnityVersion = VRC.Core.RemoteConfig.GetString("sdkUnityVersion");
@@ -487,6 +447,7 @@ public partial class VRCSdkControlPanel : EditorWindow
         if (GUIInfos.ContainsKey(subject))
             foreach (Issue error in GUIInfos[subject].Where(s => !string.IsNullOrEmpty(s.issueText)))
                 EditorGUILayout.HelpBox(error.issueText, MessageType.Info);
+        //buffer zone activated
         if (GUILinks.ContainsKey(subject))
         {
             EditorGUILayout.BeginVertical(style);
