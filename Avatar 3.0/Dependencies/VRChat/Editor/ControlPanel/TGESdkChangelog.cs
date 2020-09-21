@@ -67,7 +67,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.LabelField("TheGamingBram (awesome script work)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Plague (LoadBundle Script Creator)", EditorStyles.boldLabel);
-        EditorGUILayout.LabelField("Controser (For the AntiYoink!)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Controser (AntiYoink and SENTINEL IMPORTER)", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
@@ -86,6 +86,9 @@ My SDX, this decision is final and wont be changed.
 
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
+
+The Black Arms Avatar 3.0 SDX 1.1
+Added SENTINEL IMPORTER (The Free One)
 
 The Black Arms Avatar 3.0 SDX 1.0.7
 AntiYoink! (Huge thanks to controser!)

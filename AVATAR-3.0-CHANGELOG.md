@@ -16,6 +16,9 @@
 >This Branch is ENTIRELY SEPERATED from the main branch  
 >Therefore this will have its own changelog
 
+>The Black Arms Avatar 3.0 SDX 1.1  
+>Added SENTINEL IMPORTER (The Free One)  
+
 >The Black Arms Avatar 3.0 SDX 1.0.7  
 >AntiYoink! (Huge thanks to controser!)  
 

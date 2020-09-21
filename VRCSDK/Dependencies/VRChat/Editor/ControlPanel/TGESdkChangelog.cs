@@ -68,7 +68,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.LabelField("TheGamingBram (awesome script work)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Plague (LoadBundle Script Creator)", EditorStyles.boldLabel);
-        EditorGUILayout.LabelField("Controser (AntiYoink[In 3.0])", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Controser (AntiYoink[In 3.0] and SENTINEL IMPORTER)", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
@@ -84,6 +84,9 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 1.12
+Added SENTINEL IMPORTER (The Free One)
 
 The Black Arms SDX 1.11.1
 Fixed compile error (WHOOPS)
