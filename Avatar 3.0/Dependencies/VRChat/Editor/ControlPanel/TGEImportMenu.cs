@@ -221,6 +221,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("Sentinel Importer"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/745011900198158372/757774195835797564/SentinelsImporter.unitypackage");
+        }
         if (GUILayout.Button("QHierarchy"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312372729905204/QHierarchy.unitypackage");

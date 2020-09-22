@@ -85,6 +85,11 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 1.12.1
+Moved SENTINEL IMPORTER from pre-imported to external
+-This is in the assets panel until further notice
+-Be sure to remove it when uploading or errors occur
+
 The Black Arms SDX 1.12
 Added SENTINEL IMPORTER (The Free One)
 

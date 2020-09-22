@@ -206,6 +206,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/685658143950372926/695284833320173678/UnityDarkSkin.App.zip");
         }
+        if (GUILayout.Button("Sentinel Importer"))
+        {
+            Application.OpenURL("https://cdn.discordapp.com/attachments/745011900198158372/757774195835797564/SentinelsImporter.unitypackage");
+        }
         if (GUILayout.Button("BitAnimator"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715311556329603112/BitAnimator.unitypackage");
