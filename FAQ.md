@@ -1,5 +1,8 @@
 # FAQ
 
+> I just imported the SDK and the buttons are broken, Why am I getting this?
+- This is actually a very common issue, just go to settings in the control panel and click "Reset Color" and the issue will be no more, I have an idea of the source cause so it will be fixed very soon.
+
 > Could I be banned from VRChat for using this SDK?  
 - There is no known mechanism available to VRChat to detect which SDK you decide to use. It will appear as if you are using the default SDK, so a ban is highly unlikely.
 
