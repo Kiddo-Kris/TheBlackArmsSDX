@@ -85,6 +85,11 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 1.12.2
+Added more Editor Tools to Assets
+Fixed bug with SDX Control Panel Buttons
+-They are no longer invisible on first import!
+
 The Black Arms SDX 1.12.1
 Moved SENTINEL IMPORTER from pre-imported to external
 -This is in the assets panel until further notice

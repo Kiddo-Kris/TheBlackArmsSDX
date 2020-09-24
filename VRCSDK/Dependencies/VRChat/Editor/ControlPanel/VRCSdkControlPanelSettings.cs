@@ -295,10 +295,10 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
             {
                 Color SDKColor = Color.gray;
 
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_R", SDKColor.r);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_G", SDKColor.g);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_B", SDKColor.b);
-                UnityEditor.EditorPrefs.SetFloat("SDKColor_A", SDKColor.a);
+                UnityEditor.EditorPrefs.SetFloat("255", SDKColor.r);
+                UnityEditor.EditorPrefs.SetFloat("0", SDKColor.g);
+                UnityEditor.EditorPrefs.SetFloat("0", SDKColor.b);
+                UnityEditor.EditorPrefs.SetFloat("255", SDKColor.a);
             }
 
             // SDKGRADIENT = EditorGUI.GradientField(new Rect(3, 290, position.width - 6, 15), "SDK Gradient", SDKGRADIENT);

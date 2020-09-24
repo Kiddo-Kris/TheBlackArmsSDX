@@ -233,13 +233,13 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312377804881940/MuscleAnimator.unitypackage");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Pumkins Avatar Tools v0.8.1b"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312393458155660/PumkinsAvatarTools_v0.8.1b.unitypackage");
         }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Unity FBXExporter"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312468531871844/Unity_FBXExporter.unitypackage");
@@ -247,6 +247,25 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("VRC Avatar Editor"))
         {
             Application.OpenURL("https://cdn.discordapp.com/attachments/715851292916056065/716732375748444200/VRCAvatarEditor_beta_v0.3.0.1.unitypackage");
+        }
+        if (GUILayout.Button("VRChat Developer Tool"))
+        {
+            Application.OpenURL("https://github.com/gatosyocora/VRCDeveloperTool/releases/latest");
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("VRChat Avatar 3.0 Tools"))
+        {
+            Application.OpenURL("https://github.com/gatosyocora/VRCAvatars3Tools/releases/latest");
+        }
+        if (GUILayout.Button("Mesh Delete With Texture"))
+        {
+            Application.OpenURL("https://gatosyocora.booth.pm/items/1501527");
+        }
+        if (GUILayout.Button("Model Bone Deleter"))
+        {
+            Application.OpenURL("https://gatosyocora.booth.pm/items/1484630");
         }
         EditorGUILayout.EndHorizontal();
         GUI.backgroundColor = Color.white;

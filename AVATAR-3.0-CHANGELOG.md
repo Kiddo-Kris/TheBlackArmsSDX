@@ -16,6 +16,9 @@
 >This Branch is ENTIRELY SEPERATED from the main branch  
 >Therefore this will have its own changelog
 
+>The Black Arms Avatar 3.0 SDX 1.1.2  
+>Added more Editor Tools to Assets  
+
 >The Black Arms Avatar 3.0 SDX 1.1.1
 >Moved SENTINEL IMPORTER from pre-imported to external  
 >-This is in the assets panel until further notice  
