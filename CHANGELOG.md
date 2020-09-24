@@ -15,8 +15,8 @@
 
 >The Black Arms SDX 1.12.2  
 >Added more Editor Tools to Assets  
->Fixed bug with SDX Control Panel Buttons
->-They are no longer invisible on first import!
+>Fixed bug with SDX Control Panel Buttons  
+>-They are no longer invisible on first import!  
 
 >The Black Arms SDX 1.12.1  
 >Moved SENTINEL IMPORTER from pre-imported to external  
