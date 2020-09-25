@@ -1,6 +1,6 @@
 # The Black Arms SDX
 
-[![](https://img.shields.io/discord/750823059807797260?color=Black&label=DEDSEC)](https://discord.gg/hEV4yKZ) [![](https://img.shields.io/discord/745032625630085122?color=Crimson&label=The%20Black%20Arms)](https://discord.gg/m6UfHkY) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=Crimson&label=Support%20Server)](https://discord.gg/A9dca3N) [![](https://img.shields.io/discord/657533624052219905?color=Black&label=Ministry)](https://discord.gg/ministry)
+[![](https://img.shields.io/discord/750823059807797260?color=%23000000&label=Dedsec)](https://discord.gg/hEV4yKZ) [![](https://img.shields.io/discord/750823059807797260?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/m6UfHkY) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N) [![](https://img.shields.io/discord/657533624052219905?color=%23000000&label=Ministry)](https://discord.gg/ministry)
 
 ## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [Avatar 3.0 Changelog](./AVATAR-3.0-CHANGELOG.md) | [To-Do List](./TODO.md) |
 
