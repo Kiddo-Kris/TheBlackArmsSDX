@@ -1,5 +1,8 @@
 # FAQ
 
+> I just update and im getting errors!  
+- Delete the old version and then import the new version, This is probably because of file structure changes.  
+
 > Why are the buttons invisible when I import?  
 - This is a bug on first import that I have tried to fix 4 times now, The cause is unknown to me but I am seriously investigating the problem  
 
