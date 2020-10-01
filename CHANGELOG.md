@@ -13,6 +13,9 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+>The Black Arms SDX 1.12.3  
+>New upload method implemented  
+
 >The Black Arms SDX 1.12.2  
 >Added more Editor Tools to Assets  
 >Fixed bug with SDX Control Panel Buttons  
