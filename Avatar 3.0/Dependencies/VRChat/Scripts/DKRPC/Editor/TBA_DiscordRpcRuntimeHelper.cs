@@ -2,13 +2,13 @@
 using UnityEditor.SceneManagement;
 using UnityEngine.SceneManagement;
 
-namespace TGE_SDK
+namespace TBA_SDK
 {
     [InitializeOnLoadAttribute]
-    public static class TGE_DiscordRpcRuntimeHelper
+    public static class TBA_DiscordRpcRuntimeHelper
     {
         // register an event handler when the class is initialized
-        static TGE_DiscordRpcRuntimeHelper()
+        static TBA_DiscordRpcRuntimeHelper()
         {
             EditorApplication.playModeStateChanged += LogPlayModeState;
             EditorSceneManager.activeSceneChanged += sceneChanged;
@@ -16,19 +16,19 @@ namespace TGE_SDK
 
         private static void sceneChanged(Scene old, Scene next)
         {
-            TGE_DiscordRPC.sceneChanged(next);
+            TBA_DiscordRPC.sceneChanged(next);
         }
 
         private static void LogPlayModeState(PlayModeStateChange state)
         {
             if(state == PlayModeStateChange.EnteredEditMode)
             {
-                TGE_DiscordRPC.updateState(RpcState.EDITMODE);
-                TGE_DiscordRPC.ResetTime();
+                TBA_DiscordRPC.updateState(RpcState.EDITMODE);
+                TBA_DiscordRPC.ResetTime();
             } else if(state == PlayModeStateChange.EnteredPlayMode)
             {
-                TGE_DiscordRPC.updateState(RpcState.PLAYMODE);
-                TGE_DiscordRPC.ResetTime();
+                TBA_DiscordRPC.updateState(RpcState.PLAYMODE);
+                TBA_DiscordRPC.ResetTime();
             }
         }
     }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TGE_SDK.ThumbnailSelector
+namespace TBA_SDK.ThumbnailSelector
 {
-    public class TGE_SDK_ThumbnailSelector : MonoBehaviour {
+    public class TBA_SDK_ThumbnailSelector : MonoBehaviour {
         private bool bAddScript = false;
         public Texture2D texture;
 	
@@ -14,10 +14,10 @@ namespace TGE_SDK.ThumbnailSelector
                 if (null != obj)
                 {
                     bAddScript = true;
-                    obj.AddComponent<TGE_SDK_ThumbnailOverlay>();
-                    TGE_SDK_ThumbnailOverlay script = obj.GetComponent<TGE_SDK_ThumbnailOverlay>();
+                    obj.AddComponent<TBA_SDK_ThumbnailOverlay>();
+                    TBA_SDK_ThumbnailOverlay script = obj.GetComponent<TBA_SDK_ThumbnailOverlay>();
                     if (null == script) {
-                        Debug.Log("TGE_SDK_ThumbnailOverlay Script not Found");
+                        Debug.Log("TBA_SDK_ThumbnailOverlay Script not Found");
                         return;
                     }
                     script.enabled = false;

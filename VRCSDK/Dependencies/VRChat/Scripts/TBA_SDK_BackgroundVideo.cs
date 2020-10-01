@@ -6,9 +6,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
-namespace TGE_SDK
+namespace TBA_SDK
 {
-    public class TGE_SDK_BackgroundVideo : MonoBehaviour
+    public class TBA_SDK_BackgroundVideo : MonoBehaviour
     {
 
         public RawImage rawimage;

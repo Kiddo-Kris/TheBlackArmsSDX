@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TGE_SDK.ThumbnailSelector
+namespace TBA_SDK.ThumbnailSelector
 {
-    public class TGE_SDK_ThumbnailOverlay : MonoBehaviour
+    public class TBA_SDK_ThumbnailOverlay : MonoBehaviour
     {
         private Texture2D texture;
         private Material material;
@@ -20,7 +20,7 @@ namespace TGE_SDK.ThumbnailSelector
 
             if (null == material)
             {
-                Shader overlayShader = Shader.Find("TGE_SDK/ThumbnailCam");
+                Shader overlayShader = Shader.Find("TBA_SDK/ThumbnailCam");
                 if (null == overlayShader)
                 {
                     Debug.Log("ThumbnailCam Not Found");

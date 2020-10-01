@@ -85,6 +85,9 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 1.12.4
+Updated File Appends
+
 The Black Arms SDX 1.12.3
 New upload method implemented.
 
@@ -207,7 +210,7 @@ The Black Arms SDX 1.9.2.1 RELEASE
 -This is a small update
 Moved ALL menu items from SDX to Phoenix/<choices>
 -Thanks to TheGamingBram for the DLL work!
--This also includes the TGE functions shared (Now in normal font!)
+-This also includes the TBA functions shared (Now in normal font!)
 All 'The Gaming Evolution' funcions are now under Phoenix/TGE/<Choices here>
 Fixed a minor crash issue
 Added new ASSETS to the ASSETS Panel (Still external downloads)
@@ -265,7 +268,7 @@ The Black Arms SDX 1.8.6 RELEASE
 Repaired missing options from BETA
 Added to import panel BIG TIME (go nuts!)
 Resolved IP and HWID spoofing bug (kek, cant ban us!)
-Added very useful features from TGE SDK (no joke, good stuff!)
+Added very useful features from TBA SDK (no joke, good stuff!)
 -Yes i have permission as credit is given where credit is due
 Expanded SDX Addons
 Expanded Shader List
@@ -319,7 +322,7 @@ Fixed typos
 ONLY SUPPORTS 2018.4.20f1
 
 The Black Arms SDX 1.8.0
-Added an SDK Color Bar (Got from TGE SDK by TheGamingBram)
+Added an SDK Color Bar (Got from TBA SDK by TheGamingBram)
 Redone avatar panel (upload button appears when tos box checked)
 VRCSDK3 support!
 

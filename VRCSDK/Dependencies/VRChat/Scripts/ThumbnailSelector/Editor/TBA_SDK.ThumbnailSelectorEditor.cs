@@ -2,9 +2,9 @@
 using UnityEngine;
 using System.IO;
 
-namespace TGE_SDK.ThumbnailSelector
+namespace TBA_SDK.ThumbnailSelector
 {
-    [CustomEditor(typeof(TGE_SDK_ThumbnailOverlay))]
+    [CustomEditor(typeof(TBA_SDK_ThumbnailOverlay))]
     public class VRCThumbnailSelectorEditor : Editor
     {
         public override void OnInspectorGUI()
@@ -19,10 +19,10 @@ namespace TGE_SDK.ThumbnailSelector
                     return;
                 }
 
-                TGE_SDK_ThumbnailOverlay script = obj.GetComponent<TGE_SDK_ThumbnailOverlay>();
+                TBA_SDK_ThumbnailOverlay script = obj.GetComponent<TBA_SDK_ThumbnailOverlay>();
                 if (null == script)
                 {
-                    Debug.Log("TGE_SDK_ThumbnailOverlay Script not Found");
+                    Debug.Log("TBA_SDK_ThumbnailOverlay Script not Found");
                     return;
                 }
 

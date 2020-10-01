@@ -16,6 +16,16 @@
 >This Branch is ENTIRELY SEPERATED from the main branch  
 >Therefore this will have its own changelog
 
+>The Black Arms Avatar 3.0 Release 1.2  
+>Upload Method Edited  
+>Updated File Appends  
+>Added AV 3.0 Emulator  
+
+
+>The Black Arms Avatar 3.0 SDX 1.2 Beta  
+>Testing AV3 Emulator script  
+>Testing Upload method edit  
+
 >The Black Arms Avatar 3.0 SDX 1.1.2  
 >Added more Editor Tools to Assets  
 

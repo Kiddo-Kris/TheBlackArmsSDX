@@ -119,7 +119,7 @@ namespace VRCSDK2
         {
             Application.OpenURL("https://discord.gg/m6UfHkY");
         }
-        if (GUILayout.Button("TGE Assets"))
+        if (GUILayout.Button("TBA Assets"))
         {
             Application.OpenURL("https://discord.gg/cbDhUZW");
         }

@@ -1,4 +1,4 @@
-﻿namespace TGE_SDK
+﻿namespace TBA_SDK
 {
     public static class RpcStateInfo
     {

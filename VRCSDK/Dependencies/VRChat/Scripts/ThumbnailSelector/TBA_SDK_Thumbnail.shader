@@ -1,4 +1,4 @@
-Shader "TGE_SDK/ThumbnailCam" {
+Shader "TBA_SDK/ThumbnailCam" {
 	Properties {
 		_Overlay ("Color", 2D) = "grey" {}
 	}

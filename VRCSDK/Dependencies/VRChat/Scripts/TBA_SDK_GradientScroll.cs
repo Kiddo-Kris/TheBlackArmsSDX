@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace TGE_SDK {
-    public class TGE_SDK_GradientScroll : MonoBehaviour
+namespace TBA_SDK {
+    public class TBA_SDK_GradientScroll : MonoBehaviour
     {
         public Gradient myGradient;
         public float strobeDuration = 5f;

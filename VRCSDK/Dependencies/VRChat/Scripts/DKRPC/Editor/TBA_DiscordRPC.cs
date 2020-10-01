@@ -3,10 +3,10 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.SceneManagement;
 
-namespace TGE_SDK
+namespace TBA_SDK
 {
     [InitializeOnLoad]
-    public class TGE_DiscordRPC
+    public class TBA_DiscordRPC
     {
         private static readonly DiscordRpc.RichPresence presence = new DiscordRpc.RichPresence();
 
@@ -17,14 +17,14 @@ namespace TGE_SDK
         private static string GameName = Application.productName;
         private static string SceneName = SceneManager.GetActiveScene().name;
 
-        static TGE_DiscordRPC()
+        static TBA_DiscordRPC()
         {
-            if(!EditorPrefs.HasKey("TGE_discordRPC"))
+            if(!EditorPrefs.HasKey("TBA_discordRPC"))
             {
-                EditorPrefs.SetBool("TGE_discordRPC", true);
+                EditorPrefs.SetBool("TBA_discordRPC", true);
             }
 
-            if (EditorPrefs.GetBool("TGE_discordRPC"))
+            if (EditorPrefs.GetBool("TBA_discordRPC"))
             {
                 BRSLog("Starting discord rpc");
                 DiscordRpc.EventHandlers eventHandlers = default(DiscordRpc.EventHandlers);
