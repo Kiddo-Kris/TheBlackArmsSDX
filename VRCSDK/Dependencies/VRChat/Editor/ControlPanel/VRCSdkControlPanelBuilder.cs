@@ -1260,11 +1260,11 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         GUILayout.BeginVertical(GUILayout.Width(300));
         EditorGUILayout.Space();
         GUILayout.Label("Local Testing", infoGuiStyle);
-        GUILayout.Label("Before uploading your world you may build and test it in the VRChat client. You won't be able to invite anyone from online but you can launch multiple of your own clients.", infoGuiStyle);
+        GUILayout.Label("You can test locally but you cannot invite others, you can have multiple instances though (this should also support VR now)", infoGuiStyle);
         GUILayout.EndVertical();
         GUILayout.BeginVertical(GUILayout.Width(200));
         EditorGUILayout.Space();
-        numClients = EditorGUILayout.IntField("Number of Clients", numClients, GUILayout.MaxWidth(190));
+        numClients = EditorGUILayout.IntField("Number of Instances", numClients, GUILayout.MaxWidth(190));
 
         GUI.enabled = (GUIErrors.Count == 0 && checkedForIssues);
 
