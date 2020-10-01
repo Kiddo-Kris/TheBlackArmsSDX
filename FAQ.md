@@ -1,5 +1,8 @@
 # FAQ
 
+> Why are the buttons invisible when I import?  
+- This is a bug on first import that I have tried to fix 4 times now, The cause is unknown to me but I am seriously investigating the problem  
+
 > Could I be banned from VRChat for using this SDK?  
 - There is no known mechanism available to VRChat to detect which SDK you decide to use. It will appear as if you are using the default SDK, so a ban is highly unlikely.
 
