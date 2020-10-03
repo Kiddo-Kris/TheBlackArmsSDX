@@ -13,6 +13,17 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+>The Black Arms SDX 2.0  
+>Thats right Version 2  
+>We have updated many things in this update  
+>Several scripts have been modified  
+>Antiyoink is now in both revisions  
+>Upload methods changed again (sorry)  
+>Lots of bug fixes (too long of a list)  
+>File structure changes completed (that wont happen for awhile now)  
+>Now converting assets to import system (like sentinel importer)  
+>Overhaul of some DLLs (many edits to those)  
+
 >The Black Arms SDX 1.12.5  
 >File Structure Changes  
 

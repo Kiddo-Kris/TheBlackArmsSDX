@@ -87,6 +87,17 @@ My SDX, this decision is final and wont be changed.
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
 
+The Black Arms Avatar 3.0 SDX 2.0
+Thats right Version 2
+We have updated many things in this update
+Several scripts have been modified
+Antiyoink is now in both revisions
+Upload methods changed again (sorry)
+Lots of bug fixes (too long of a list)
+File structure changes completed (that wont happen for awhile now)
+Now converting assets to import system (like sentinel importer)
+Overhaul of some DLLs (many edits to those)
+
 The Black Arms Avatar 3.0 SDX 1.2.1 Release
 File Structure Changes
 
