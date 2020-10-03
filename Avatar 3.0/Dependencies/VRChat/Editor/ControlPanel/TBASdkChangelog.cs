@@ -87,6 +87,9 @@ My SDX, this decision is final and wont be changed.
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
 
+The Black Arms Avatar 3.0 SDX 1.2.1 Release
+File Structure Changes
+
 The Black Arms Avatar 3.0 SDX 1.2 Release
 Upload method edited
 Updated File Appends

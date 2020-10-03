@@ -16,6 +16,9 @@
 >This Branch is ENTIRELY SEPERATED from the main branch  
 >Therefore this will have its own changelog
 
+>The Black arms Avatar 3.0 Release 1.2.1  
+>File Structure Changes  
+
 >The Black Arms Avatar 3.0 Release 1.2  
 >Upload Method Edited  
 >Updated File Appends  
