@@ -1,5 +1,8 @@
 # FAQ
 
+> Is the "Premium" version of the SDK real?!  
+- No, This is a malware attempt I have shut down to protect the users of my SDX.  
+
 > Where is the UDON version?  
 - I am working on porting the Avatar 3.0 build to UDON  
 
