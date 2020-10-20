@@ -1,5 +1,12 @@
 # The Black Arms SDX  
 
+# UPDATE NOTICE  
+
+Yes updates have not been as often as usual because I am overhauling quite alot for the 2.1 Update  
+I am also working on production of the UDON release and hopefully porting everything to be in parallel  
+A few bug fixes may be pushed but updates will be rare as I will be doing much bigger updates at a time now  
+If you need help open an issue and I will respond as soon as I can  
+
 # IMPORTANT NOTICE  
 
 It has come to my attention that a user has decided to take my SDX and make a "Premium" version  
