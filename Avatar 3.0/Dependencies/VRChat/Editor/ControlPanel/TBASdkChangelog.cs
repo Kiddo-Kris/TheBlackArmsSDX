@@ -87,6 +87,10 @@ My SDX, this decision is final and wont be changed.
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
 
+The Black Arms Avatar 3.0 SDX 2.0.1
+Improved some performance issues
+Invisible control pane buttons should be fixed
+
 The Black Arms Avatar 3.0 SDX 2.0
 Thats right Version 2
 We have updated many things in this update

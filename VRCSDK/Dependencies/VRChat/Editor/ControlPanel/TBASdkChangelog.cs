@@ -85,6 +85,10 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 2.0.1
+Improved some performance issues
+Invisible control pane buttons should be fixed
+
 The Black Arms SDX 2.0
 Thats right Version 2
 We have updated many things in this update
