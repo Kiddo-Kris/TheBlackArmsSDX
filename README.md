@@ -1,10 +1,10 @@
 # The Black Arms SDX  
 
-# Taking A Break  
+# OVERHAUL NOTICE 
 
-The Black Arms SDX has been put on hold temporarly as I am dealing with mental stability issues  
-I do intend to get back to it but I need to take a break and get my mind straight  
-For now the SDX will remain on 2.0.1
+Yes the SDX is still on 2.0.1 because im overhauling the entire project  
+Until this overhaul is complete updates may not come out (unless important bug fixes)  
+For now please be patient as I work hard to complete the overhaul  
 
 # IMPORTANT NOTICE  
 
