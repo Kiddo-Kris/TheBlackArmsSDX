@@ -85,6 +85,9 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 2.0.2
+Integrated Sentinels Importer (No Errors)
+
 The Black Arms SDX 2.0.1
 Improved some performance issues
 Invisible control pane buttons should be fixed
