@@ -1,11 +1,10 @@
 # The Black Arms SDX  
 
-# UPDATE NOTICE  
+# Taking A Break  
 
-Yes updates have not been as often as usual because I am overhauling quite alot for the 2.1 Update  
-I am also working on production of the UDON release and hopefully porting everything to be in parallel  
-A few bug fixes may be pushed but updates will be rare as I will be doing much bigger updates at a time now  
-If you need help open an issue and I will respond as soon as I can  
+The Black Arms SDX has been put on hold temporarly as I am dealing with mental stability issues  
+I do intend to get back to it but I need to take a break and get my mind straight  
+For now the SDX will remain on 2.0.1
 
 # IMPORTANT NOTICE  
 
