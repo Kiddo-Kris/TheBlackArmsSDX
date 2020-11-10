@@ -14,7 +14,7 @@ I seriously recommend changing your password if you used it at all to protect yo
 This "Premium" has already been shut down but I am unsure if users are still spreading it  
 Only download my SDX from this repository as this is the OFFICIAL Download source  
 
-[![](https://img.shields.io/discord/750823059807797260?color=%23000000&label=Dedsec)](https://discord.gg/hEV4yKZ) [![](https://img.shields.io/discord/750823059807797260?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/m6UfHkY) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N) [![](https://img.shields.io/discord/657533624052219905?color=%23000000&label=Ministry)](https://discord.gg/ministry) [![](https://img.shields.io/badge/Patreon-Donate-pink)](https://www.patreon.com/PhoenixAceVFX)
+[![](https://img.shields.io/discord/750823059807797260?color=%23000000&label=Dedsec)](https://discord.gg/hEV4yKZ) [![](https://img.shields.io/discord/775516315993636874?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/WNYc7x7sBC) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N) [![](https://img.shields.io/discord/657533624052219905?color=%23000000&label=Ministry)](https://discord.gg/ministry) [![](https://img.shields.io/badge/Patreon-Donate-pink)](https://www.patreon.com/PhoenixAceVFX)
 
 ## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [Avatar 3.0 Changelog](./AVATAR-3.0-CHANGELOG.md) | [To-Do List](./TODO.md) |
 
