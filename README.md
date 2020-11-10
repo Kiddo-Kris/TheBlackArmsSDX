@@ -2,7 +2,7 @@
 
 # OVERHAUL NOTICE 
 
-Yes the SDX is still on 2.0.1 because im overhauling the entire project  
+Yes the SDX is still on 2.0.3 because im overhauling the entire project  
 Until this overhaul is complete updates may not come out (unless important bug fixes)  
 For now please be patient as I work hard to complete the overhaul  
 
