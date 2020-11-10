@@ -13,6 +13,11 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+>The Black Arms SDX 2.0.3  
+>TBA got banned again so I updated links  
+>SDX Support server is now SDX community server  
+>New Main Servers (Invite via TBA Discord & Lonely Souls Buttons)  
+
 >The Black Arms SDX 2.0.2  
 >Integrated Sentinels Importer (No Errors)  
 

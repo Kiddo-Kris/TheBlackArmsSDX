@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TBA_Discord : MonoBehaviour {
 
-    private string url = "https://pastebin.com/022rqDb1";
+    private string url = "https://discord.gg/ryDrr4m";
 
     public void OpenURL()
     {

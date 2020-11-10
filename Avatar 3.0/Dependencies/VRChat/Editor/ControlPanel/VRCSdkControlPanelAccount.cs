@@ -162,9 +162,9 @@ public partial class VRCSdkControlPanel : EditorWindow
     {
         GUILayout.Box("", LoginImage);
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("The Black Arms Discord"))
+        if (GUILayout.Button("The Lonely Souls Discord"))
         {
-            Application.OpenURL("https://discord.gg/m6UfHkY");
+            Application.OpenURL("https://discord.gg/ryDrr4m");
         }
         if (GUILayout.Button("TGE VRC Asset Server"))
         {
@@ -174,9 +174,9 @@ public partial class VRCSdkControlPanel : EditorWindow
         {
             Application.OpenURL("https://discord.gg/hEV4yKZ");
         }
-        if (GUILayout.Button("TBA Guilded"))
+        if (GUILayout.Button("TBA Discord"))
         {
-            Application.OpenURL("https://www.guilded.gg/i/Kk57LVQE");
+            Application.OpenURL("https://discord.gg/WNYc7x7sBC");
         }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
