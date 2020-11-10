@@ -1,10 +1,10 @@
 # The Black Arms SDX  
 
-# OVERHAUL NOTICE 
+# NEW DISCORD  
 
-Yes the SDX is still on 2.0.3 because im overhauling the entire project  
-Until this overhaul is complete updates may not come out (unless important bug fixes)  
-For now please be patient as I work hard to complete the overhaul  
+So my discord got banned because of my own sdk being used to copyright ban  
+I already emailed discord seeing if I can get it back up but for now here is the new one  
+https://discord.gg/WNYc7x7sBC  
 
 # IMPORTANT NOTICE  
 
