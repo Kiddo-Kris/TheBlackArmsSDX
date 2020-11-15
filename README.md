@@ -4,7 +4,7 @@
 
 So my discord got banned because of my own sdk being used to copyright ban  
 I already emailed discord seeing if I can get it back up but for now here is the new one  
-https://discord.gg/WNYc7x7sBC  
+https://theblackarms.cf  
 
 [![](https://img.shields.io/discord/750823059807797260?color=%23000000&label=Dedsec)](https://discord.gg/hEV4yKZ) [![](https://img.shields.io/discord/775516315993636874?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/WNYc7x7sBC) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N) [![](https://img.shields.io/discord/657533624052219905?color=%23000000&label=Ministry)](https://discord.gg/ministry) [![](https://img.shields.io/badge/Patreon-Donate-pink)](https://www.patreon.com/PhoenixAceVFX)
 
