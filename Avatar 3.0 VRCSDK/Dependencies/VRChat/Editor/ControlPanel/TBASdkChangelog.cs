@@ -68,6 +68,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Plague (LoadBundle Script Creator)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Controser (AntiYoink and SENTINEL IMPORTER)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Bunny (For their Utilities!)", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
@@ -86,6 +87,20 @@ My SDX, this decision is final and wont be changed.
 
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
+
+The Black Arms Avatar 3.0 SDX 2.1
+Added several utilities (thanks to bunny!)
+-AddVRCAvatarPedestals
+-ChangePropertiesOfProject
+-CopyBones
+-CopyComponents
+-Duplicator
+-FindMaterial
+-FindWrongScripts
+-GetPropertiesOfObject
+-LoadBundle (Unreal Loader)
+-MeshGenerator
+-MeshToAsset
 
 The Black Arms Avatar 3.0 SDX 2.0.3
 TBA got banned again so I updated links

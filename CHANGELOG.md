@@ -13,6 +13,20 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+>The Black Arms SDX 2.1  
+>Added several utilities (thanks to bunny!)  
+>-AddVRCAvatarPedestals  
+>-ChangePropertiesOfProject  
+>-CopyBones  
+>-CopyComponents  
+>-Duplicator  
+>-FindMaterial  
+>-FindWrongScripts  
+>-GetPropertiesOfObject  
+>-LoadBundle (Unreal Loader)  
+>-MeshGenerator  
+>-MeshToAsset  
+
 >The Black Arms SDX 2.0.3  
 >TBA got banned again so I updated links  
 >SDX Support server is now SDX community server  
