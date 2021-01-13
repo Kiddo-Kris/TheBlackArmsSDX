@@ -1,12 +1,12 @@
 # The Black Arms SDX  
 
-# NEW DISCORD  
-
-So my discord got banned because of my own sdk being used to copyright ban  
-I already emailed discord seeing if I can get it back up but for now here is the new one  
-https://theblackarms.cf  
-And you can go here for the support server  
-https://theblackarmssdx.cf  
+# Upcoming Update  
+Due to a recent incident I am forced to start hardcoding everything.  
+This is for the security and safety of my users as I do not want malware versions of my SDX being found.  
+Beta testing for the hardcoding will start soon as this will allow me to obfuscate the SDX to secure it.  
+Im sorry to everyone who was making custom versions from this but I have no other choice.  
+After testing for the obfuscation is completed old builds will be completely wiped from the repo.  
+If issues do not continue any further then I will postpone this until a later date as I am not ready for it.  
 
 [![](https://img.shields.io/discord/750823059807797260?color=%23000000&label=Dedsec)](https://discord.gg/hEV4yKZ) [![](https://img.shields.io/discord/775516315993636874?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/WNYc7x7sBC) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N) [![](https://img.shields.io/discord/657533624052219905?color=%23000000&label=Ministry)](https://discord.gg/ministry) [![](https://img.shields.io/badge/Patreon-Donate-pink)](https://www.patreon.com/PhoenixAceVFX)
 

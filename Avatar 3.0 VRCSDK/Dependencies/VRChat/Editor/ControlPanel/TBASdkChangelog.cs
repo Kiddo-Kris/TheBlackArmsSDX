@@ -88,6 +88,9 @@ My SDX, this decision is final and wont be changed.
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
 
+The Black Arms Avatar 3.0 SDX 2.1.1
+Added a few extra assets
+
 The Black Arms Avatar 3.0 SDX 2.1
 Added several utilities (thanks to bunny!)
 -AddVRCAvatarPedestals

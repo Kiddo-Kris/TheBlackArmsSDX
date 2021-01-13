@@ -86,6 +86,9 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 2.1.1
+Added a few extra assets
+
 The Black Arms SDX 2.1
 Added several utilities (thanks to bunny!)
 -AddVRCAvatarPedestals

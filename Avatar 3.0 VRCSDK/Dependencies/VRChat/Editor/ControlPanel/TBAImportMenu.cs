@@ -691,6 +691,25 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         }
         EditorGUILayout.EndHorizontal();
 
+        EditorGUILayout.BeginHorizontal();
+        if (GUILayout.Button("Reaching The Stars"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7861");
+        }
+        if (GUILayout.Button("Mortals"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7852");
+        }
+        if (GUILayout.Button("Hijacked"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7664");
+        }
+        if (GUILayout.Button("Senko HBFS"))
+        {
+            Application.OpenURL("https://vrcmods.com/item/7552");
+        }
+        EditorGUILayout.EndHorizontal();
+
         EditorGUILayout.EndScrollView();
 		GUILayout.FlexibleSpace();
 

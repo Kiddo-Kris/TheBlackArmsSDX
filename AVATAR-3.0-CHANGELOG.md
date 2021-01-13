@@ -16,6 +16,9 @@
 >This Branch is ENTIRELY SEPERATED from the main branch  
 >Therefore this will have its own changelog
 
+>The Black Arms Avatar 3.0 SDX 2.1.1  
+>Added some extra assets  
+
 >The Black Arms Avatar 3.0 SDX 2.1  
 >Added several utilities (thanks to bunny!)  
 >-AddVRCAvatarPedestals  
