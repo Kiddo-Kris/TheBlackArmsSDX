@@ -56,10 +56,8 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         {
             Application.OpenURL("https://discord.gg/A9dca3N");
         }
-        EditorGUILayout.EndHorizontal();
         EditorGUILayout.BeginVertical(boxGuiStyle);
-        EditorGUILayout.LabelField("The Black Arms Discord: https://discord.gg/m6UfHkY", EditorStyles.boldLabel);
-        EditorGUILayout.LabelField("DEDSEC Discord: https://discord.gg/r7RcJCv", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("The Black Arms Discord: theblackarms.cf", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("The Black Arms SDX Dev: PhoenixAceVFX", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("The Black Arms SDX Contributors", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Wolfie (Huge help with legal and github!)", EditorStyles.boldLabel);
@@ -67,8 +65,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.LabelField("TheGamingBram (awesome script work)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Plague (LoadBundle Script Creator)", EditorStyles.boldLabel);
-        EditorGUILayout.LabelField("Controser (AntiYoink and SENTINEL IMPORTER)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Controser (AntiYoink[In 3.0] and SENTINEL IMPORTER)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Bunny (For their Utilities!)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Zombie2312 (Total VPS Hosting)", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
@@ -87,6 +86,10 @@ My SDX, this decision is final and wont be changed.
 
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
+
+The Black Arms Avatar 3.0 SDX 2.2
+Migrated EVERYTHING to a dedicated host!
+-Huge thanks to Zombie2312 for the hosting!
 
 The Black Arms Avatar 3.0 SDX 2.1.1
 Added a few extra assets

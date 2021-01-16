@@ -16,6 +16,10 @@
 >This Branch is ENTIRELY SEPERATED from the main branch  
 >Therefore this will have its own changelog
 
+>The Black Arms Avatar 3.0 SDX 2.2  
+>Migrated EVERYTHING to a dedicated host!  
+>-Huge thanks to Zombie2312 for the hosting!  
+
 >The Black Arms Avatar 3.0 SDX 2.1.1  
 >Added some extra assets  
 

@@ -150,38 +150,38 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("My Hero Academia Pack"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715621075735806004/715622863758950430/my_hero_academia_Pack.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Addons/my_hero_academia_Pack.unitypackage");
         }
         if (GUILayout.Button("Old Stuff"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715621075735806004/715622940418244709/OldStuff.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Addons/OldStuff.unitypackage");
         }
         if (GUILayout.Button("Basic Dark Theme"))
         {
-            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2-1R/Basic.Dark.TBA.SDX.Theme.Pack.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Addons/Basic.Dark.TBA.SDX.Theme.Pack.unitypackage");
         }
         if (GUILayout.Button("SOA Theme"))
         {
-            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.10.5/Sons.of.Anarchy.TBA.SDX.Theme.Pack.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Addons/Sons.of.Anarchy.TBA.SDX.Theme.Pack.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Trash Gang Theme"))
         {
-            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2R/Trash.Gang.TBA.SDX.Theme.Pack.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Addons/Trash.Gang.TBA.SDX.Theme.Pack.unitypackage");
         }
         if (GUILayout.Button("Classic Theme"))
         {
-            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2R/The.Black.Arms.SDX.Classic.Theme.Pack.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Addons/The.Black.Arms.SDX.Classic.Theme.Pack.unitypackage");
         }
         if (GUILayout.Button("Silence Theme"))
         {
-            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2R/Silence.TBA.SDX.Theme.Pack.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Addons/Silence.TBA.SDX.Theme.Pack.unitypackage");
         }
         if (GUILayout.Button("Ministry Theme"))
         {
-            Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX/releases/download/1.9.2.2-3R/Ministry.TBA.SDX.Theme.Pack.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Addons/Ministry.TBA.SDX.Theme.Pack.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -202,77 +202,70 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Custom 3.0 Action Layer"))
-        {
-            Application.OpenURL("https://vrcmods.com/item/7532");
-        }
         if (GUILayout.Button("Unity Dark Mode"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685658143950372926/695284833320173678/UnityDarkSkin.App.zip");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/UnityDarkSkin.App.zip");
         }
         if (GUILayout.Button("Sentinel Importer"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/745011900198158372/757774195835797564/SentinelsImporter.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/SentinelsImporter.unitypackage");
         }
         if (GUILayout.Button("BitAnimator"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715311556329603112/BitAnimator.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/BitAnimator.unitypackage");
+        }
+        if (GUILayout.Button("ReroEditorScripts"))
+        {
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/ReroEditorScripts.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("ReroEditorScripts"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312372289634415/ReroEditorScripts.unitypackage");
-        }
         if (GUILayout.Button("QHierarchy"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312372729905204/QHierarchy.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/QHierarchy.unitypackage");
         }
         if (GUILayout.Button("PlayModeSaver"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312376374624296/PlayModeSaver.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/PlayModeSaver.unitypackage");
         }
         if (GUILayout.Button("MuscleAnimator"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312377804881940/MuscleAnimator.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/MuscleAnimator.unitypackage");
         }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Pumkins Avatar Tools v0.8.1b"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312393458155660/PumkinsAvatarTools_v0.8.1b.unitypackage");
-        }
-        if (GUILayout.Button("VRC Avatar Editor"))
-        {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715851292916056065/716732375748444200/VRCAvatarEditor_beta_v0.3.0.1.unitypackage");
-        }
-        if (GUILayout.Button("Model Bone Deleter"))
-        {
-            Application.OpenURL("https://gatosyocora.booth.pm/items/1484630");
-        }
-        EditorGUILayout.EndHorizontal();
-
-        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("VRChat Developer Tool"))
-        {
-            Application.OpenURL("https://github.com/gatosyocora/VRCDeveloperTool/releases/latest");
-        }
-        if (GUILayout.Button("VRChat Avatar 3.0 Tools"))
-        {
-            Application.OpenURL("https://github.com/gatosyocora/VRCAvatars3Tools/releases/latest");
-        }
-        if (GUILayout.Button("Mesh Delete With Texture"))
-        {
-            Application.OpenURL("https://gatosyocora.booth.pm/items/1501527");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/PumkinsAvatarTools_v0.8.1b.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Unity FBXExporter"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309685665955881/715312468531871844/Unity_FBXExporter.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/Unity_FBXExporter.unitypackage");
+        }
+        if (GUILayout.Button("VRC Avatar Editor"))
+        {
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/VRCAvatarEditor_beta_v0.3.0.1.unitypackage");
+        }
+        if (GUILayout.Button("VRChat Developer Tool"))
+        {
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/VRCDeveloperTool_20200621.unitypackage");
+        }
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
+        if (GUILayout.Button("VRChat Avatar 3.0 Tools"))
+        {
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/VRCAvatars3Tools_20200809.unitypackage");
+        }
+        if (GUILayout.Button("Mesh Delete With Texture"))
+        {
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/MeshDeleterWithTexture_v0.6.1b.zip");
+        }
+        if (GUILayout.Button("Model Bone Deleter"))
+        {
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/EditorTools/ModelBoneDeleter_v1.1.3.zip");
         }
         EditorGUILayout.EndHorizontal();
         GUI.backgroundColor = Color.white;
@@ -287,26 +280,26 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("DynamicBones 1.2.1"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309704443723957/715314279917682699/DynamicBone_1.2.1.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Plugins/DynamicBone_1.2.1.unitypackage");
         }
         if (GUILayout.Button("Final IK v1.9"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309704443723957/715314749776330833/Final_IK_v1.9.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Plugins/Final_IK_v1.9.unitypackage");
         }
         if (GUILayout.Button("Post Processing Stuff"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659591807467528/714070949951176764/Post_ProcessingStack_v2.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Plugins/Post_ProcessingStack_v2.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Inventory System"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659591807467528/730906283443748984/VRChat-InventorySystem-0.1.0c.zip");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Plugins/VRChat-InventorySystem-0.1.0c.zip");
         }
         if (GUILayout.Button("Button Inventory"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659591807467528/720294538966466590/button_inventory.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Plugins/button_inventory.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -322,56 +315,56 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("LC Particle Overenderer"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316977870307369/LC_S_OVERENDER.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/LC_S_OVERENDER.unitypackage");
         }
         if (GUILayout.Button("LC Particle"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316980214792252/LCPARTICLE.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/LCPARTICLE.unitypackage");
         }
         if (GUILayout.Button("Spring Joint"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/710416568034525224/4112_Spring_joint_thing.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/4112_Spring_joint_thing.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("NanoSDK Particle Shader Sphere"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316980722303036/nanoSDK_ParticleShaderSpherePrefab.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/nanoSDK_ParticleShaderSpherePrefab.unitypackage");
         }
         if (GUILayout.Button("NanoSDK World Audio"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316981590393004/nanoSDK_WorldAudioPrefab.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/nanoSDK_WorldAudioPrefab.unitypackage");
         }
         if (GUILayout.Button("Armband"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/730836220581773412/Armband_G_V1.2.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/Armband_G_V1.2.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("SDK_PREFABS"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316982597156945/SDK_PREFABS.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/SDK_PREFABS.unitypackage");
         }
         if (GUILayout.Button("WorldFixedIK"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316983566172219/WorldFixedIK.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/WorldFixedIK.unitypackage");
         }
         if (GUILayout.Button("Inventory System Scripts"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316985852067970/InventorySysPrefabEdited.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/InventorySysPrefabEdited.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Dynamic Bones Prefabs"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309731438395424/715316984396644479/DBP.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/DBP.unitypackage");
         }
         if (GUILayout.Button("Distraction"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7488");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Prefabs/7488%20VRChat%20Screenspace%20Prefab%20-%20Henry%20Distracted%20You.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -387,26 +380,26 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("PhoenixAceVFX Shader Pack !Very Old!"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/711755163647344672/711759641192955934/PhoenixAceVFX_Shader_Pack.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/PhoenixAceVFX_Shader_Pack.unitypackage");
         }
         if (GUILayout.Button("ReroStandard"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319033662275664/ReroStandard.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/ReroStandard.unitypackage");
         }
         if (GUILayout.Button("RealToon"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715500217553649745/RealToon_5.2.1.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/RealToon_5.2.1.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("3D Parallax Eye"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659550816141314/730855112247083018/3D_Parallax_eye_Shader_Fixed.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/3D_Parallax_eye_Shader_Fixed.unitypackage");
         }
         if (GUILayout.Button("Doppelganger MetallicFX 5.11"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715321638845153380/Doppelganger_MetallicFX_5.11.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/Doppelganger_Distortion_wave_3D.unitypackage");
         }
         if (GUILayout.Button("Poiyomi Toon Latest"))
         {
@@ -415,62 +408,62 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("Mochie/s Uber Shader 1.4"))
+        if (GUILayout.Button("Mochie's Uber Shader 1.4"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715499843522658334/Mochies.Uber.Shader.v1.4.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/Mochies.Uber.Shader.v1.4.unitypackage");
         }
         if (GUILayout.Button("Mochie's Nameplate 1.1"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715499857955258438/Mochies_Nameplates_v1.1.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/Mochies_Nameplates_v1.1.unitypackage");
         }
         if (GUILayout.Button("Mochie's Screen FX"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715499924518731946/Mochies_Screen_FX_v1.5.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/Mochies_Screen_FX_v1.5.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("YourXelf Overlay"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319259584004176/YourXelf_Overlay.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/YourXelf_Overlay.unitypackage");
         }
         if (GUILayout.Button("ZalgoBLYAT"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319099395407882/ZalgoBLYAT.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/ZalgoBLYAT.unitypackage");
         }
         if (GUILayout.Button("Start Sphere V5"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659550816141314/731626459944452096/StartSphereV5.shader");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/StartSphereV5.shader");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Another Shader Pack"))
         {
-            Application.OpenURL("https://www.mediafire.com/download_status.php?quickkey=en9zkbs48fkxcld&origin=download");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/All%20Shaders.zip");
         }
         if (GUILayout.Button("Riot Fur"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659550816141314/728061993675653160/Riots_Furshader.rar");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/Riots_Furshader.rar");
         }
         if (GUILayout.Button("Corpse Laser"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659550816141314/730822299258716170/Corpse_Lazer_Shader_v1.5.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/Corpse_Lazer_Shader_v1.5.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Doppelganger Distortion wave 3D"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309758667554886/715319035109179452/Doppelganger_Distortion_wave_3D.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/Doppelganger_Distortion_wave_3D.unitypackage");
         }
         if (GUILayout.Button("Equation 90HZ"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7481");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/7481%2090Hz%20Equation%20Shader%20v11.unitypackage");
         }
         if (GUILayout.Button("Dissolve Glasses 90HZ"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7385");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Shaders/7385%2090Hz%20Dissolve%20Glasses%20shader%20v14.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -486,123 +479,122 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Gecko"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715322764449415248/Gecko.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/Gecko.unitypackage");
         }
         if (GUILayout.Button("YBot Chain"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324311132569670/YBot_Chain.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/YBot_Chain.unitypackage");
         }
         if (GUILayout.Button("Loading Avatar"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324328882995230/Loading_Avatar_Update.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/Loading_Avatar_Update.unitypackage");
         }
         if (GUILayout.Button("Lewd Avatars"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/685659510441902119/685907672188584011/lewd_avatars_by_oddest.rar");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/lewd_avatars_by_oddest.rar");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Zed bot"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324328735932446/Zed_bot.FBX");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/Zed_bot.FBX");
         }
         if (GUILayout.Button("X-Bot Fixed"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324442762281111/4279_X-Bot_Fixed.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/X_Bot.fbx");
         }
         if (GUILayout.Button("VBot V2"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324445212016671/VBOT_V2_base.fbx");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/VBOT_V2_base.fbx");
         }
         if (GUILayout.Button("Corpse loading avatar"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325813091991581/Corpse_Loading_Avatar_V7.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/Corpse_Loading_Avatar_V7.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("YBot With Shapekeys"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324463914418176/YBot_Visemes_-_Eyetracking_-_Blinking.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/YBot_Visemes_-_Eyetracking_-_Blinking.unitypackage");
         }
         if (GUILayout.Button("YBot"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324475331182612/YBot.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/YBot.unitypackage");
         }
         if (GUILayout.Button("XBot"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324481618575390/X_Bot.fbx");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/X_Bot.fbx");
         }
         if (GUILayout.Button("Nikei"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325701859049522/Nikei.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/Nikei.unitypackage");
         }
         if (GUILayout.Button("Kyle Base"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324772879302686/Kyle_Base.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/Kyle_Base.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("YBot Base"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324486379110510/YBotBase.fbx");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/YBotBase.fbx");
         }
         if (GUILayout.Button("VRPill"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324621989085234/VRPill.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/VRPill.unitypackage");
         }
         if (GUILayout.Button("[REDACTED] Bot"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715324723281657856/Nigger_Bot.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/Nigger_Bot.unitypackage");
         }
         if (GUILayout.Button("V-bot V3.0"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/715309796349444148/715325526641999872/7092_Corpse_V-Bot_30_Public.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7092_Corpse_V-Bot_30_Public.unitypackage");
         }
         if (GUILayout.Button("Asuka Langley"))
         {
-            Application.OpenURL("https://vrcmods.com/item/6608");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/6608%20Asuka%20Langley.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Clown Girl"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7430");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7430%20Clown%20Girl%20Honoka.unitypackage");
         }
         if (GUILayout.Button("Warlock Miku & Luka"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7402");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7402%20Warlock%20-%20miku%20and%20luka.unitypackage");
         }
         if (GUILayout.Button("Kemono Fox"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7377");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7377%20Kemono%20Fox.unitypackage");
         }
         if (GUILayout.Button("TDA Miku Pack"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7327");
-            Application.OpenURL("https://vrcmods.com/item/7326");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7327%20TDA%20Miku%20Pack%20Part%202%20Converted%20MMD%20Models.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
-
+        
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Matt"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7501");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7501%20Matt%20from%20wii%20sports%20rigged.unitypackage");
         }
         if (GUILayout.Button("Kiryu"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7440");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7440%20Kiryu%20From%20Yakuza%200%20Happy%20Gesture%20Baka%20Mitai%20Singing%20Gesture.unitypackage");
         }
         if (GUILayout.Button("Basic EBoy"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7407");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7407%20Basic%20EBoy%20%20PsychoUpdates.unitypackage");
         }
         if (GUILayout.Button("Hylotl Starbound"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7363");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Avatars/7363%20Hylotl%20Starbound%20-%20Facerig.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -618,38 +610,38 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Roblox Mad"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/688440858189627490/736265633964228639/Roblox_Mad.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Extras/Roblox_Mad.unitypackage");
         }
         if (GUILayout.Button("Thicc Putin"))
         {
-            Application.OpenURL("https://cdn.discordapp.com/attachments/688440858189627490/736265646773370991/PUTIN.unitypackage");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Extras/PUTIN.unitypackage");
         }
         if (GUILayout.Button("Aftermath"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7487");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Extras/7487%20Aftermath%20VIDEO%20PREFAB.unitypackage");
         }
         if (GUILayout.Button("Anime"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7519");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Extras/7519%20Anime%20Video%20Prefab.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("Distraction Dance"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7489");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Extras/7489%20Henry%20Stickmin%20Distraction%20Animation.unitypackage");
         }
         if (GUILayout.Button("Car Shearer Dance"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7470");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Extras/7470%20Car%20shearer%20Dance%20Animation.unitypackage");
         }
         if (GUILayout.Button("Goopie Dance"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7479");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Extras/7479%20Goopies%20Dance%20Animation.unitypackage");
         }
         if (GUILayout.Button("Stick Bugg"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7447");
+            Application.OpenURL("http://theblackarms.servehttp.com:8084/all-sdk/assets/Extras/7447%20Stick%20Bugg.unitypackage");
         }
         EditorGUILayout.EndHorizontal();
 
@@ -657,10 +649,6 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         if (GUILayout.Button("Animation Pack"))
         {
             Application.OpenURL("https://vrcmods.com/item/1029");
-        }
-        if (GUILayout.Button("Goopie Dance"))
-        {
-            Application.OpenURL("https://vrcmods.com/item/7479");
         }
         if (GUILayout.Button("Stick Boned"))
         {
@@ -690,11 +678,11 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
             Application.OpenURL("https://vrcmods.com/item/7252");
         }
         EditorGUILayout.EndHorizontal();
-
+        
         EditorGUILayout.BeginHorizontal();
         if (GUILayout.Button("Reaching The Stars"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7861");
+            Application.OpenURL("https://www.mediafire.com/file/co2tq75vj5vc5bl/Reaching_The_Stars_Prefab.unitypackage/file");
         }
         if (GUILayout.Button("Mortals"))
         {
@@ -706,7 +694,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         }
         if (GUILayout.Button("Senko HBFS"))
         {
-            Application.OpenURL("https://vrcmods.com/item/7552");
+            Application.OpenURL("http://www.mediafire.com/file/6rwa87ioy0siywp/Senko+Anim+Video+Prefab.unitypackage/file");
         }
         EditorGUILayout.EndHorizontal();
 
