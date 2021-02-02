@@ -86,6 +86,9 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 2.2.1
+Updated Links for Import Panel (webserver url change)
+
 The Black Arms SDX 2.2
 Migrated EVERYTHING to a dedicated host!
 -Huge thanks to Zombie2312 for the hosting!
