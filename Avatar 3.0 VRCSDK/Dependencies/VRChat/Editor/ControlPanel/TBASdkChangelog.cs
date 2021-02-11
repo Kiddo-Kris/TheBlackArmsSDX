@@ -30,21 +30,9 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
 );
 
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("The Lonely Souls Discord"))
+        if (GUILayout.Button("The Black Arms Website"))
         {
-            Application.OpenURL("https://discord.gg/ryDrr4m");
-        }
-        if (GUILayout.Button("TGE VRC Asset Server"))
-        {
-            Application.OpenURL("https://discord.gg/cbDhUZW");
-        }
-        if (GUILayout.Button("DEDSEC"))
-        {
-            Application.OpenURL("https://discord.gg/hEV4yKZ");
-        }
-        if (GUILayout.Button("TBA Discord"))
-        {
-            Application.OpenURL("https://discord.gg/WNYc7x7sBC");
+            Application.OpenURL("http://theblackarms.servehttp.com/");
         }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
@@ -65,7 +53,6 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.LabelField("PoH (taught me how to mod upload panels)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("TheGamingBram (awesome script work)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
-        EditorGUILayout.LabelField("Plague (LoadBundle Script Creator)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Controser (AntiYoink[In 3.0] and SENTINEL IMPORTER)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Bunny (For their Utilities!)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Zombie2312 (Total VPS Hosting)", EditorStyles.boldLabel);
@@ -87,6 +74,10 @@ My SDX, this decision is final and wont be changed.
 
 This Branch is ENTIRELY SEPERATED from the main branch
 Therefore this will have its own changelog
+
+The Black Arms Avatar 3.0 SDX 2.3
+Replaced Links on control panel to all go to website now
+New discord as the old got just got false banned again
 
 The Black Arms Avatar 3.0 SDX 2.2.1
 Updated Links for Import Panel (webserver url change)

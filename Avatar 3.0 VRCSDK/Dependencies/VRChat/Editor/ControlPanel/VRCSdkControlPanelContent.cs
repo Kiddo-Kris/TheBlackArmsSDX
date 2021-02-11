@@ -680,23 +680,11 @@ public partial class VRCSdkControlPanel : EditorWindow
         else
         {
             EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
-        if (GUILayout.Button("The Lonely Souls Discord"))
-        {
-            Application.OpenURL("https://discord.gg/ryDrr4m");
-        }
-        if (GUILayout.Button("TGE VRC Asset Server"))
-        {
-            Application.OpenURL("https://discord.gg/cbDhUZW");
-        }
-        if (GUILayout.Button("DEDSEC"))
-        {
-            Application.OpenURL("https://discord.gg/hEV4yKZ");
-        }
-        if (GUILayout.Button("TBA Discord"))
-        {
-            Application.OpenURL("https://discord.gg/WNYc7x7sBC");
-        }
-        EditorGUILayout.EndHorizontal();
+            if (GUILayout.Button("The Black Arms Website"))
+            {
+                Application.OpenURL("http://theblackarms.servehttp.com/");
+            }
+            EditorGUILayout.EndHorizontal();
             GUILayout.BeginVertical(boxGuiStyle, GUILayout.Width(SdkWindowWidth));
             EditorGUILayout.Space();
             EditorGUILayout.BeginHorizontal();

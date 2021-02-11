@@ -4,7 +4,9 @@
 >PoH (taught me how to mod upload panels)  
 >TheGamingBram (awesome script work)  
 >ODDS (SDX is based in ODDS)  
->Plague (LoadBundle Script Creator)  
+>Bunny (Bunno's Utilities)  
+>Controser (AntiYoink[In 3.0] and SENTINEL IMPORTER)  
+>Zombie2312 (Total VPS Hosting)  
 
 >Note: If your going to ask me to make you a SDK/SDX  
 >I will only make a THEME PACK for my SDX as it is  
@@ -12,6 +14,10 @@
 >This is completely free of charge as I refuse to make  
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
+
+>The Black Arms SDX 2.3  
+>Replaced Links on control panel to all go to website now  
+>New discord as the old got just got false banned again  
 
 >The Black Arms SDX 2.2.1  
 >Updated Links for Import Panel (webserver url change)  
