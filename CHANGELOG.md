@@ -4,7 +4,6 @@
 >PoH (taught me how to mod upload panels)  
 >TheGamingBram (awesome script work)  
 >ODDS (SDX is based in ODDS)  
->Bunny (Bunno's Utilities)  
 >Controser (AntiYoink[In 3.0] and SENTINEL IMPORTER)  
 >Zombie2312 (Total VPS Hosting)  
 
@@ -14,6 +13,10 @@
 >This is completely free of charge as I refuse to make  
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
+
+>The Black Arms SDX 2.3.1  
+>Removed copyright fraud issue (Bunny had stolen the scripts, I met the real maker)  
+>The creator also wishes to remain anonymous with their scripts  
 
 >The Black Arms SDX 2.3  
 >Replaced Links on control panel to all go to website now  

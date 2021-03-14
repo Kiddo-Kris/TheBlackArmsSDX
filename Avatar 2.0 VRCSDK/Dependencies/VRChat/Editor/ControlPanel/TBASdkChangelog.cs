@@ -55,7 +55,6 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.LabelField("TheGamingBram (awesome script work)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Controser (AntiYoink[In 3.0] and SENTINEL IMPORTER)", EditorStyles.boldLabel);
-        EditorGUILayout.LabelField("Bunny (For their Utilities!)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Zombie2312 (Total VPS Hosting)", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
@@ -72,6 +71,10 @@ Much easier to do than to make an entire remake
 This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
+
+The Black Arms SDX 2.3.1
+Removed copyright fraud issue (Bunny had stolen the scripts, I met the real maker)
+The creator also wishes to remain anonymous with their scripts
 
 The Black Arms SDX 2.3
 Replaced Links on control panel to all go to website now
