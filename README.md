@@ -5,8 +5,8 @@
 
 [![faq](./screenshots/faq.png)](./FAQ.md)
 [![changelog](./screenshots/changelog.png)](./CHANGELOG.md)
-[![av3 changelog](./screenshots/av3changelog.png)](./AVATAR-3.0-CHANGELOG.md)
 [![todo list](./screenshots/todo.png)](./TODO.md)
+[![av3 changelog](./screenshots/av3changelog.png)](./AVATAR-3.0-CHANGELOG.md)
 [![download](./screenshots/tbadownload.png)](https://github.com/TheBlackArms/TheBlackArmsSDX/releases/latest)
 
 ## Screenshots
