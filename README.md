@@ -1,14 +1,6 @@
 # The Black Arms SDX  
 
-# Upcoming Update  
-Due to a recent incident I am forced to start hardcoding everything.  
-This is for the security and safety of my users as I do not want malware versions of my SDX being found.  
-Beta testing for the hardcoding will start soon as this will allow me to obfuscate the SDX to secure it.  
-Im sorry to everyone who was making custom versions from this but I have no other choice.  
-After testing for the obfuscation is completed old builds will be completely wiped from the repo.  
-If issues do not continue any further then I will postpone this until a later date as I am not ready for it.  
-
-[![](https://img.shields.io/discord/750823059807797260?color=%23000000&label=Dedsec)](https://discord.gg/hEV4yKZ) [![Discord](https://img.shields.io/discord/809477903577251900?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/pcfjyQ6z6z) [![](https://img.shields.io/badge/The%20Black%20Arms-Guilded-%23F5C400)](https://www.guilded.gg/i/Kk57LVQE) [![](https://img.shields.io/discord/745011216526737438?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N) [![](https://img.shields.io/discord/657533624052219905?color=%23000000&label=Ministry)](https://discord.gg/ministry) [![](https://img.shields.io/badge/Patreon-Donate-pink)](https://www.patreon.com/PhoenixAceVFX)
+[![Main Discord](https://img.shields.io/discord/809477903577251900?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/pcfjyQ6z6z)  [![SDX Support Discord](https://img.shields.io/discord/745011216526737438?style=for-the-badge&logo=appveyor?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N)  [![Ministry Discord](https://img.shields.io/discord/657533624052219905?style=for-the-badge&logo=appveyor?color=%23000000&label=Ministry)](https://discord.gg/ministry)  [![Patreon](https://img.shields.io/badge/Patreon-Donate-pink?style=for-the-badge)](https://www.patreon.com/PhoenixAceVFX)  
 
 ## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [Avatar 3.0 Changelog](./AVATAR-3.0-CHANGELOG.md) | [To-Do List](./TODO.md) |
 
