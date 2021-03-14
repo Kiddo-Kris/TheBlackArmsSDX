@@ -1,4 +1,4 @@
-<center>
+<div align='center'>
 <img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/tba.png" />  
 
 [![Main Discord](https://img.shields.io/discord/809477903577251900?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/pcfjyQ6z6z)  [![SDX Support Discord](https://img.shields.io/discord/745011216526737438?style=for-the-badge&logo=appveyor?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N)  [![Ministry Discord](https://img.shields.io/discord/657533624052219905?style=for-the-badge&logo=appveyor?color=%23000000&label=Ministry)](https://discord.gg/ministry)  [![Patreon](https://img.shields.io/badge/Patreon-Donate-pink?style=for-the-badge)](https://www.patreon.com/PhoenixAceVFX)  
@@ -64,4 +64,4 @@
 **This repository intentionally omits a supplementary license.** Exclusive copyright is held by the contributors.
 The source code hosted in this repository may not be copied, distributed, or modified without risk of take-downs, shake-downs, or litigation.
 For more information regarding the conditions of use where repositories omit a supplemental license; see [GitHub Terms of Service](https://docs.github.com/en/github/site-policy/github-terms-of-service#d-user-generated-content), or [the summary of 'No License' conditions](https://choosealicense.com/no-permission/).
-</center>
+</div>
