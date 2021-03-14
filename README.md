@@ -3,9 +3,11 @@
 
 [![Main Discord](https://img.shields.io/discord/809477903577251900?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/pcfjyQ6z6z)  [![SDX Support Discord](https://img.shields.io/discord/745011216526737438?style=for-the-badge&logo=appveyor?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N)  [![Ministry Discord](https://img.shields.io/discord/657533624052219905?style=for-the-badge&logo=appveyor?color=%23000000&label=Ministry)](https://discord.gg/ministry)  [![Patreon](https://img.shields.io/badge/Patreon-Donate-pink?style=for-the-badge)](https://www.patreon.com/PhoenixAceVFX)  
 
-## [FAQ](./FAQ.md) | [Changelog](./CHANGELOG.md) | [Avatar 3.0 Changelog](./AVATAR-3.0-CHANGELOG.md) | [To-Do List](./TODO.md) |
-
-### [Click here to download the latest SDX](https://github.com/TheBlackArms/TheBlackArmsSDX/releases/latest)
+[![faq](./screenshots/faq.png)](./FAQ.md)
+[![changelog](./screenshots/changelog.png)](./CHANGELOG.md)
+[![av3 changelog](./screenshots/av3changelog.png)](./AVATAR-3.0-CHANGELOG.md)
+[![todo list](./screenshots/todo.png)](./TODO.md)
+[![download](./screenshots/tbadownload.png)](https://github.com/TheBlackArms/TheBlackArmsSDX/releases/latest)
 
 ## Screenshots
 <table>
