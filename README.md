@@ -3,10 +3,15 @@
 
 [![Main Discord](https://img.shields.io/discord/832050220345982977?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/pcfjyQ6z6z)  [![SDX Support Discord](https://img.shields.io/discord/745011216526737438?style=for-the-badge&logo=appveyor?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N)  [![Ministry Discord](https://img.shields.io/discord/657533624052219905?style=for-the-badge&logo=appveyor?color=%23000000&label=Ministry)](https://discord.gg/ministry)  [![Patreon](https://img.shields.io/badge/Patreon-Donate-pink?style=for-the-badge)](https://www.patreon.com/PhoenixAceVFX)  
 
-# !!DANGER!!  
-VRChat has recently entered a BAN SPREE and we are unsure of the reason  
-If I must I WILL private everything relating to The Black Arms SDX to prevent any issues.  
-For now USE AT YOUR OWN RISK!
+# OVERHAUL UNDERWAY  
+The Entire SDX is now undergoing a TOTAL OVERHAUL  
+Do not expect any serious updates until then  
+Revision 3 is coming soon  
+
+# VRCHAT IS UPDATING TO UNITY 2019  
+While the SDK does support Unity 2017 to 2019 There is a need to overhaul alot  
+There is no support for issues in unity 2019 until the SDX is updated to it  
+Do expect issues when VRChat pushes to this update as we don't know if we can get our update in time  
 
 [![faq](./screenshots/faq.png)](./FAQ.md)
 [![changelog](./screenshots/changelog.png)](./CHANGELOG.md)
