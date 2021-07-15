@@ -184,7 +184,7 @@ public partial class VRCSdkControlPanel : EditorWindow
 
         EnvConfig.SetActiveSDKDefines();
 
-            VRCSettings.ActiveWindowPanel = GUILayout.Toolbar(VRCSettings.ActiveWindowPanel, new string[] { "Login", "Builder", "Content", "Settings", "Assets", "Changes", "LoadBundle" }, GUILayout.Width(SdkWindowWidth));
+            VRCSettings.ActiveWindowPanel = GUILayout.Toolbar(VRCSettings.ActiveWindowPanel, new string[] { "Login", "Builder", "Content", "Settings", "Assets", "Changes" }, GUILayout.Width(SdkWindowWidth));
             int showPanel = VRCSettings.ActiveWindowPanel;
 
         GUILayout.EndVertical();
@@ -205,14 +205,11 @@ public partial class VRCSdkControlPanel : EditorWindow
             case 3:
                 ShowSettings();
                 break;
-                			case 4:
+            case 4:
                 ShowImports();
                 break;
 			case 5:
                 ShowChanges();
-                break;
-            case 6:
-                Showload();
                 break;
             case 0:
             default:
