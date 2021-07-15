@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Dependencies",
+    "\\Dependencies\\VRChat",
+    "\\Dependencies\\VRChat\\Editor",
+    "\\Dependencies\\VRChat\\Editor\\ControlPanel"
+  ],
+  "SelectedNode": "\\Dependencies\\VRChat\\Editor\\ControlPanel\\VRCSdkControlPanelSettings.cs",
+  "PreviewInSolutionExplorer": false
+}
