@@ -1,0 +1,98 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patch3Spacer": {
+            "name": "TBA SDX Automated Assets Portal"
+        },
+
+        "patchSpacer": {
+            "name": "Panel designed by zombie2312"
+        },
+        "Sdk-patch": {
+            "name": "None",
+            "file": ""
+        },
+        
+        "patch0Spacer": {
+            "name": "Avatar 3.0"
+        },
+        "Sdk-patch1": {
+            "name": "None",
+            "file": ""
+        },
+        
+        "patch1Spacer": {
+            "name": "UDON"
+        },
+        "Sdk-patch2": {
+            "name": "None",
+            "file": ""
+        },
+
+
+        "editorToolsSpacer": {
+            "name": "Editor Tools unity"
+        },
+        "QHierarchy": {
+            "name": "QHierarchy",
+            "file": "QHierarchy.unitypackage"
+        },
+
+
+
+
+
+        "addonsSpacer": {
+            "name": "Addons"
+        },
+        "MHA Addon Set": {
+            "name": "MHA Addon Set",
+            "file": "mha.unitypackage"
+        },
+        
+
+
+
+        "prefabsSpacer": {
+            "name": "Prefabs"
+        },
+        "SDK Prefabs": {
+            "name": "SDK Prefabs",
+            "file": "SDK_PREFABS.unitypackage"
+        },
+
+
+
+
+
+
+        "shaderSpacer": {
+            "name": "Shader"
+        },
+        "PFX ShaderPack": {
+            "name": "PFX ShaderPack",
+            "file": "PhoenixAceVFX_Shader_Pack.unitypackage"
+        },
+
+
+        
+        "placeHolderSpacer": {
+            "name": "TheBlackArmsSDX Customs (Fak yo limits)"
+        },
+        "placeHolder1Spacer": {
+            "name": "MuFKR Tupper cryin"
+        }
+
+        
+        
+    }
+}

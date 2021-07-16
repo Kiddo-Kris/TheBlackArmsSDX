@@ -17,6 +17,11 @@
 >This Branch is ENTIRELY SEPERATED from the main branch  
 >Therefore this will have its own changelog
 
+>The Black Arms Avatar 3.0 SDX 2.3.2  
+>Update base SDX.  
+>Fix ui breaking on upload.  
+>Added new importer/updater for SDX.  
+
 >The Black Arms Avatar 3.0 SDX 2.3.1  
 >Removed copyright fraud issue (Bunny had stolen the scripts, I met the real maker)  
 >The creator also wishes to remain anonymous with their scripts  
