@@ -72,6 +72,12 @@ This is completely free of charge as I refuse to make
 Any money or profit from my SDX and I will not rebrand
 My SDX, this decision is final and wont be changed.
 
+The Black Arms SDX 2.3.2
+New Importer!
+Update base SDX.
+Fix ui breaking on upload.
+Added new importer/updater for SDX.
+
 The Black Arms SDX 2.3.1
 Removed copyright fraud issue (Bunny had stolen the scripts, I met the real maker)
 The creator also wishes to remain anonymous with their scripts
@@ -91,7 +97,7 @@ The Black Arms SDX 2.1.1
 Added a few extra assets
 
 The Black Arms SDX 2.1
-Added several utilities (thanks to bunny!)
+Added several utilities (thanks to Anonymous!)
 -AddVRCAvatarPedestals
 -ChangePropertiesOfProject
 -CopyBones

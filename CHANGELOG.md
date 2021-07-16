@@ -14,6 +14,12 @@
 >Any money or profit from my SDX and I will not rebrand  
 >My SDX, this decision is final and wont be changed.  
 
+The Black Arms SDX 2.3.2
+New Importer!
+update base SDX.
+fix ui breaking on upload.
+added new importer/updater for SDX.
+
 >The Black Arms SDX 2.3.1  
 >Removed copyright fraud issue (Bunny had stolen the scripts, I met the real maker)  
 >The creator also wishes to remain anonymous with their scripts  
