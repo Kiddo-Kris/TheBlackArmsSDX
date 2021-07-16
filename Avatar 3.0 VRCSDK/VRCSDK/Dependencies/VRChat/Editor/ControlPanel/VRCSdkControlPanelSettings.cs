@@ -67,7 +67,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
         if (GUILayout.Button("The Black Arms Website"))
         {
-            Application.OpenURL("http://theblackarms.servehttp.com/");
+            Application.OpenURL("https://trigon.systems/");
         }
         EditorGUILayout.EndHorizontal();
         EditorGUILayout.BeginHorizontal(boxGuiStyle, GUILayout.Height(26));
