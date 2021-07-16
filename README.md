@@ -19,6 +19,9 @@ Do expect issues when VRChat pushes to this update as we don't know if we can ge
 [![av3 changelog](./screenshots/av3changelog.png)](./AVATAR-3.0-CHANGELOG.md)
 [![download](./screenshots/tbadownload.png)](https://github.com/TheBlackArms/TheBlackArmsSDX/releases/latest)
 
+## 2019 Screenshot  
+<img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/login.png" />
+
 ## Screenshots
 <table>
   <tr>
