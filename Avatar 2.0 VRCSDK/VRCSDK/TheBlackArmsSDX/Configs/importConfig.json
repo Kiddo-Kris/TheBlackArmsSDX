@@ -1,0 +1,146 @@
+{
+	"config": {
+		"serverUrl": "https://chillzone.live/theblackarms/assets/",
+		"window": {
+			"sizeX": 400,
+			"sizeY": 700
+		}
+	},
+	
+	"assets": {
+
+
+		"patch3Spacer": {
+			"name": "Please read this carefully"
+		},
+
+		"patchSpacer": {
+			"name": "Patch for SDK 2.0"
+		},
+		"Sdk-patch": {
+			"name": "non",
+			"file": ""
+		},
+		
+		"patch0Spacer": {
+			"name": "Avatar-only av 3.0"
+		},
+		"Sdk-patch1": {
+			"name": "non",
+			"file": ""
+		},
+		
+		"patch1Spacer": {
+			"name": "world-only udon"
+		},
+		"Sdk-patch2": {
+			"name": "non",
+			"file": ""
+		},
+
+
+		"editorToolsSpacer": {
+			"name": "Editor Tools unity"
+		},
+		"qHierarchy": {
+			"name": "QHierarchy",
+			"file": "QHierarchy.unitypackage"
+		},
+
+
+
+
+
+		"addonsSpacer": {
+			"name": "addons"
+		},
+		"dynamicBones": {
+			"name": "Dynamic Bones",
+			"file": "DynamicBones.unitypackage"
+		},
+		"finalIk": {
+			"name": "Final IK 1.7",
+			"file": "Final_IK1.7.unitypackage"
+		},
+		
+
+
+
+		"prefabsSpacer": {
+			"name": "Prefabs"
+		},
+
+
+
+
+
+
+		"shaderSpacer": {
+			"name": "Shader"
+		},
+		"poiyomiToon": {
+			"name": "PoiyomiToon Shader 7.2.34",
+			"file": "PoiyomiToon7.2.34.unitypackage"
+		},
+		"dopeShaderSpacer": {
+			"name": "Doppelganger free Shader"
+		},
+		"Doppelganger[1]": {
+			"name": "Doppelganger_Best_Universe_Within_v1.0",
+			"file": "Doppelganger_Best_Universe_Within_v1.0.unitypackage"
+		},
+		"Doppelganger[2]": {
+			"name": "Doppelganger_Best_Universe_Within_v1.01",
+			"file": "Doppelganger_Best_Universe_Within_v1.01.unitypackage"
+		},
+		"Doppelganger[3]": {
+			"name": "Doppelganger_Best_Universe_Within_v1.0",
+			"file": "Doppelganger_Best_Universe_Within_v1.02.unitypackage"
+		},
+		"Doppelganger[4]": {
+			"name": "Doppelganger_Burning_Glasses_v1.1",
+			"file": "Doppelganger_Burning_Glasses_v1.1.unitypackage"
+		},
+		"Doppelganger[5]": {
+			"name": "Doppelganger_Burning_Glasses_v1.11",
+			"file": "Doppelganger_Burning_Glasses_v1.11.unitypackage"
+		},
+		"Doppelganger[6]": {
+			"name": "Doppelganger_Distortion_Wave_3D_1.1",
+			"file": "Doppelganger_Distortion_Wave_3D_1.1.unitypackage"
+		},
+		"Doppelganger[7]": {
+			"name": "Doppelganger_Fractal_Pyramid",
+			"file": "Doppelganger_Fractal_Pyramid.unitypackage"
+		},
+		"Doppelganger[8]": {
+			"name": "Doppelganger_Optical_Stream",
+			"file": "Doppelganger_Optical_Stream.unitypackage"
+		},
+		"Doppelganger[9]": {
+			"name": "Doppelganger_Rain_Shader",
+			"file": "Doppelganger_Rain_Shader.unitypackage"
+		},
+		"Doppelganger[10]": {
+			"name": "Doppelganger_The_Eye_v1.0",
+			"file": "Doppelganger_The_Eye_v1.0.unitypackage"
+		},
+		"Doppelganger[11]": {
+			"name": "Doppelganger_The_Eye_v1.01",
+			"file": "Doppelganger_The_Eye_v1.01.unitypackage"
+		},
+		"Doppelganger[12]": {
+			"name": "DoppelgangerMetallicFX",
+			"file": "DoppelgangerMetallicFX.unitypackage"
+		},
+
+
+		
+		"placeHolderSpacer": {
+			"name": "TheBlackArmsSDX customs (tremperly down)"
+		}
+
+		
+		
+	}
+}
