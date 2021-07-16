@@ -20,7 +20,7 @@ Do expect issues when VRChat pushes to this update as we don't know if we can ge
 [![download](./screenshots/tbadownload.png)](https://github.com/TheBlackArms/TheBlackArmsSDX/releases/latest)
 
 ## 2019 Screenshot  
-<img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/login.png" />
+<img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/uiimn.png" />
 
 ## Screenshots
 <table>
