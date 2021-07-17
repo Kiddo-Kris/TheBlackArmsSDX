@@ -47,7 +47,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginVertical(boxGuiStyle);
-        EditorGUILayout.LabelField("The Black Arms Discord: theblackarms.cf", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("The Black Arms Website: https://trigon.systems", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("The Black Arms SDX Dev: PhoenixAceVFX", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("The Black Arms SDX Contributors", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Wolfie (Huge help with legal and github!)", EditorStyles.boldLabel);
@@ -56,6 +56,7 @@ UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         EditorGUILayout.LabelField("ODDS (SDX is based in ODDS)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Controser (AntiYoink[In 3.0] and SENTINEL IMPORTER)", EditorStyles.boldLabel);
         EditorGUILayout.LabelField("Zombie2312 (Total VPS Hosting)", EditorStyles.boldLabel);
+        EditorGUILayout.LabelField("Blaze (Fixing Importer Bug!)", EditorStyles.boldLabel);
         EditorGUILayout.EndVertical();
 
         changesScroll = EditorGUILayout.BeginScrollView(changesScroll, GUILayout.Width(SdkWindowWidth));
@@ -74,9 +75,9 @@ My SDX, this decision is final and wont be changed.
 
 The Black Arms SDX 2.3.2
 New Importer!
-Update base SDX.
-Fix ui breaking on upload.
-Added new importer/updater for SDX.
+update base SDX.
+fix ui breaking on upload.
+added new importer/updater for SDX.
 
 The Black Arms SDX 2.3.1
 Removed copyright fraud issue (Bunny had stolen the scripts, I met the real maker)
@@ -97,7 +98,7 @@ The Black Arms SDX 2.1.1
 Added a few extra assets
 
 The Black Arms SDX 2.1
-Added several utilities (thanks to Anonymous!)
+Added several utilities (thanks to bunny!)
 -AddVRCAvatarPedestals
 -ChangePropertiesOfProject
 -CopyBones

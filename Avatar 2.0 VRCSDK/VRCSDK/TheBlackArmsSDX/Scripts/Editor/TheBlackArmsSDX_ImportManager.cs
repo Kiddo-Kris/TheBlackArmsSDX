@@ -12,10 +12,10 @@ namespace TheBlackArmsSDX
     public class TheBlackArmsSDX_ImportManager
     {
         public static string configName = "importConfig.json";
-        public static string serverUrl = "https://trigon.systems/all-sdk/assets/";
+        public static string serverUrl = "https://trigon.systems/all-sdk/assets/";   
         public static string internalServerUrl = "https://trigon.systems/all-sdk/assets/";
 
-        public static void downloadAndImportAssetFromServer(string assetName)
+        public static void downloadAndImportAssetFromServer(string directory, string assetName)
         {
             if (File.Exists(TheBlackArmsSDX_Settings.getAssetPath() + assetName))
             {
@@ -25,18 +25,20 @@ namespace TheBlackArmsSDX
             else
             {
                 TbaLog(assetName + " does not exist. Starting download..");
-                downloadFile(assetName);
+                downloadFile(directory, assetName);
             }
         }
 
-        private static void downloadFile(string assetName)
+        private static void downloadFile(string directory, string assetName)
         {
             WebClient w = new WebClient();
             w.Headers.Set(HttpRequestHeader.UserAgent, "Webkit Gecko wHTTPS (Keep Alive 55)");
             w.QueryString.Add("assetName", assetName);
             w.DownloadFileCompleted += fileDownloadCompleted;
             w.DownloadProgressChanged += fileDownloadProgress;
-            string url = serverUrl + assetName;
+            //Debug.Log($"Download URL: {serverUrl}{directory}\\{assetName}");
+            string url = $"{serverUrl}{directory}\\{assetName}";
+
             w.DownloadFileAsync(new Uri(url), TheBlackArmsSDX_Settings.getAssetPath() + assetName);
         }
 
@@ -53,6 +55,11 @@ namespace TheBlackArmsSDX
             w.DownloadProgressChanged += fileDownloadProgress;
             string url = internalServerUrl + configName;
             w.DownloadFileAsync(new Uri(url), TheBlackArmsSDX_Settings.projectConfigPath + "update_" + configName);
+        }
+
+        private static string formatUrlString(string url)
+        {
+            return url.Replace('\\', '/');
         }
 
         private static void configDownloadCompleted(object sender, AsyncCompletedEventArgs e)

@@ -146,7 +146,7 @@ namespace TheBlackArmsSDX
                         (File.Exists(TheBlackArmsSDX_Settings.getAssetPath() + asset.Value) ? "Import" : "Download") +
                         " " + asset.Key))
                     {
-                        TheBlackArmsSDX_ImportManager.downloadAndImportAssetFromServer(asset.Value);
+                        TheBlackArmsSDX_ImportManager.downloadAndImportAssetFromServer(asset.Value.Split('\\')[0], asset.Value.Split('\\')[1]);
                     }
 
                     if (GUILayout.Button("Del", GUILayout.Width(40)))
