@@ -8,10 +8,10 @@ The Entire SDX is now undergoing a TOTAL OVERHAUL
 Do not expect any serious updates until then  
 Revision 3 is coming soon  
 
-# VRCHAT IS UPDATING TO UNITY 2019  
+# VRCHAT UPGRADED TO UNITY 2019  
 While the SDK does support Unity 2017 to 2019 There is a need to overhaul alot  
 There is no support for issues in unity 2019 until the SDX is updated to it  
-Do expect issues when VRChat pushes to this update as we don't know if we can get our update in time  
+Do expect issues as we don't know what needs to be updated still as we are still working on it  
 
 [![faq](./screenshots/faq.png)](./FAQ.md)
 [![changelog](./screenshots/changelog.png)](./CHANGELOG.md)
