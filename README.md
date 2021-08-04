@@ -9,9 +9,9 @@ Do not expect any serious updates until then
 Revision 3 is coming soon  
 
 # VRCHAT UPGRADED TO UNITY 2019  
-While the SDK does support Unity 2017 to 2019 There is a need to overhaul alot  
-There is no support for issues in unity 2019 until the SDX is updated to it  
-Do expect issues as we don't know what needs to be updated still as we are still working on it  
+Full support is already available as the SDX is already at RELEASE STATUS for the 2019 Upgrade  
+Be sure you are running Unity 2019.4.29f1  
+We will be upgrading the SDX soon to implement many things  
 
 [![faq](./screenshots/faq.png)](./FAQ.md)
 [![changelog](./screenshots/changelog.png)](./CHANGELOG.md)
@@ -26,11 +26,9 @@ Do expect issues as we don't know what needs to be updated still as we are still
 <table>
   <tr>
     <th>Login Pane</th>
-    <th>LoadBundle Pane</th>
   </tr>
   <tr>
     <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/login.png" alt="Login Pane" width="255px" /></th>
-    <th><img src="https://raw.githubusercontent.com/TheBlackArms/The-Black-Arms-SDX/master/screenshots/loadbundle.png" alt="LoadBundle Pane" width="320x" /></th>
   </tr>
   <tr>
     <th>Builder Pane</th>
