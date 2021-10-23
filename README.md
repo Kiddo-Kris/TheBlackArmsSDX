@@ -3,6 +3,20 @@
 
 [![Main Discord](https://img.shields.io/discord/832050220345982977?style=for-the-badge&logo=appveyor?color=%23ff0000&label=The%20Black%20Arms)](https://discord.gg/pcfjyQ6z6z)  [![SDX Support Discord](https://img.shields.io/discord/745011216526737438?style=for-the-badge&logo=appveyor?color=%23ff0000&label=Support%20Server)](https://discord.gg/A9dca3N)  [![Ministry Discord](https://img.shields.io/discord/657533624052219905?style=for-the-badge&logo=appveyor?color=%23000000&label=Ministry)](https://discord.gg/ministry)  [![Patreon](https://img.shields.io/badge/Patreon-Donate-pink?style=for-the-badge)](https://www.patreon.com/PhoenixAceVFX)  
 
+# SDK2 is now DEPRICATED  
+As VRChat has depricated the official VRCSDK2 I have also depricated my modded SDK2  
+TBASDX2 will still get updates but nowhere near as often as the newer SDK3 builds  
+VRChat plans to cut off SDK2 uploads, I have no choice on what to do here  
+
+## The Black Arms ToolKit  
+The toolkit is basically the center of the new system  
+You can import the toolkit then pick the SDK you want to import from there  
+Do NOT mix UDON with Avatar3, your project WILL BREAK  
+You can still import either SDK from the packages if you would like  
+The Toolkit also works with new VRChat official SDKs without having to wait!  
+The Toolkit does not depend on the SDK revisions presented here  
+The Toolkit will remain updated on a timely basis  
+
 # OVERHAUL UNDERWAY  
 The Entire SDX is now undergoing a TOTAL OVERHAUL  
 Do not expect any serious updates until then  

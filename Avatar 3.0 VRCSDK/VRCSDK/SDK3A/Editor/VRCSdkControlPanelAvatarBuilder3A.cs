@@ -352,6 +352,7 @@ namespace VRC.SDK3.Editor
             }
 
             CheckAvatarMeshesForLegacyBlendShapesSetting(avatar);
+            CheckAvatarMeshesForMeshReadWriteSetting(avatar);
 
 #if UNITY_ANDROID
         IEnumerable<Shader> illegalShaders = AvatarValidation.FindIllegalShaders(avatar.gameObject);
