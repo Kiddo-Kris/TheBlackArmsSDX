@@ -1,0 +1,7 @@
+Adding Custom Audio to Upload Panel
+
+Place the Audio Files in the Audio Folder you see here
+
+Adding Custom Video Backgrounds to Upload Panel
+
+Place the Video Files in the Videos Folder you see here
