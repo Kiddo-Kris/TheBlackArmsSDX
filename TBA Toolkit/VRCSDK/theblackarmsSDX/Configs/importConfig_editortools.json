@@ -1,0 +1,89 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/editortools/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patchSDK2DepricationAnnouncement": {
+            "name": "The Black Arms SDX SDK2 is Depricated\nI may give it updates in the future\nVRChat depricated SDK2 so I must as well"
+        },
+        "patch3Spacer": {
+            "name": "TBA SDX Automated Assets Portal\nPanel designed by zombie2312\nPortal System Fixed by Blaze"
+        },
+        "patchSpacerToolkit": {
+            "name": "The Black Arms Toolkit"
+        },
+        
+
+
+        "editorToolsSpacer": {
+            "name": "Editor Tools unity"
+        },
+        "QHierarchy": {
+            "name": "QHierarchy",
+            "file": "QHierarchy.unitypackage"
+        },
+        "BitAnimator": {
+            "name": "BitAnimator",
+            "file": "BitAnimator.unitypackage"
+        },
+        "MeshDeleter": {
+            "name": "MeshDeleter",
+            "file": "MeshDeleterWithTexture_v0.6.1b.unitypackage"
+        },
+        "Model Bone Deleter": {
+            "name": "Model Bone Deleter",
+            "file": "ModelBoneDeleter_v1.1.3.unitypackage"
+        },
+        "MuscleAnimator": {
+            "name": "MuscleAnimator",
+            "file": "MuscleAnimator.unitypackage"
+        },
+        "PlayModeSaver": {
+            "name": "PlayModeSaver",
+            "file": "PlayModeSaver.unitypackage"
+        },
+        "PumkinsAvatarTools": {
+            "name": "Pumkins Avatar Tools",
+            "file": "PumkinsAvatarTools_v0.8.1b.unitypackage"
+        },
+        "ReroEditorScripts": {
+            "name": "ReroEditorScripts",
+            "file": "ReroEditorScripts.unitypackage"
+        },
+        "Sentinel Toolbox": {
+            "name": "Sentinel Toolbox",
+            "file": "SToolbox.unitypackage"
+        },
+        "FBX Exporter": {
+            "name": "FBX Exporter",
+            "file": "QHierarchy.unitypackage"
+        },
+        "AvatarEditor": {
+            "name": "Avatar Editor",
+            "file": "VRCAvatarEditor_beta_v0.3.0.1.unitypackage"
+        },
+        "Av3Tools": {
+            "name": "Avatar 3 Tools",
+            "file": "VRCAvatars3Tools_20200809.unitypackage"
+        },
+        "VRC Dev Tools": {
+            "name": "Dev Tools",
+            "file": "VRCDeveloperTool_20200621.unitypackage"
+        },
+
+        
+        "placeHolderSpacer": {
+            "name": "TheBlackArmsSDX Customs (Fak yo limits)"
+        }
+
+        
+        
+    }
+}

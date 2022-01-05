@@ -1,0 +1,64 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/addons/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patchSDK2DepricationAnnouncement": {
+            "name": "The Black Arms SDX SDK2 is Depricated\nI may give it updates in the future\nVRChat depricated SDK2 so I must as well"
+        },
+
+        "addonsSpacer": {
+            "name": "Addons"
+        },
+        "My Hero Academia": {
+            "name": "MHA Addon Set",
+            "file": "my_hero_academia_Pack.unitypackage"
+        },
+        "Citizen Hack": {
+            "name": "Citizen Hack",
+            "file": "Citizen.Hack.TBA.SDX.Theme.Pack.unitypackage"
+        },
+        "Ministry": {
+            "name": "Minitry Theme Pack",
+            "file": "Ministry.TBA.SDX.Theme.Pack.unitypackage"
+        },
+        "Night Raid": {
+            "name": "Night Raid",
+            "file": "Night.Raid.Theme.Pack.unitypackage"
+        },
+        "Legacy Pack": {
+            "name": "Legacy Pack",
+            "file": "OldStuff.unitypackage"
+        },
+        "Silent Pack": {
+            "name": "Silence Pack",
+            "file": "Silence.TBA.SDX.Theme.Pack.unitypackage"
+        },
+        "SOA Theme": {
+            "name": "SOA Theme Pack",
+            "file": "Sons.of.Anarchy.TBA.SDX.Theme.Pack.unitypackage"
+        },
+        "Classic Theme": {
+            "name": "Classic Theme",
+            "file": "The.Black.Arms.SDX.Classic.Theme.Pack.unitypackage"
+        },
+        "Trash Gang": {
+            "name": "Trash Gang",
+            "file": "Trash.Gang.TBA.SDX.Theme.Pack.unitypackage"
+        },
+        
+        "placeHolderSpacer": {
+            "name": "TheBlackArmsSDX Customs (Fak yo limits)"
+        }
+
+        
+        
+    }
+}

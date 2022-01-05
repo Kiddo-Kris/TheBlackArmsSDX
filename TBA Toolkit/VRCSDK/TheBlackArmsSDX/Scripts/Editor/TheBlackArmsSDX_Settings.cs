@@ -2,38 +2,42 @@
 using UnityEditor;
 using System.IO;
 using System;
-using UnityEngine;
-using UnityEditor;
 //using Amazon.S3.Model;
 using UnityEngine.Serialization;
 
-namespace TheBlackArmsSDX
+namespace theblackarmsSDX
 {
-    [InitializeOnLoad]
-    public class TheBlackArmsSDX_Settings : EditorWindow
-    {
-        public static string projectConfigPath = "Assets/VRCSDK/TheBlackArmsSDX/Configs/";
-        private string backgroundConfig = "BackgroundVideo.txt";
-        private static string projectDownloadPath = "Assets/VRCSDK/TheBlackArmsSDX/Assets/";
-        private static GUIStyle vrcSdkHeader;
-        
-        public Color SDKColor = Color.gray;
-       
 
-        [MenuItem("Phoenix ToolKit/Settings", false, 501)]
+    [InitializeOnLoad]
+    public class theblackarmsSDX_Settings : EditorWindow
+    {
+        private const string Url = "https://github.com/TheBlackArms/TheBlackArmsSDX/";
+        private const string Url1 = "https://trigon.systems/";
+        private const string Link = "all-sdk/discord/";
+        private const string Link1 = "home/";
+
+        public static string projectConfigPath = "Assets/VRCSDK/theblackarmsSDX/Configs/";
+        private string backgroundConfig = "BackgroundVideo.txt";
+        private static string projectDownloadPath = "Assets/VRCSDK/theblackarmsSDX/Assets/";
+        private static GUIStyle vrcSdkHeader;
+        public Color SDKColor = Color.white;
+        public static bool UITextRainbow { get; set; }
+        //public Gradient SDKGRADIENT;
+
+        [MenuItem("theblackarmsSDX/Settings", false, 501)]
         public static void OpenSplashScreen()
         {
-            GetWindow<TheBlackArmsSDX_Settings>(true);
+            GetWindow<theblackarmsSDX_Settings>(true);
         }
 
         public static string getAssetPath()
         {
-            if (EditorPrefs.GetBool("TheBlackArmsSDX_onlyProject", false))
+            if (EditorPrefs.GetBool("theblackarmsSDX_onlyProject", false))
             {
                 return projectDownloadPath;
             }
 
-            var assetPath = EditorPrefs.GetString("TheBlackArmsSDX_customAssetPath", "%appdata%/TheBlackArmsSDX/")
+            var assetPath = EditorPrefs.GetString("theblackarmsSDX_customAssetPath", "%appdata%/theblackarmsSDX/")
                 .Replace("%appdata%", Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData))
                 .Replace("/", "\\");
 
@@ -48,29 +52,29 @@ namespace TheBlackArmsSDX
 
         public void OnEnable()
         {
-            titleContent = new GUIContent("TheBlackArmsSDX Settings");
+            titleContent = new GUIContent("theblackarmsSDX Settings");
 
-            maxSize = new Vector2(400, 700);
+            maxSize = new Vector2(400, 600);
             minSize = maxSize;
 
             vrcSdkHeader = new GUIStyle
             {
                 normal =
                 {
-                    background = Resources.Load("TheBlackArmsSDXHeader") as Texture2D,
+                    background = Resources.Load("theblackarmsSDXHeader") as Texture2D,
                     textColor = Color.white
                 },
                 fixedHeight = 200
             };
             
-            if (!EditorPrefs.HasKey("TheBlackArmsSDX_discordRPC"))
+            if (!EditorPrefs.HasKey("theblackarmsSDX_discordRPC"))
             {
-                EditorPrefs.SetBool("TheBlackArmsSDX_discordRPC", true);
+                EditorPrefs.SetBool("theblackarmsSDX_discordRPC", true);
             }
 
-            if (!File.Exists(projectConfigPath + backgroundConfig) || !EditorPrefs.HasKey("chill_zoneSDK_background"))
+            if (!File.Exists(projectConfigPath + backgroundConfig) || !EditorPrefs.HasKey("theblackarmsSDX_background"))
             {
-                EditorPrefs.SetBool("TheBlackArmsSDX_background", false);
+                EditorPrefs.SetBool("theblackarmsSDX_background", false);
                 File.WriteAllText(projectConfigPath + backgroundConfig, "False");
             }
         }
@@ -86,19 +90,19 @@ namespace TheBlackArmsSDX
             UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
         );
             EditorGUILayout.BeginHorizontal();
-            if (GUILayout.Button("SDK made by PhoenixAceVFX/zombie2312"))
+            if (GUILayout.Button("importer made by zombie2312"))
             {
-                Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX");
+                Application.OpenURL(Url);
             }
             GUILayout.EndHorizontal();
             GUILayout.BeginHorizontal();
-            if (GUILayout.Button("TheBlackArmsSDX Discord"))
+            if (GUILayout.Button("theblackarmsSDX Discord"))
             {
-                Application.OpenURL("https://discord.gg/wngbcHS7NC");
+                Application.OpenURL(Url1 + Link);
             }
-            if (GUILayout.Button("TheBlackArmsSDX Website"))
+            if (GUILayout.Button("theblackarmsSDX Website"))
             {
-                Application.OpenURL("https://trigon.systems/");
+                Application.OpenURL(Url1);
             }
             GUILayout.EndHorizontal();
             GUI.backgroundColor = new Color(
@@ -118,8 +122,21 @@ namespace TheBlackArmsSDX
        );
 
             EditorGUILayout.LabelField("SDK Settings", EditorStyles.boldLabel);
+            EditorGUILayout.Space(10);
+            //if (GUILayout.Button("Set Color"))
+            //{
+            //    UnityEditor.EditorPrefs.SetFloat("SDKColor_R", SDKColor.r);
+            //    UnityEditor.EditorPrefs.SetFloat("SDKColor_G", SDKColor.g);
+            //    UnityEditor.EditorPrefs.SetFloat("SDKColor_B", SDKColor.b);
+            //    UnityEditor.EditorPrefs.SetFloat("SDKColor_A", SDKColor.a);
+            //}
 
-            if (GUILayout.Button("Set Color"))
+            EditorGUI.BeginChangeCheck();
+
+            SDKColor = EditorGUI.ColorField(new Rect(3, 270, position.width - 6, 15), "SDK Color", SDKColor);
+            //SDKGRADIENT = EditorGUI.GradientField(new Rect(3, 360, position.width - 6, 15), "SDK Gradient", SDKGRADIENT);
+
+            if (EditorGUI.EndChangeCheck())
             {
                 UnityEditor.EditorPrefs.SetFloat("SDKColor_R", SDKColor.r);
                 UnityEditor.EditorPrefs.SetFloat("SDKColor_G", SDKColor.g);
@@ -127,9 +144,6 @@ namespace TheBlackArmsSDX
                 UnityEditor.EditorPrefs.SetFloat("SDKColor_A", SDKColor.a);
             }
 
-            SDKColor = EditorGUI.ColorField(new Rect(3, 340, position.width - 6, 15), "SDK Color", SDKColor);
-
-            
             EditorGUILayout.Space();
             if (GUILayout.Button("Reset Color"))
             {
@@ -141,35 +155,62 @@ namespace TheBlackArmsSDX
                 UnityEditor.EditorPrefs.SetFloat("SDKColor_A", SDKColor.a);
             }
 
-            // SDKGRADIENT = EditorGUI.GradientField(new Rect(3, 290, position.width - 6, 15), "SDK Gradient", SDKGRADIENT);
+            //SDKGRADIENT = EditorGUI.GradientField(new Rect(3, 290, position.width - 6, 15), "SDK Gradient", SDKGRADIENT);
 
-            EditorGUILayout.Space();
-            EditorGUILayout.Space();
-            EditorGUILayout.Space();
-            EditorGUILayout.Space();
-            EditorGUILayout.Space();
-            EditorGUILayout.Space();
+            EditorGUILayout.Space(10);
             EditorGUILayout.EndVertical();
             GUILayout.Label("Overall:");
             GUILayout.BeginHorizontal();
-            var isDiscordEnabled = EditorPrefs.GetBool("TheBlackArmsSDX_discordRPC", true);
+            var isDiscordEnabled = EditorPrefs.GetBool("theblackarmsSDX_discordRPC", true);
             var enableDiscord = EditorGUILayout.ToggleLeft("Discord RPC", isDiscordEnabled);
             if (enableDiscord != isDiscordEnabled)
             {
-                EditorPrefs.SetBool("TheBlackArmsSDX_discordRPC", enableDiscord);
+                EditorPrefs.SetBool("theblackarmsSDX_discordRPC", enableDiscord);
             }
 
             GUILayout.EndHorizontal();
+            //Hide Console logs
+            GUILayout.Space(4);
+            GUILayout.BeginHorizontal();
+            var isHiddenConsole = EditorPrefs.GetBool("theblackarmsSDX_HideConsole");
+            var enableConsoleHide = EditorGUILayout.ToggleLeft("Hide Console Errors", isHiddenConsole);
+            if (enableConsoleHide == true)
+            {
+                EditorPrefs.SetBool("theblackarmsSDX_HideConsole", true);
+                Debug.ClearDeveloperConsole();
+                Debug.unityLogger.logEnabled = false;
+            }
+            else if (enableConsoleHide == false)
+            {
+                EditorPrefs.SetBool("theblackarmsSDX_HideConsole", false);
+                Debug.ClearDeveloperConsole();
+                Debug.unityLogger.logEnabled = true;
+            }
+            GUILayout.EndHorizontal();
+            GUILayout.Space(4);
+            GUILayout.BeginHorizontal();
+            var isUITextRainbowEnabled = EditorPrefs.GetBool("theblackarmsSDX_UITextRainbow", false);
+            var enableUITextRainbow = EditorGUILayout.ToggleLeft("Rainbow Text", isUITextRainbowEnabled);
+            if (enableUITextRainbow != isUITextRainbowEnabled)
+            {
+                EditorPrefs.SetBool("theblackarmsSDX_UITextRainbow", enableUITextRainbow);
+                UITextRainbow = true;
+            }
+            else
+            {
+                UITextRainbow = false;
+            }
 
 
+            GUILayout.EndHorizontal();
             GUILayout.Space(4);
             GUILayout.Label("Upload panel:");
             GUILayout.BeginHorizontal();
-            var isBackgroundEnabled = EditorPrefs.GetBool("TheBlackArmsSDX_background", false);
+            var isBackgroundEnabled = EditorPrefs.GetBool("theblackarmsSDX_background", false);
             var enableBackground = EditorGUILayout.ToggleLeft("Custom background", isBackgroundEnabled);
             if (enableBackground != isBackgroundEnabled)
             {
-                EditorPrefs.SetBool("TheBlackArmsSDX_background", enableBackground);
+                EditorPrefs.SetBool("theblackarmsSDX_background", enableBackground);
                 File.WriteAllText(projectConfigPath + backgroundConfig, enableBackground.ToString());
             }
 
@@ -179,11 +220,11 @@ namespace TheBlackArmsSDX
             GUILayout.Space(4);
             GUILayout.Label("Import panel:");
             GUILayout.BeginHorizontal();
-            var isOnlyProjectEnabled = EditorPrefs.GetBool("TheBlackArmsSDX_onlyProject", false);
+            var isOnlyProjectEnabled = EditorPrefs.GetBool("theblackarmsSDX_onlyProject", false);
             var enableOnlyProject = EditorGUILayout.ToggleLeft("Save files only in project", isOnlyProjectEnabled);
             if (enableOnlyProject != isOnlyProjectEnabled)
             {
-                EditorPrefs.SetBool("TheBlackArmsSDX_onlyProject", enableOnlyProject);
+                EditorPrefs.SetBool("theblackarmsSDX_onlyProject", enableOnlyProject);
             }
 
             GUILayout.EndHorizontal();
@@ -198,11 +239,11 @@ namespace TheBlackArmsSDX
             GUILayout.Label("Asset path:");
             GUILayout.BeginHorizontal();
             var customAssetPath = EditorGUILayout.TextField("",
-                EditorPrefs.GetString("TheBlackArmsSDX_customAssetPath", "%appdata%/chill_zoneSDK/"));
+                EditorPrefs.GetString("theblackarmsSDX_customAssetPath", "%appdata%/theblackarmsSDX/"));
             if (GUILayout.Button("Choose", GUILayout.Width(60)))
             {
                 var path = EditorUtility.OpenFolderPanel("Asset download folder",
-                    Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "chill_zoneSDK");
+                    Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "theblackarmsSDX");
                 if (path != "")
                 {
                     Debug.Log(path);
@@ -212,15 +253,19 @@ namespace TheBlackArmsSDX
 
             if (GUILayout.Button("Reset", GUILayout.Width(50)))
             {
-                customAssetPath = "%appdata%/TheBlackArmsSDX/";
+                customAssetPath = "%appdata%/theblackarmsSDX/";
             }
 
-            if (EditorPrefs.GetString("TheBlackArmsSDX_customAssetPath", "%appdata%/TheBlackArmsSDX/") != customAssetPath)
+            if (EditorPrefs.GetString("theblackarmsSDX_customAssetPath", "%appdata%/theblackarmsSDX/") != customAssetPath)
             {
-                EditorPrefs.SetString("TheBlackArmsSDX_customAssetPath", customAssetPath);
+                EditorPrefs.SetString("theblackarmsSDX_customAssetPath", customAssetPath);
             }
 
+            GUILayout.EndHorizontal();
+            GUILayout.BeginHorizontal();
+            EditorPrefs.SetBool("theblackarmsSDX_ShowInfoPanel", GUILayout.Toggle(EditorPrefs.GetBool("theblackarmsSDX_ShowInfoPanel"), "Show at startup"));
             GUILayout.EndHorizontal();
         }
     }
 }
+// Soph waz 'ere

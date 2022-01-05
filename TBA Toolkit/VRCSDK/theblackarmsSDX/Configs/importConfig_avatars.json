@@ -1,0 +1,115 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/avatars/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patchSDK2DepricationAnnouncement": {
+            "name": "The Black Arms SDX SDK2 is Depricated\nI may give it updates in the future\nVRChat depricated SDK2 so I must as well"
+        },
+        "patch3Spacer": {
+            "name": "TBA SDX Automated Assets Portal\nPanel designed by zombie2312\nPortal System Fixed by Blaze"
+        },
+        
+        "AvatarSpacer": {
+            "name": "Avatars"
+        },
+        "XBot": {
+            "name": "XBot",
+            "file": "4279_X-Bot_Fixed.unitypackage"
+        },
+        "Asuka Langley": {
+            "name": "Asuka Langley",
+            "file": "6608 Asuka Langley.unitypackage"
+        },
+        "VBOT": {
+            "name": "VBot",
+            "file": "7092_Corpse_V-Bot_30_Public.unitypackage"
+        },
+        "TDA Miku Pack": {
+            "name": "TDA Miku Pack",
+            "file": "7327 TDA Miku Pack Part 2 Converted MMD Models.unitypackage"
+        },
+        "Facerig Hylotl": {
+            "name": "Facerig Hylotl",
+            "file": "7363 Hylotl Starbound - Facerig.unitypackage"
+        },
+        "Kemono Fox": {
+            "name": "Kemono Fox",
+            "file": "7377 Kemono Fox.unitypackage"
+        },
+        "Warlock Miku Luka": {
+            "name": "Warlock Miku Luka",
+            "file": "7402 Warlock - miku and luka.unitypackage"
+        },
+        "Basic Eboy": {
+            "name": "Basic Eboy",
+            "file": "7407 Basic EBoy  PsychoUpdates.unitypackage"
+        },
+        "Clown Girl": {
+            "name": "Clown Girl",
+            "file": "7430 Clown Girl Honoka.unitypackage"
+        },
+        "Kiryu": {
+            "name": "Kiryu Yakuza",
+            "file": "7440 Kiryu From Yakuza 0 Happy Gesture Baka Mitai Singing Gesture.unitypackage"
+        },
+        "Matt": {
+            "name": "Matt",
+            "file": "7501 Matt from wii sports rigged.unitypackage"
+        },
+        "Fake Loading Avatar": {
+            "name": "Fake Loading Avatar",
+            "file": "Corpse_Loading_Avatar_V7.unitypackage"
+        },
+        "Le Holy Gecko": {
+            "name": "Le Holy Gecko",
+            "file": "Gecko.unitypackage"
+        },
+        "Kyle Base": {
+            "name": "Kyle Base",
+            "file": "Kyle_Base.unitypackage"
+        },
+        "Loading Avi Update": {
+            "name": "Loading Avi Update",
+            "file": "Loading_Avatar_Update.unitypackage"
+        },
+        "NBot": {
+            "name": "NBot",
+            "file": "Nigger_Bot.unitypackage"
+        },
+        "Nikei": {
+            "name": "Nikei",
+            "file": "Nikei.unitypackage"
+        },
+        "VRPill": {
+            "name": "VRPill",
+            "file": "VRPill.unitypackage"
+        },
+        "YBot": {
+            "name": "YBot",
+            "file": "YBot.unitypackage"
+        },
+        "YBot Chain": {
+            "name": "YBot Chain",
+            "file": "YBot_Chain.unitypackage"
+        },
+        "YBot Visemes": {
+            "name": "YBot Visemes",
+            "file": "YBot_Visemes_-_Eyetracking_-_Blinking.unitypackage"
+        },
+        
+        "placeHolderSpacer": {
+            "name": "TheBlackArmsSDX Customs (Fak yo limits)"
+        }
+
+        
+        
+    }
+}

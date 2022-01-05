@@ -3,48 +3,46 @@ using System.IO;
 using System.Net;
 using System;
 using System.ComponentModel;
-using TheBlackArmsSDX;
-using UnityEngine;
+using theblackarmsSDX;
 using UnityEditor;
 
-namespace TheBlackArmsSDX
+namespace theblackarmsSDX
 {
-    public class TheBlackArmsSDX_ImportManager
+    public class theblackarmsSDX_ImportManager
     {
+        private const string V = "https://trigon.systems/all-sdk/assets/";
         public static string configName = "importConfig.json";
-        public static string serverUrl = "https://trigon.systems/all-sdk/assets/";   
-        public static string internalServerUrl = "https://trigon.systems/all-sdk/assets/";
+        public static string serverUrl = V;
+        public static string internalServerUrl = V;
 
-        public static void downloadAndImportAssetFromServer(string directory, string assetName)
+        public static void downloadAndImportAssetFromServer(string assetName)
         {
-            if (File.Exists(TheBlackArmsSDX_Settings.getAssetPath() + assetName))
+            if (File.Exists(theblackarmsSDX_Settings.getAssetPath() + assetName))
             {
-                TbaLog(assetName + " exists. Importing it..");
+                Chill_zoneLog(assetName + " exists. Importing it..");
                 importDownloadedAsset(assetName);
             }
             else
             {
-                TbaLog(assetName + " does not exist. Starting download..");
-                downloadFile(directory, assetName);
+                Chill_zoneLog(assetName + " does not exist. Starting download..");
+                downloadFile(assetName);
             }
         }
 
-        private static void downloadFile(string directory, string assetName)
+        private static void downloadFile(string assetName)
         {
             WebClient w = new WebClient();
             w.Headers.Set(HttpRequestHeader.UserAgent, "Webkit Gecko wHTTPS (Keep Alive 55)");
             w.QueryString.Add("assetName", assetName);
             w.DownloadFileCompleted += fileDownloadCompleted;
             w.DownloadProgressChanged += fileDownloadProgress;
-            //Debug.Log($"Download URL: {serverUrl}{directory}\\{assetName}");
-            string url = $"{serverUrl}{directory}\\{assetName}";
-
-            w.DownloadFileAsync(new Uri(url), TheBlackArmsSDX_Settings.getAssetPath() + assetName);
+            string url = serverUrl + assetName;
+            w.DownloadFileAsync(new Uri(url), theblackarmsSDX_Settings.getAssetPath() + assetName);
         }
 
         public static void deleteAsset(string assetName)
         {
-            File.Delete(TheBlackArmsSDX_Settings.getAssetPath() + assetName);
+            File.Delete(theblackarmsSDX_Settings.getAssetPath() + assetName);
         }
 
         public static void updateConfig()
@@ -54,30 +52,25 @@ namespace TheBlackArmsSDX
             w.DownloadFileCompleted += configDownloadCompleted;
             w.DownloadProgressChanged += fileDownloadProgress;
             string url = internalServerUrl + configName;
-            w.DownloadFileAsync(new Uri(url), TheBlackArmsSDX_Settings.projectConfigPath + "update_" + configName);
-        }
-
-        private static string formatUrlString(string url)
-        {
-            return url.Replace('\\', '/');
+            w.DownloadFileAsync(new Uri(url), theblackarmsSDX_Settings.projectConfigPath + "update_" + configName);
         }
 
         private static void configDownloadCompleted(object sender, AsyncCompletedEventArgs e)
         {
             if (e.Error == null)
             {
-                //var updateFile = File.ReadAllText(TheBlackArmsSDX_Settings.projectConfigPath + "update_" + configName);
-                File.Delete(TheBlackArmsSDX_Settings.projectConfigPath + configName);
-                File.Move(TheBlackArmsSDX_Settings.projectConfigPath + "update_" + configName,
-                    TheBlackArmsSDX_Settings.projectConfigPath + configName);
-                TheBlackArmsSDX_ImportPanel.LoadJson();
+                //var updateFile = File.ReadAllText(theblackarmsSDX_Settings.projectConfigPath + "update_" + configName);
+                File.Delete(theblackarmsSDX_Settings.projectConfigPath + configName);
+                File.Move(theblackarmsSDX_Settings.projectConfigPath + "update_" + configName,
+                    theblackarmsSDX_Settings.projectConfigPath + configName);
+                theblackarmsSDX_ImportPanel.LoadJson();
 
-                EditorPrefs.SetInt("TheBlackArmsSDX_configImportLastUpdated", (int) DateTimeOffset.UtcNow.ToUnixTimeSeconds());
-                TbaLog("Import Config has been updated!");
+                EditorPrefs.SetInt("theblackarmsSDX_configImportLastUpdated", (int) DateTimeOffset.UtcNow.ToUnixTimeSeconds());
+                Chill_zoneLog("Import Config has been updated!");
             }
             else
             {
-                TbaLog("Import Config could not be updated!");
+                Chill_zoneLog("Import Config could not be updated!");
             }
         }
 
@@ -86,12 +79,12 @@ namespace TheBlackArmsSDX
             string assetName = ((WebClient) sender).QueryString["assetName"];
             if (e.Error == null)
             {
-                TbaLog("Download of file " + assetName + " completed!");
+                Chill_zoneLog("Download of file " + assetName + " completed!");
             }
             else
             {
                 deleteAsset(assetName);
-                TbaLog("Download of file " + assetName + " failed!");
+                Chill_zoneLog("Download of file " + assetName + " failed!");
             }
         }
 
@@ -114,9 +107,9 @@ namespace TheBlackArmsSDX
 
         public static void checkForConfigUpdate()
         {
-            if (EditorPrefs.HasKey("TheBlackArmsSDX_configImportLastUpdated"))
+            if (EditorPrefs.HasKey("theblackarmsSDX_configImportLastUpdated"))
             {
-                var lastUpdated = EditorPrefs.GetInt("TheBlackArmsSDX_configImportLastUpdated");
+                var lastUpdated = EditorPrefs.GetInt("theblackarmsSDX_configImportLastUpdated");
                 var currentTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
 
                 if (currentTime - lastUpdated < 3600)
@@ -125,18 +118,18 @@ namespace TheBlackArmsSDX
                     return;
                 }
             }
-            TbaLog("Updating import config");
+            Chill_zoneLog("Updating import config");
             updateConfig();
         }
 
-        private static void TbaLog(string message)
+        private static void Chill_zoneLog(string message)
         {
-            Debug.Log("[TheBlackArmsSDX] AssetDownloadManager: " + message);
+            Debug.Log("[theblackarmsSDX] AssetDownloadManager: " + message);
         }
 
         public static void importDownloadedAsset(string assetName)
         {
-            AssetDatabase.ImportPackage(TheBlackArmsSDX_Settings.getAssetPath() + assetName, true);
+            AssetDatabase.ImportPackage(theblackarmsSDX_Settings.getAssetPath() + assetName, true);
         }
     }
 }

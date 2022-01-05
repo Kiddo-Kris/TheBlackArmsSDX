@@ -1,0 +1,209 @@
+﻿           if (GUILayout.Button((File.Exists(localDownloadPath + "Leviant_ScreenSpace_Shader_v2.5.1.unitypackage") ? "Import" : "Download") + "Leviant ScreenSpace"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("Leviant_ScreenSpace_Shader_v2.5.1.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "CP.unitypackage") ? "Import" : "Download") + "Cubed Shaders"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("CP.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "Ps.unitypackage") ? "Import" : "Download") + "Poiyomi's Master Shader"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("Ps.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+            GUILayout.BeginHorizontal();
+            GUI.backgroundColor = Color.green;
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "XUS.unitypackage") ? "Import" : "Download") + "Import Xiexes Unity Shaders"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("XUS.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "[NEK0] 3D Parallax Eye Shader (NightBlue).unitypackage") ? "Import" : "Download") + "[NEK0] 3D Parallax Eye"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("[NEK0] 3D Parallax Eye Shader (NightBlue).unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "Overmanu.unitypackage") ? "Import" : "Download") + "OvermanuPrefab"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("Overmanu.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "Shader Pack part 1.unitypackage") ? "Import" : "Download") + "Shader part 1"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("Shader Pack part 1.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "Shader Pack part 2.unitypackage") ? "Import" : "Download") + "Shader part 2"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("Shader Pack part 2.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            //Shader part 2
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "Shinigami Eye Shader (edited).unitypackage") ? "Import" : "Download") + "Import Shinigami Eye Shader"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("Shinigami Eye Shader (edited).unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+
+            //Butterflies_jellyfish
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "Butterflies_jellyfish_by_Paz.unitypackage") ? "Import" : "Download") + "Import Butterflies_jellyfish"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("Butterflies_jellyfish_by_Paz.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+
+
+
+            //Editor tools
+            GUILayout.Label("                                        Editor tools");
+            GUI.backgroundColor = Color.yellow;
+            //QHierarchy
+
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "QHierarchy.unitypackage") ? "Import" : "Download") + "Import QHierarchy"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("QHierarchy.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("                               Prefabs for Animation");
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            GUI.backgroundColor = Color.gray;
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "ULA.unitypackage") ? "Import" : "Download") + "Import Ultra Loud Audio Prefab"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("ULA.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            GUI.backgroundColor = Color.cyan;
+
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "DBS.unitypackage") ? "Import" : "Download") + "Import Dynamic Bones Settings Prefab"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("DBS.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            //BitAnimator
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "BitAnimator.unitypackage") ? "Import" : "Download") + "Import Bit Animator"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("BitAnimator.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            //ReroEditorScripts
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "ReroEditorScripts.unitypackage") ? "Import" : "Download") + "Import Rero Editor Scripts"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("ReroEditorScripts.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            //MuscleAnimator
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "MuscleAnimator.unitypackage") ? "Import" : "Download") + "Import Muscle Animator v2.2"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("MuscleAnimator.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            //Plugins
+            GUILayout.Label("                                           Plugins");
+            GUI.backgroundColor = Color.white;
+            //Dynamic Bones
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "DynamicBones.unitypackage") ? "Import" : "Download") + "Import Dynamic Bones"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("DynamicBones.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            //Final IK
+
+            if (GUILayout.Button((File.Exists(localDownloadPath + "Final_IKv1.7.unitypackage") ? "Import" : "Download") + " Final IK 1.7"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("Final_IKv1.7.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+
+            //Prefabs
+            GUILayout.Label("                                           Prefabs");
+            GUI.backgroundColor = Color.red;
+            //chill_zoneSDK_WorldAudioPrefab
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "chill_zoneSDK_ParticleShaderSpherePrefab.unitypackage") ? "Import" : "Download") + "Import chill_zoneSDK Shader(Menu overrender)"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("chill_zoneSDK_ParticleShaderSpherePrefab.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "chill_zoneSDK_WorldAudioPrefab.unitypackage") ? "Import" : "Download") + "Import chill_zoneSDK World Audio"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("chill_zoneSDK_WorldAudioPrefab.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            //IK World Fixed Joint
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "WorldFixedIK.unitypackage") ? "Import" : "Download") + "Import IK World Fixed Joint (FinalIK 1.7 required!)"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("WorldFixedIK.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+            GUILayout.BeginHorizontal();
+
+
+            //Shader
+            GUILayout.Label("                                           Shader");
+
+            //Poiyomi Toon
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "PoiyomiProV5.3.03.unitypackage") ? "Import" : "Download") + " Poiyomi Toon Shader"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("PoiyomiProV5.3.03.unitypackage");
+            }
+            GUILayout.EndHorizontal();
+
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button((File.Exists(localDownloadPath + "PlaceHolder.unitypackage") ? "Import" : "Download") + "PlaceHolder"))
+            {
+                chill_zoneSDK_ImportManager.downloadAndImportAssetFromServer("PlaceHolder.unitypackage");
+            }
+            GUILayout.EndHorizontal();
