@@ -1,0 +1,79 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/prefabs/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patchSDK2DepricationAnnouncement": {
+            "name": "The Black Arms SDX SDK2 is Depricated\nI may give it updates in the future\nVRChat depricated SDK2 so I must as well"
+        },
+        "patch3Spacer": {
+            "name": "TBA SDX Automated Assets Portal\nPanel designed by zombie2312\nPortal System Fixed by Blaze"
+        },
+        "patchSpacerToolkit": {
+            "name": "The Black Arms Toolkit"
+        },
+        
+        "prefabsSpacer": {
+            "name": "Prefabs"
+        },
+        "SDK Prefabs": {
+            "name": "SDK Prefabs",
+            "file": "SDK_PREFABS.unitypackage"
+        },
+        "Spring Joint": {
+            "name": "Spring Joint",
+            "file": "4112_Spring_joint_thing.unitypackage"
+        },
+        "Distraction": {
+            "name": "Distraction",
+            "file": "7488 VRChat Screenspace Prefab - Henry Distracted You.unitypackage"
+        },
+        "Arm Band": {
+            "name": "Arm Band",
+            "file": "Armband_G_V1.2.unitypackage"
+        },
+        "DBP": {
+            "name": "DBP",
+            "file": "DBP.unitypackage"
+        },
+        "Inventory Sys": {
+            "name": "Inventory Sys",
+            "file": "InventorySysPrefabEdited.unitypackage"
+        },
+        "LC_S_OVERENDER": {
+            "name": "LC S Overrender",
+            "file": "LC_S_OVERENDER.unitypackage"
+        },
+        "LCPARTICLE": {
+            "name": "LCPARTICLE",
+            "file": "LCPARTICLE.unitypackage"
+        },
+        "World IK Fix": {
+            "name": "World IK Fixed",
+            "file": "WorldFixedIK.unitypackage"
+        },
+        "Nano Shader Sphere": {
+            "name": "Nano Shader Sphere",
+            "file": "nanoSDK_ParticleShaderSpherePrefab.unitypackage"
+        },
+        "Nano Global Audio": {
+            "name": "Nano Global Audio",
+            "file": "nanoSDK_WorldAudioPrefab.unitypackage"
+        },
+
+        
+        "placeHolderSpacer": {
+            "name": "TheBlackArmsSDX Customs (Fak yo limits)"
+        }
+
+        
+        
+    }
+}

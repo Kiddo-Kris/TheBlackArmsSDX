@@ -1,0 +1,51 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/plugins/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patchSDK2DepricationAnnouncement": {
+            "name": "The Black Arms SDX SDK2 is Depricated\nI may give it updates in the future\nVRChat depricated SDK2 so I must as well"
+        },
+        "patch3Spacer": {
+            "name": "TBA SDX Automated Assets Portal\nPanel designed by zombie2312\nPortal System Fixed by Blaze"
+        },
+        "patchSpacerToolkit": {
+            "name": "The Black Arms Toolkit"
+        },
+        
+        "PluginsSpacer": {
+            "name": "Plugins"
+        },
+        "Button Inventory": {
+            "name": "Button Inventory",
+            "file": "button_inventory.unitypackage"
+        },
+        "Dynamic Bone": {
+            "name": "Dynamic Bone",
+            "file": "DynamicBone_1.2.1.unitypackage"
+        },
+        "Final IK": {
+            "name": "Final IK",
+            "file": "Final_IK_v1.9.unitypackage"
+        },
+        "Post Processing Stack": {
+            "name": "Post Processing Stack",
+            "file": "Post_ProcessingStack_v2.unitypackage"
+        },
+        
+        
+        "placeHolderSpacer": {
+            "name": "TheBlackArmsSDX Customs (Fak yo limits)"
+        }
+
+        
+        
+    }
+}

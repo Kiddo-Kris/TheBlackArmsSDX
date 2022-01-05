@@ -1,0 +1,92 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/extras/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patchSDK2DepricationAnnouncement": {
+            "name": "The Black Arms SDX SDK2 is Depricated\nI may give it updates in the future\nVRChat depricated SDK2 so I must as well"
+        },
+        "patch3Spacer": {
+            "name": "TBA SDX Automated Assets Portal\nPanel designed by zombie2312\nPortal System Fixed by Blaze"
+        },
+        "patchSpacerToolkit": {
+            "name": "The Black Arms Toolkit"
+        },
+        
+        "Extra Spacer": {
+            "name": "Extra Assets"
+        },
+        "Galaxy Skybox": {
+            "name": "Galaxy Skybox",
+            "file": "7381 Galaxy Skybox.unitypackage"
+        },
+        "Stick Bugg": {
+            "name": "Stick Bugg",
+            "file": "7447 Stick Bugg.unitypackage"
+        },
+        "Car Shearer Dance": {
+            "name": "Car Shearer Dance",
+            "file": "7470 Car shearer Dance Animation.unitypackage"
+        },
+        "Goopies Dance": {
+            "name": "Goopies Dance",
+            "file": "7479 Goopies Dance Animation.unitypackage"
+        },
+        "Aftermath Prefab": {
+            "name": "Aftermath Prefab",
+            "file": "7487 Aftermath VIDEO PREFAB.unitypackage"
+        },
+        "Henry Distraction": {
+            "name": "Henry Distraction",
+            "file": "7489 Henry Stickmin Distraction Animation.unitypackage"
+        },
+        "Anime Prefab": {
+            "name": "Anime Prefab",
+            "file": "7519 Anime Video Prefab.unitypackage"
+        },
+        "PUTIN": {
+            "name": "PUTIN",
+            "file": "PUTIN.unitypackage"
+        },
+        "Roblox Mad": {
+            "name": "Roblox Mad",
+            "file": "Roblox_Mad.unitypackage"
+        },
+        
+        "PluginsSpacer": {
+            "name": "Plugins"
+        },
+        "Button Inventory": {
+            "name": "Button Inventory",
+            "file": "Plugins\\button_inventory.unitypackage"
+        },
+        "Dynamic Bone": {
+            "name": "Dynamic Bone",
+            "file": "Plugins\\DynamicBone_1.2.1.unitypackage"
+        },
+        "Final IK": {
+            "name": "Final IK",
+            "file": "Plugins\\Final_IK_v1.9.unitypackage"
+        },
+        "Post Processing Stack": {
+            "name": "Post Processing Stack",
+            "file": "Plugins\\Post_ProcessingStack_v2.unitypackage"
+        },
+        
+
+        
+        "placeHolderSpacer": {
+            "name": "TheBlackArmsSDX Customs (Fak yo limits)"
+        }
+
+        
+        
+    }
+}

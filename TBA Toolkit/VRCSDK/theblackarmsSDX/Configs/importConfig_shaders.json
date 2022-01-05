@@ -1,0 +1,91 @@
+{
+    "config": {
+        "serverUrl": "https://trigon.systems/all-sdk/assets/shaders/",
+        "window": {
+            "sizeX": 400,
+            "sizeY": 700
+        }
+    },
+    
+    "assets": {
+
+
+        "patchSDK2DepricationAnnouncement": {
+            "name": "The Black Arms SDX SDK2 is Depricated\nI may give it updates in the future\nVRChat depricated SDK2 so I must as well"
+        },
+        "patch3Spacer": {
+            "name": "TBA SDX Automated Assets Portal\nPanel designed by zombie2312\nPortal System Fixed by Blaze"
+        },
+        "patchSpacerToolkit": {
+            "name": "The Black Arms Toolkit"
+        },
+        
+        "shaderSpacer": {
+            "name": "Shader"
+        },
+        "Eye Shader": {
+            "name": "Eye Shader",
+            "file": "3D_Parallax_eye_Shader_Fixed.unitypackage"
+        },
+            "Dissolve Glasses": {
+            "name": "Dissolve Glasses",
+            "file": "7385 90Hz Dissolve Glasses shader v14.unitypackage"
+        },
+        "PFX ShaderPack": {
+            "name": "PFX ShaderPack",
+            "file": "PhoenixAceVFX_Shader_Pack.unitypackage"
+        },
+        "Equation Shader": {
+            "name": "Equation Shader",
+            "file": "7481 90Hz Equation Shader v11.unitypackage"
+        },
+        "Corpse Laser": {
+            "name": "Corpse Laser",
+            "file": "Corpse_Lazer_Shader_v1.5.unitypackage"
+        },
+        "Dope 3D Wave": {
+            "name": "Dope 3D Wave",
+            "file": "Doppelganger_Distortion_wave_3D.unitypackage"
+        },
+        "Dope Metal": {
+            "name": "Dope Metal",
+            "file": "Doppelganger_MetallicFX_5.11.unitypackage"
+        },
+        "Uber": {
+            "name": "Mochie Uber",
+            "file": "Mochies.Uber.Shader.v1.4.unitypackage"
+        },
+        "Name Plates": {
+            "name": "Mochie NamePlates",
+            "file": "Mochies_Nameplates_v1.1.unitypackage"
+        },
+        "Mochie FX": {
+            "name": "Mochie FX",
+            "file": "Mochies_Screen_FX_v1.5.unitypackage"
+        },
+        "RealToon": {
+            "name": "RealToon",
+            "file": "RealToon_5.2.1.unitypackage"
+        },
+        "Rero Standard": {
+            "name": "Rero Standard",
+            "file": "ReroStandard.unitypackage"
+        },
+        "YourXelf Overlay": {
+            "name": "YourXelf Overlay",
+            "file": "YourXelf_Overlay.unitypackage"
+        },
+        "Zalgo Shader": {
+            "name": "Zalgo Shader",
+            "file": "ZalgoBLYAT.unitypackage"
+        },
+        
+        
+        "placeHolderSpacer": {
+            "name": "TheBlackArmsSDX Customs (Fak yo limits)"
+        }
+
+        
+        
+    }
+}

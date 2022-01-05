@@ -4,35 +4,40 @@ using UnityEditor;
 using System.IO;
 using Newtonsoft.Json.Linq;
 
-namespace TheBlackArmsSDX
+namespace theblackarmsSDX
 {
     [InitializeOnLoad]
-    public class TheBlackArmsSDX_ImportPanel : EditorWindow
+    public class theblackarmsSDX_ImportPanel : EditorWindow
     {
-        private static GUIStyle _nanoHeader;
+        private const string Url = "https://github.com/TheBlackArms/TheBlackArmsSDX/";
+        private const string Url1 = "https://trigon.systems/";
+        private const string Link = "all-sdk/discord/";
+        private const string Link1 = "home/";
+
+        private static GUIStyle _chillHeader;
         private static Dictionary<string, string> assets = new Dictionary<string, string>();
         private static int _sizeX = 400;
         private static int _sizeY = 5000;
         private static Vector2 _changeLogScroll;
         
 
-        [MenuItem("Phoenix ToolKit/Import panel", false, 501)]
+        [MenuItem("theblackarmsSDX/Import panel/SDK", false, 501)]
         public static void OpenImportPanel()
         {
-            GetWindow<TheBlackArmsSDX_ImportPanel>(true);
+            GetWindow<theblackarmsSDX_ImportPanel>(true);
         }
 
         public void OnEnable()
         {
-            titleContent = new GUIContent("TheBlackArmsSDX Import panel");
+            titleContent = new GUIContent("theblackarmsSDX Import panel sdk");
 
-            TheBlackArmsSDX_ImportManager.checkForConfigUpdate();
+            theblackarmsSDX_ImportManager.checkForConfigUpdate();
             LoadJson();
 
             maxSize = new Vector2(_sizeX, _sizeY);
             minSize = maxSize;
 
-            _nanoHeader = new GUIStyle
+            _chillHeader = new GUIStyle
             {
                 normal =
                 {
@@ -48,10 +53,10 @@ namespace TheBlackArmsSDX
             assets.Clear();
             
             dynamic configJson =
-                JObject.Parse(File.ReadAllText(TheBlackArmsSDX_Settings.projectConfigPath + TheBlackArmsSDX_ImportManager.configName));
+                JObject.Parse(File.ReadAllText(theblackarmsSDX_Settings.projectConfigPath + theblackarmsSDX_ImportManager.configName));
 
             Debug.Log("Server Asset Url is: " + configJson["config"]["serverUrl"]);
-            TheBlackArmsSDX_ImportManager.serverUrl = configJson["config"]["serverUrl"].ToString();
+            theblackarmsSDX_ImportManager.serverUrl = configJson["config"]["serverUrl"].ToString();
             _sizeX = (int)configJson["config"]["window"]["sizeX"];
             _sizeY = (int)configJson["config"]["window"]["sizeY"];
 
@@ -81,28 +86,35 @@ namespace TheBlackArmsSDX
 
         public void OnGUI()
         {
-            GUILayout.Box("", _nanoHeader);
+            GUILayout.Box("", style: _chillHeader);
             GUILayout.Space(4);
             GUI.backgroundColor = new Color(
             UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
             UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
             UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
             UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
-        );
+            );
             GUILayout.BeginHorizontal();
-            if (GUILayout.Button("SDK made by PhoenixAceVFX/zombie2312"))
+            if (GUILayout.Button("Check for Updates"))
             {
-                Application.OpenURL("https://github.com/TheBlackArms/TheBlackArmsSDX");
+
+                theblackarmsSDX_AutomaticUpdateAndInstall.AutomaticSDKInstaller();
             }
             GUILayout.EndHorizontal();
             GUILayout.BeginHorizontal();
-            if (GUILayout.Button("TheBlackArmsSDX Discord"))
+            if (GUILayout.Button("importer made by zombie2312"))
             {
-                Application.OpenURL("https://discord.gg/wngbcHS7NC");
+                Application.OpenURL(Url);
             }
-            if (GUILayout.Button("TheBlackArmsSDX Website"))
+            GUILayout.EndHorizontal();
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button("theblackarmsSDX Discord"))
             {
-                Application.OpenURL("https://trigon.systems/");
+                Application.OpenURL(Url1 + Link);
+            }
+            if (GUILayout.Button("theblackarmsSDX Website"))
+            {
+                Application.OpenURL(Url1);
             }
             GUILayout.EndHorizontal();
             GUILayout.Space(4);
@@ -110,7 +122,13 @@ namespace TheBlackArmsSDX
             GUILayout.BeginHorizontal();
             if (GUILayout.Button("Update assets (config)"))
             {
-                TheBlackArmsSDX_ImportManager.updateConfig();
+                theblackarmsSDX_ImportManager.updateConfig();
+            }
+            GUILayout.EndHorizontal();
+            GUILayout.BeginHorizontal();
+            if (GUILayout.Button("login"))
+            {
+                Application.OpenURL(Url1 + Link1);
             }
             GUILayout.EndHorizontal();
             GUILayout.Space(4);
@@ -123,14 +141,14 @@ namespace TheBlackArmsSDX
             UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
             UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
             UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
-        );
+            );
             _changeLogScroll = GUILayout.BeginScrollView(_changeLogScroll, GUILayout.Width(_sizeX));
             GUI.backgroundColor = new Color(
             UnityEditor.EditorPrefs.GetFloat("SDKColor_R"),
             UnityEditor.EditorPrefs.GetFloat("SDKColor_G"),
             UnityEditor.EditorPrefs.GetFloat("SDKColor_B"),
             UnityEditor.EditorPrefs.GetFloat("SDKColor_A")
-        );
+            );
             foreach (var asset in assets)
             {
                 GUILayout.BeginHorizontal();
@@ -143,21 +161,24 @@ namespace TheBlackArmsSDX
                 else
                 {
                     if (GUILayout.Button(
-                        (File.Exists(TheBlackArmsSDX_Settings.getAssetPath() + asset.Value) ? "Import" : "Download") +
+                        (File.Exists(theblackarmsSDX_Settings.getAssetPath() + asset.Value) ? "Import" : "Download") +
                         " " + asset.Key))
                     {
-                        TheBlackArmsSDX_ImportManager.downloadAndImportAssetFromServer(asset.Value.Split('\\')[0], asset.Value.Split('\\')[1]);
+                        theblackarmsSDX_ImportManager.downloadAndImportAssetFromServer(asset.Value);
                     }
 
                     if (GUILayout.Button("Del", GUILayout.Width(40)))
                     {
-                        TheBlackArmsSDX_ImportManager.deleteAsset(asset.Value);
+                        theblackarmsSDX_ImportManager.deleteAsset(asset.Value);
                     }
                 }
                 GUILayout.EndHorizontal();
             }
             
             GUILayout.EndScrollView();
+            GUILayout.BeginHorizontal();
+            EditorPrefs.SetBool("theblackarmsSDX_ShowInfoPanel", GUILayout.Toggle(EditorPrefs.GetBool("theblackarmsSDX_ShowInfoPanel"), "Show at startup"));
+            GUILayout.EndHorizontal();
         }
     }
 }
