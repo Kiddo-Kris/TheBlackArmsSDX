@@ -17,11 +17,6 @@ The DevKit also works with new VRChat official SDKs without having to wait!
 The DevKit does not depend on the SDK revisions presented here  
 The DevKit will remain updated on a timely basis  
 
-# OVERHAUL UNDERWAY  
-The Entire SDX is now undergoing a TOTAL OVERHAUL  
-Do not expect any serious updates until then  
-Revision 3 is coming soon  
-
 # Supporting VRCSDK and ChilloutVR CCK  
 The DevKit now supports all 3 VRCSDKs and the ChilloutVR CCK  
 Testing as been completed therefore the repo has been updated accordingly  
@@ -70,14 +65,6 @@ Testing as been completed therefore the repo has been updated accordingly
   <tr>
     <th><img src="screenshots/tge.png" alt="TGE Utilities" width="320px" /></th>
     <th><img src="screenshots/utilities.png" alt="SDK Utilities" width="250px" /></th>
-  </tr>
-  <tr>
-    <th>Sentinel Importer</th>
-    <th>Sentinel Importer List</th>
-  </tr>
-  <tr>
-    <th><img src="screenshots/importer.png" alt="Sentinel Importer" width="320px" /></th>
-    <th><img src="screenshots/importerlist.png" alt="Sentinel Importer List" width="250px" /></th>
   </tr>
 </table>
 

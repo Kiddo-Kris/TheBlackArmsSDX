@@ -7,18 +7,50 @@
 >Controser (AntiYoink[In 3.0] and SENTINEL IMPORTER)  
 >Zombie2312 (Total VPS Hosting)  
 
->Note: If your going to ask me to make you a SDK/SDX  
->I will only make a THEME PACK for my SDX as it is  
->Much easier to do than to make an entire remake  
->This is completely free of charge as I refuse to make  
->Any money or profit from my SDX and I will not rebrand  
->My SDX, this decision is final and wont be changed.  
+# == V7.9.6 ==  
 
-The Black Arms SDX 2.3.2
-New Importer!
-update base SDX.
-fix ui breaking on upload.
-added new importer/updater for SDX.
+Overall:  
+- Updated to newest theblackarms-devkit  
+- Removed useless Stuff  
+------------------------------------------------------------  
+♬♩♪♫ Added new features ♫♪♩♬  
+☼ hide_debug_logs_in_Editor  
+☼ custom_color_devkit 'theblackarms-devkit'  
+☼ add Recovery tools  
+------------------------------------------------------------  
+∞∞∞∞∞∞∞∞∞Fixed bugs∞∞∞∞∞∞∞∞∞  
+☼ Fixed: 'chillzone-devkit'  
+☼ unity_editor_crashing_on_startup  
+- Fixed an error for FS system not being able to find tbaversion.txt  
+- Fixed bug discord RPC erroring out  
+------------------------------------------------------------  
+∞∞∞∞∞∞∞∞∞Recovery tools∞∞∞∞∞∞∞∞∞  
+- ChangePropertiesOfObject  
+- CopyBones  
+- CopyComponents  
+- Duplicator  
+- FindMaterial  
+- FindWrongScripts  
+- avatar\Scene Loader  
+- Remove_Missing_Scripts  
+------------------------------------------------------------  
+∞∞∞∞∞∞∞∞∞Contributors to theblackarms-devkit∞∞∞∞∞∞∞∞∞  
+- Contributed by:[zombie2312]  
+===============================================================  
+
+# Yup its 2.4 now!  
+> SDK2 is now Deprecated, You can still use it but support wont last.  
+> New DevKit now supports all official VRCSDK3 builds!  
+> Tested Avatar3 and UDON builds will be released regularly with DevKit Updates  
+> DevKit is updated via online, It should remain up to date as long as your online  
+> ChilloutVR CCK Supported  
+>>I will still push updates to the github for anyone who is unsure if they're updating correctly  
+
+>The Black Arms SDX 2.3.2
+>New Importer!
+>update base SDX.
+>fix ui breaking on upload.
+>added new importer/updater for SDX.
 
 >The Black Arms SDX 2.3.1  
 >Removed copyright fraud issue (Bunny had stolen the scripts, I met the real maker)  
